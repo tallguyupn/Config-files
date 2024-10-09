@@ -1,0 +1,329 @@
+[2024-02-05 16:15:24.488] [info]  [ConfigurationServiceImpl] Current env: release
+[2024-02-05 16:15:24.490] [info]  [EleriumCommunicationLayer] setCfCoreHost called with https://api.curseforge.com
+[2024-02-05 16:15:24.498] [info]  [BackgroundController] App version: 0.244.4.16117
+[2024-02-05 16:15:24.498] [info]  [BackgroundController] OS: linux
+[2024-02-05 16:15:24.499] [info]  [BackgroundController] OS version: 6.7.3-arch1-1
+[2024-02-05 16:15:24.499] [info]  [BackgroundController] App startup args: /tmp/.mount_CurseFwEM54l/curseforge
+[2024-02-05 16:15:26.249] [info]  [BackgroundController] Failed subscribing app protocol
+[2024-02-05 16:15:26.439] [info]  [BackgroundController] Electron App Ready. Continuing Initialization...
+[2024-02-05 16:15:28.000] [info]  [AutoUpdaterServiceImpl] Starting Auto Updater Service
+[2024-02-05 16:15:28.002] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ...
+[2024-02-05 16:15:29.108] [info]  [AutoUpdaterServiceImpl] Auto updater is disabled by configuration
+[2024-02-05 16:15:29.109] [info]  [MarketingVideosServiceImpl] Fetching https://mrkt.forgecdn.net/app-vids/marketing_videos.json ...
+[2024-02-05 16:15:29.112] [info]  [AppUpdatePeriodicChecker] Running periodic app update check
+[2024-02-05 16:15:29.112] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 0.244.4-16117
+[2024-02-05 16:15:29.112] [info]  Checking for update
+[2024-02-05 16:15:29.112] [info]  Electron Updater - Checking for application update
+[2024-02-05 16:15:29.113] [info]  Generated new staging user ID: a6c9951f-163a-5ed7-9b40-f6c73193e9d1
+[2024-02-05 16:15:29.440] [info]  [MarketingVideosServiceImpl] Fetching https://mrkt.forgecdn.net/app-vids/onboarding_videos.json ...
+[2024-02-05 16:15:29.555] [info]  Update for version 0.244.4-16117 is not available (latest version: 0.244.4-16117, downgrade is disallowed).
+[2024-02-05 16:15:29.556] [info]  Electron Updater - App update is not available. Latest Version: 0.244.4-16117. Release Date: 2024-02-01T13:34:16.599Z
+[2024-02-05 16:15:29.556] [info]  [AppUpdateServiceImpl] No updates are available for the app.
+[2024-02-05 16:15:29.556] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds
+[2024-02-05 16:15:29.683] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ...
+[2024-02-05 16:15:30.019] [info]  [BannerConfigApi] Fetching https://content.overwolf.com/curseforge/app/config/banner-config-v1.json ...
+[2024-02-05 16:15:31.100] [info]  [PluginProcessHost] Starting Mods Agent with ports range 51470-51490
+[2024-02-05 16:15:31.100] [info]  [PluginProcessHost] Launching Mods Agent process /tmp/.mount_CurseFwEM54l/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host with args: --port=51470,--to-port=51490,--pid=11855,--appDataPath=/home/lauri/.config/CurseForge,--clientId=Overwolf
+[2024-02-05 16:15:31.108] [info]  [PluginProcessHost] Mods Agent started. pid: 12031
+[2024-02-05 16:15:31.608] [info]  [PluginProcessHost] Mods Agent process started
+[2024-02-05 16:15:31.609] [info]  [PluginWebSocket] Connecting to Mods Agent CurseForge on ports range 51470-51490
+[2024-02-05 16:15:31.610] [info]  [PluginWebSocket] Websocket connection error: Error: connect ECONNREFUSED 127.0.0.1:51470
+[2024-02-05 16:15:31.621] [info]  [PluginWebSocket] An error occurred while connecting to the agent plugin.
+[2024-02-05 16:15:32.622] [info]  [PluginWebSocket] Websocket connection error: Error: connect ECONNREFUSED 127.0.0.1:51470
+[2024-02-05 16:15:32.633] [info]  [PluginWebSocket] Websocket connection error: Error: connect ECONNREFUSED 127.0.0.1:51471
+[2024-02-05 16:15:32.644] [info]  [PluginWebSocket] An error occurred while connecting to the agent plugin.
+[2024-02-05 16:15:33.712] [info]  [PluginWebSocket] Connected to mods agent
+[2024-02-05 16:15:33.712] [info]  [PluginWebSocket] Connected to Mods Agent on port 51470
+[2024-02-05 16:15:34.946] [info]  [GamesScanStartedEventHandler] Games scan started. Comprehensive: false
+[2024-02-05 16:15:35.044] [info]  [GamesScanCompletedEventHandler] Games scan completed. Comprehensive: false. Canceled: false
+[2024-02-05 16:15:35.055] [info]  [CoreServiceImpl] Mods agent was initialized successfully
+[2024-02-05 16:15:35.102] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: false
+[2024-02-05 16:15:35.103] [info]  [AppConnectivityService] Reporting app connectivity
+[2024-02-05 16:15:35.558] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: false
+[2024-02-05 16:15:35.989] [info]  [AnalyticsService] Sent a Grafana event to https://tracking.overwolf.com/tracking/InsertStats?Stats=true. Status code is 200
+[2024-02-05 16:15:38.781] [info]  [ReleaseNotesApiImpl] Fetching /0.244.4.16117/release-notes/1 ...
+[2024-02-05 16:15:40.668] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":432,"classId":4471}
+[2024-02-05 16:15:40.669] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":432,"classesOnly":true}
+[2024-02-05 16:15:40.670] [info]  [MeasurementServiceImpl] starting measurement game-dau
+[2024-02-05 16:15:40.999] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: false
+[2024-02-05 16:15:42.032] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: false
+[2024-02-05 16:15:42.047] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":432,"classId":6}
+[2024-02-05 16:15:42.288] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":432,"classId":12}
+[2024-02-05 16:15:42.417] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":432,"classId":6552}
+[2024-02-05 16:15:42.559] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":432,"classId":17}
+[2024-02-05 16:15:49.325] [info]  [MinecraftInstallationServiceImpl] Changing location to: /home/lauri/Documents/curseforge/minecraft
+[2024-02-05 16:15:50.457] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: true
+[2024-02-05 16:15:50.908] [info]  [AnalyticsService] trackDailyUnique is unique: true
+[2024-02-05 16:15:56.476] [info]  [EleriumCommunicationLayer] Request - GET /games/432/versions - params: None
+[2024-02-05 16:15:56.521] [info]  [EleriumCommunicationLayer] Request - GET /mods/search?gameId=432&pageSize=20&searchFilter=voltz&sortField=1&sortOrder=desc&index=0&clientCompatible=false - params: None
+[2024-02-05 16:15:56.635] [info]  [EleriumCommunicationLayer] Request - GET /minecraft/modloader?includeAll=true - params: None
+[2024-02-05 16:15:57.069] [info]  [WebAddonsServiceImpl] Got 20 search results for game 432. Page 1
+[2024-02-05 16:16:05.004] [info]  [EleriumCommunicationLayer] Request - GET /mods/293447 - params: None
+[2024-02-05 16:16:05.395] [info]  [EleriumCommunicationLayer] Request - GET /mods/293447/description - params: None
+[2024-02-05 16:16:08.110] [info]  [GamesServiceImpl] Instance detected: Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER) (no flavor) - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a (/home/lauri/Documents/curseforge/minecraft/Instances/Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER)/)
+[2024-02-05 16:16:08.111] [info]  [GamesServiceImpl] Game instance changed: 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a - ["AddedToDatabase"]
+[2024-02-05 16:16:14.631] [info]  [GamesServiceImpl] Installed Addon detected: Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER) - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:28.881] [info]  [GamesServiceImpl] Installed Addon detected: VCM - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:30.539] [info]  [GamesServiceImpl] Installed Addon detected: Numina Patched - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:31.890] [info]  [GamesServiceImpl] Installed Addon detected: Waila - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:33.438] [info]  [GamesServiceImpl] Installed Addon detected: Custom Main Menu - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:34.378] [info]  [GamesServiceImpl] Installed Addon detected: ChickenChunks - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:35.486] [info]  [GamesServiceImpl] Installed Addon detected: Thermal Dynamics - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:36.525] [info]  [GamesServiceImpl] Installed Addon detected: Big Reactors - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:38.115] [info]  [GamesServiceImpl] Installed Addon detected: Wireless Crafting Terminal - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:39.967] [info]  [GamesServiceImpl] Installed Addon detected: Minefactory Reloaded - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:42.462] [info]  [GamesServiceImpl] Installed Addon detected: OC Patched - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:44.026] [info]  [GamesServiceImpl] Installed Addon detected: Modular Force Fields Systems - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:45.864] [info]  [GamesServiceImpl] Installed Addon detected: Better Questing - Standard Expansion - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:48.082] [info]  [GamesServiceImpl] Installed Addon detected: Xaero's Minimap (Fair-play Edition) - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:49.580] [info]  [GamesServiceImpl] Installed Addon detected: Thermal Foundation - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:51.820] [info]  [GamesServiceImpl] Installed Addon detected: AE2 Stuff - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:52.943] [info]  [GamesServiceImpl] Installed Addon detected: Inventory Tweaks [1.12 only]  - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:54.107] [info]  [GamesServiceImpl] Installed Addon detected: Iron Chests - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:55.016] [info]  [GamesServiceImpl] Installed Addon detected: Player API - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:56.098] [info]  [GamesServiceImpl] Installed Addon detected: CodeChickenCore - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:58.336] [info]  [GamesServiceImpl] Installed Addon detected: ReAuth - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:16:59.415] [info]  [GamesServiceImpl] Installed Addon detected: Project Red - Illumination - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:01.140] [info]  [GamesServiceImpl] Installed Addon detected: Applied Energistics 2 - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:02.314] [info]  [GamesServiceImpl] Installed Addon detected: Carpenter's Blocks - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:05.113] [info]  [GamesServiceImpl] Installed Addon detected: ExtraPlanets - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:06.166] [info]  [GamesServiceImpl] Installed Addon detected: stimmedcow : NoMoreRecipeConflict - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:07.078] [info]  [GamesServiceImpl] Installed Addon detected: p455w0rd's Library - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:08.418] [info]  [GamesServiceImpl] Installed Addon detected: Project Red - Integration - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:10.778] [info]  [GamesServiceImpl] Installed Addon detected: Mekanism Patched - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:12.343] [info]  [GamesServiceImpl] Installed Addon detected: OpenModsLib - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:13.691] [info]  [GamesServiceImpl] Installed Addon detected: ExtraCells 2 Patched - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:15.349] [info]  [GamesServiceImpl] Installed Addon detected: Nuclear Science - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:16.691] [info]  [GamesServiceImpl] Installed Addon detected: Extra Utilities - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:17.754] [info]  [GamesServiceImpl] Installed Addon detected: Dynamic Lights - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:19.557] [info]  [GamesServiceImpl] Installed Addon detected: Electrodynamics - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:20.768] [info]  [GamesServiceImpl] Installed Addon detected: ModTweaker - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:22.079] [info]  [GamesServiceImpl] Installed Addon detected: Better Invalid Session (Also works as ReAuth Addon) - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:23.430] [info]  [GamesServiceImpl] Installed Addon detected: Chisel - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:24.339] [info]  [GamesServiceImpl] Installed Addon detected: NotEnoughResources - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:25.413] [info]  [GamesServiceImpl] Installed Addon detected: NotEnoughItems - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:27.688] [info]  [GamesServiceImpl] Installed Addon detected: NuclearCraft - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:29.715] [info]  [GamesServiceImpl] Installed Addon detected: Better Questing - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:31.468] [info]  [GamesServiceImpl] Installed Addon detected: Biomes O' Plenty - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:33.190] [info]  [GamesServiceImpl] Installed Addon detected: It's the little things - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:34.429] [info]  [GamesServiceImpl] Installed Addon detected: CraftTweaker - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:35.433] [info]  [GamesServiceImpl] Installed Addon detected: NEI Addons - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:36.802] [info]  [GamesServiceImpl] Installed Addon detected: OpenBlocks - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:38.001] [info]  [GamesServiceImpl] Installed Addon detected: CoFH Core - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:39.553] [info]  [GamesServiceImpl] Installed Addon detected: OMT Patched - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:41.272] [info]  [GamesServiceImpl] Installed Addon detected: [DEAD] Voltz Engine - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:43.936] [info]  [GamesServiceImpl] Installed Addon detected: CraftPresence - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:45.075] [info]  [GamesServiceImpl] Installed Addon detected: Project Red - Core - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:45.942] [info]  [GamesServiceImpl] Installed Addon detected: Resource Loader - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:50.424] [info]  [GamesServiceImpl] Installed Addon detected: Vic's Modern Warfare Mod [Discontinued] - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:51.920] [info]  [GamesServiceImpl] Installed Addon detected: OptiFine Fixer - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:53.654] [info]  [GamesServiceImpl] Installed Addon detected: Modular Powersuits - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:54.650] [info]  [GamesServiceImpl] Installed Addon detected: Another One Bites the Dust - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:56.889] [info]  [GamesServiceImpl] Installed Addon detected: ICBM - Classic - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:17:58.116] [info]  [GamesServiceImpl] Installed Addon detected: Thermal Expansion - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:18:03.854] [info]  [GamesServiceImpl] Game instance changed: 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a - ["Saved"]
+[2024-02-05 16:18:03.881] [info]  [GamesServiceImpl] Game instance changed: 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a - ["ScanningChanged"]
+[2024-02-05 16:18:03.882] [info]  [GameInstanceScanStartedEventHandler] Scan started for game 432 - Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER) - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a
+[2024-02-05 16:18:07.542] [info]  [GamesServiceImpl] Installed Addon detected: RN Volts Galacticraft Reup - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:18:07.543] [info]  [GamesServiceImpl] Installed Addon detected: ctm dma - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:18:07.544] [info]  [GamesServiceImpl] Installed Addon detected: Space Explore!!!! - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a)
+[2024-02-05 16:18:12.884] [info]  [GamesServiceImpl] Game instance changed: 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a - ["Saved"]
+[2024-02-05 16:18:13.415] [info]  [GamesServiceImpl] Game instance changed: 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a - ["ScanningChanged"]
+[2024-02-05 16:18:13.417] [info]  [GamesServiceImpl] Scan complete for game 432 - Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER) - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a
+[2024-02-05 16:18:32.602] [info]  [MeasurementServiceImpl] starting measurement game-dau
+[2024-02-05 16:18:32.780] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: true
+[2024-02-05 16:18:33.678] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: true
+[2024-02-05 16:18:40.944] [info]  [GamesServiceImpl] Game instance changed: 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a - ["Saved"]
+[2024-02-05 16:18:42.605] [info]  [AnalyticsStorageManager] Already tracked cf_daily_active_user_per_game_gameId.432 today
+[2024-02-05 16:18:42.605] [info]  [AnalyticsService] trackDailyUnique is unique: false
+[2024-02-05 16:18:49.265] [info]  [GamesServiceImpl] Game instance changed: 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a - ["Saved"]
+[2024-02-05 16:18:52.877] [info]  [GamesServiceImpl] Game instance changed: 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a - ["Saved"]
+[2024-02-05 16:18:59.228] [info]  [MeasurementServiceImpl] starting measurement game-dau
+[2024-02-05 16:18:59.651] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: true
+[2024-02-05 16:19:00.339] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: true
+[2024-02-05 16:19:07.677] [info]  [GamesServiceImpl] Game instance changed: 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a - ["Saved"]
+[2024-02-05 16:19:09.229] [info]  [AnalyticsStorageManager] Already tracked cf_daily_active_user_per_game_gameId.432 today
+[2024-02-05 16:19:09.229] [info]  [AnalyticsService] trackDailyUnique is unique: false
+[2024-02-05 16:23:42.278] [info]  [EleriumCommunicationLayer] Request - GET /mods/search?classId=4471&gameId=432&pageSize=20&sortField=1&sortOrder=desc&index=0&clientCompatible=false - params: None
+[2024-02-05 16:23:42.574] [info]  [WebAddonsServiceImpl] Got 20 search results for game 432. Page 1
+[2024-02-05 16:23:48.616] [info]  [EleriumCommunicationLayer] Request - GET /mods/search?classId=4471&gameId=432&pageSize=20&sortField=1&sortOrder=desc&index=0&clientCompatible=false - params: None
+[2024-02-05 16:23:48.765] [info]  [WebAddonsServiceImpl] Got 20 search results for game 432. Page 1
+[2024-02-05 16:30:29.782] [info]  [AppUpdatePeriodicChecker] Running periodic app update check
+[2024-02-05 16:30:29.782] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 0.244.4-16117
+[2024-02-05 16:30:29.783] [info]  Checking for update
+[2024-02-05 16:30:29.783] [info]  Electron Updater - Checking for application update
+[2024-02-05 16:30:30.214] [info]  Update for version 0.244.4-16117 is not available (latest version: 0.244.4-16117, downgrade is disallowed).
+[2024-02-05 16:30:30.214] [info]  Electron Updater - App update is not available. Latest Version: 0.244.4-16117. Release Date: 2024-02-01T13:34:16.599Z
+[2024-02-05 16:30:30.214] [info]  [AppUpdateServiceImpl] No updates are available for the app.
+[2024-02-05 16:30:30.214] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds
+[2024-02-05 16:45:30.354] [info]  [AppUpdatePeriodicChecker] Running periodic app update check
+[2024-02-05 16:45:30.354] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 0.244.4-16117
+[2024-02-05 16:45:30.354] [info]  Checking for update
+[2024-02-05 16:45:30.354] [info]  Electron Updater - Checking for application update
+[2024-02-05 16:45:30.810] [info]  Update for version 0.244.4-16117 is not available (latest version: 0.244.4-16117, downgrade is disallowed).
+[2024-02-05 16:45:30.811] [info]  Electron Updater - App update is not available. Latest Version: 0.244.4-16117. Release Date: 2024-02-01T13:34:16.599Z
+[2024-02-05 16:45:30.811] [info]  [AppUpdateServiceImpl] No updates are available for the app.
+[2024-02-05 16:45:30.811] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds
+[2024-02-05 16:50:41.181] [info]  [SessionsService] session ended
+[2024-02-05 16:50:41.181] [info]  [BackgroundController] Request to shutdown from tray ...
+[2024-02-05 16:50:41.182] [info]  [BackgroundController] Shutting down...
+[2024-02-05 16:50:41.182] [info]  [CoreServiceImpl] Performing shutdown cleanup actions
+[2024-02-05 16:50:41.182] [info]  [InstalledAddonsServiceImpl] Cleanup - committing deletion transactions
+[2024-02-05 16:50:41.182] [info]  [CoreServiceImpl] Shutdown cleanup actions complete
+[2024-02-05 16:50:44.299] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":432,"classesOnly":true}
+[2024-02-05 16:50:44.318] [info]  [BackgroundController] Destroying desktop window...
+[2024-02-05 16:50:44.318] [info]  [AutoUpdaterServiceImpl] Stopping Auto Updater Service
+[2024-02-05 16:50:44.319] [info]  [BackgroundController] Shutdown complete. Exiting app...
+[2024-02-07 16:40:54.317] [info]  [ConfigurationServiceImpl] Current env: release
+[2024-02-07 16:40:54.334] [info]  [EleriumCommunicationLayer] setCfCoreHost called with https://api.curseforge.com
+[2024-02-07 16:40:54.343] [info]  [BackgroundController] App version: 0.244.4.16117
+[2024-02-07 16:40:54.343] [info]  [BackgroundController] OS: linux
+[2024-02-07 16:40:54.343] [info]  [BackgroundController] OS version: 6.7.3-arch1-2
+[2024-02-07 16:40:54.343] [info]  [BackgroundController] App startup args: /tmp/.mount_CurseFdKUlwo/curseforge
+[2024-02-07 16:40:55.058] [info]  [BackgroundController] Failed subscribing app protocol
+[2024-02-07 16:40:55.492] [info]  [BackgroundController] Electron App Ready. Continuing Initialization...
+[2024-02-07 16:40:57.114] [info]  [AutoUpdaterServiceImpl] Starting Auto Updater Service
+[2024-02-07 16:40:57.115] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ...
+[2024-02-07 16:40:57.276] [info]  [AutoUpdaterServiceImpl] Auto updater is disabled by configuration
+[2024-02-07 16:40:57.277] [info]  [MarketingVideosServiceImpl] Fetching https://mrkt.forgecdn.net/app-vids/marketing_videos.json ...
+[2024-02-07 16:40:57.280] [info]  [AppUpdatePeriodicChecker] Running periodic app update check
+[2024-02-07 16:40:57.280] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 0.244.4-16117
+[2024-02-07 16:40:57.281] [info]  Checking for update
+[2024-02-07 16:40:57.281] [info]  Electron Updater - Checking for application update
+[2024-02-07 16:40:57.712] [info]  [MarketingVideosServiceImpl] Fetching https://mrkt.forgecdn.net/app-vids/onboarding_videos.json ...
+[2024-02-07 16:40:57.745] [info]  Update for version 0.244.4-16117 is not available (latest version: 0.244.4-16117, downgrade is disallowed).
+[2024-02-07 16:40:57.745] [info]  Electron Updater - App update is not available. Latest Version: 0.244.4-16117. Release Date: 2024-02-01T13:34:16.599Z
+[2024-02-07 16:40:57.746] [info]  [AppUpdateServiceImpl] No updates are available for the app.
+[2024-02-07 16:40:57.746] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds
+[2024-02-07 16:40:57.856] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ...
+[2024-02-07 16:40:58.054] [info]  [BannerConfigApi] Fetching https://content.overwolf.com/curseforge/app/config/banner-config-v1.json ...
+[2024-02-07 16:40:58.289] [info]  [PluginProcessHost] Starting Mods Agent with ports range 55086-55106
+[2024-02-07 16:40:58.289] [info]  [PluginProcessHost] Launching Mods Agent process /tmp/.mount_CurseFdKUlwo/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host with args: --port=55086,--to-port=55106,--pid=12457,--appDataPath=/home/lauri/.config/CurseForge,--clientId=Overwolf
+[2024-02-07 16:40:58.315] [info]  [PluginProcessHost] Mods Agent started. pid: 12619
+[2024-02-07 16:40:58.815] [info]  [PluginProcessHost] Mods Agent process started
+[2024-02-07 16:40:58.816] [info]  [PluginWebSocket] Connecting to Mods Agent CurseForge on ports range 55086-55106
+[2024-02-07 16:40:58.818] [info]  [PluginWebSocket] Websocket connection error: Error: connect ECONNREFUSED 127.0.0.1:55086
+[2024-02-07 16:40:58.829] [info]  [PluginWebSocket] An error occurred while connecting to the agent plugin.
+[2024-02-07 16:40:59.831] [info]  [PluginWebSocket] Websocket connection error: Error: connect ECONNREFUSED 127.0.0.1:55086
+[2024-02-07 16:40:59.842] [info]  [PluginWebSocket] Websocket connection error: Error: connect ECONNREFUSED 127.0.0.1:55087
+[2024-02-07 16:40:59.852] [info]  [PluginWebSocket] An error occurred while connecting to the agent plugin.
+[2024-02-07 16:41:00.916] [info]  [PluginWebSocket] Connected to mods agent
+[2024-02-07 16:41:00.916] [info]  [PluginWebSocket] Connected to Mods Agent on port 55086
+[2024-02-07 16:41:02.075] [info]  [AnalyzingGameInstanceEventHandler] Analyzing Instance: Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER) (no flavor) - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a (/home/lauri/Documents/curseforge/minecraft/Instances/Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER)/)
+[2024-02-07 16:41:02.117] [info]  [GamesServiceImpl] Instance detected: Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER) (no flavor) - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a (/home/lauri/Documents/curseforge/minecraft/Instances/Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER)/)
+[2024-02-07 16:41:02.118] [info]  [GamesScanStartedEventHandler] Games scan started. Comprehensive: false
+[2024-02-07 16:41:02.119] [info]  [GamesScanCompletedEventHandler] Games scan completed. Comprehensive: false. Canceled: false
+[2024-02-07 16:41:02.119] [info]  [CoreServiceImpl] Mods agent was initialized successfully
+[2024-02-07 16:41:02.168] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: true
+[2024-02-07 16:41:02.168] [info]  [AppConnectivityService] Reporting app connectivity
+[2024-02-07 16:41:02.621] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: true
+[2024-02-07 16:41:02.668] [info]  [ReleaseNotesApiImpl] Fetching /0.244.4.16117/release-notes/1 ...
+[2024-02-07 16:41:02.711] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":432,"classesOnly":true}
+[2024-02-07 16:41:02.712] [info]  [MeasurementServiceImpl] starting measurement game-dau
+[2024-02-07 16:41:02.724] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":432,"classId":4471}
+[2024-02-07 16:41:02.809] [info]  [AnalyticsService] Sent a Grafana event to https://tracking.overwolf.com/tracking/InsertStats?Stats=true. Status code is 200
+[2024-02-07 16:41:02.853] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: true
+[2024-02-07 16:41:03.095] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":432,"classId":6}
+[2024-02-07 16:41:03.464] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: true
+[2024-02-07 16:41:03.623] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":432,"classId":12}
+[2024-02-07 16:41:03.748] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":432,"classId":6552}
+[2024-02-07 16:41:03.881] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":432,"classId":17}
+[2024-02-07 16:41:11.947] [info]  [GamesServiceImpl] Game instance changed: 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a - ["Saved"]
+[2024-02-07 16:41:12.765] [info]  [AnalyticsService] trackDailyUnique is unique: true
+[2024-02-07 16:41:20.807] [info]  [GamesServiceImpl] Game instance changed: 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a - ["Saved"]
+[2024-02-07 16:50:43.313] [info]  [SessionsService] session ended
+[2024-02-07 16:50:43.352] [info]  [BackgroundController] Request to shutdown from tray ...
+[2024-02-07 16:50:43.352] [info]  [BackgroundController] Shutting down...
+[2024-02-07 16:50:43.352] [info]  [CoreServiceImpl] Performing shutdown cleanup actions
+[2024-02-07 16:50:43.353] [info]  [InstalledAddonsServiceImpl] Cleanup - committing deletion transactions
+[2024-02-07 16:50:43.353] [info]  [CoreServiceImpl] Shutdown cleanup actions complete
+[2024-02-07 16:50:47.673] [info]  [BackgroundController] Destroying desktop window...
+[2024-02-07 16:50:47.673] [info]  [AutoUpdaterServiceImpl] Stopping Auto Updater Service
+[2024-02-07 16:50:47.673] [info]  [BackgroundController] Shutdown complete. Exiting app...
+[2024-02-08 19:00:10.417] [info]  [ConfigurationServiceImpl] Current env: release
+[2024-02-08 19:00:10.468] [info]  [EleriumCommunicationLayer] setCfCoreHost called with https://api.curseforge.com
+[2024-02-08 19:00:10.479] [info]  [BackgroundController] App version: 0.244.4.16117
+[2024-02-08 19:00:10.479] [info]  [BackgroundController] OS: linux
+[2024-02-08 19:00:10.480] [info]  [BackgroundController] OS version: 6.7.4-arch1-1
+[2024-02-08 19:00:10.481] [info]  [BackgroundController] App startup args: /tmp/.mount_forge.wEaFkP/curseforge
+[2024-02-08 19:00:12.058] [info]  [BackgroundController] Failed subscribing app protocol
+[2024-02-08 19:00:13.123] [info]  [BackgroundController] Electron App Ready. Continuing Initialization...
+[2024-02-08 19:00:14.887] [info]  [AutoUpdaterServiceImpl] Starting Auto Updater Service
+[2024-02-08 19:00:14.889] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ...
+[2024-02-08 19:00:20.055] [info]  [AutoUpdaterServiceImpl] Auto updater is disabled by configuration
+[2024-02-08 19:00:20.056] [info]  [MarketingVideosServiceImpl] Fetching https://mrkt.forgecdn.net/app-vids/marketing_videos.json ...
+[2024-02-08 19:00:20.059] [info]  [AppUpdatePeriodicChecker] Running periodic app update check
+[2024-02-08 19:00:20.059] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 0.244.4-16117
+[2024-02-08 19:00:20.059] [info]  Checking for update
+[2024-02-08 19:00:20.059] [info]  Electron Updater - Checking for application update
+[2024-02-08 19:00:20.303] [info]  [MarketingVideosServiceImpl] Fetching https://mrkt.forgecdn.net/app-vids/onboarding_videos.json ...
+[2024-02-08 19:00:20.453] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ...
+[2024-02-08 19:00:20.528] [info]  Update for version 0.244.4-16117 is not available (latest version: 0.244.4-16117, downgrade is disallowed).
+[2024-02-08 19:00:20.529] [info]  Electron Updater - App update is not available. Latest Version: 0.244.4-16117. Release Date: 2024-02-01T13:34:16.599Z
+[2024-02-08 19:00:20.529] [info]  [AppUpdateServiceImpl] No updates are available for the app.
+[2024-02-08 19:00:20.529] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds
+[2024-02-08 19:00:20.645] [info]  [BannerConfigApi] Fetching https://content.overwolf.com/curseforge/app/config/banner-config-v1.json ...
+[2024-02-08 19:00:20.879] [info]  [PluginProcessHost] Starting Mods Agent with ports range 62711-62731
+[2024-02-08 19:00:20.880] [info]  [PluginProcessHost] Launching Mods Agent process /tmp/.mount_forge.wEaFkP/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host with args: --port=62711,--to-port=62731,--pid=15621,--appDataPath=/home/lauri/.config/CurseForge,--clientId=Overwolf
+[2024-02-08 19:00:20.908] [info]  [PluginProcessHost] Mods Agent started. pid: 15799
+[2024-02-08 19:00:21.408] [info]  [PluginProcessHost] Mods Agent process started
+[2024-02-08 19:00:21.409] [info]  [PluginWebSocket] Connecting to Mods Agent CurseForge on ports range 62711-62731
+[2024-02-08 19:00:21.411] [info]  [PluginWebSocket] Websocket connection error: Error: connect ECONNREFUSED 127.0.0.1:62711
+[2024-02-08 19:00:21.422] [info]  [PluginWebSocket] An error occurred while connecting to the agent plugin.
+[2024-02-08 19:00:22.423] [info]  [PluginWebSocket] Websocket connection error: Error: connect ECONNREFUSED 127.0.0.1:62711
+[2024-02-08 19:00:22.435] [info]  [PluginWebSocket] Websocket connection error: Error: connect ECONNREFUSED 127.0.0.1:62712
+[2024-02-08 19:00:22.446] [info]  [PluginWebSocket] An error occurred while connecting to the agent plugin.
+[2024-02-08 19:00:23.529] [info]  [PluginWebSocket] Connected to mods agent
+[2024-02-08 19:00:23.531] [info]  [PluginWebSocket] Connected to Mods Agent on port 62711
+[2024-02-08 19:00:34.859] [info]  [GamesServiceImpl] Instance detected: Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER) (no flavor) - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a (/home/lauri/Documents/curseforge/minecraft/Instances/Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER)/)
+[2024-02-08 19:00:34.901] [info]  [AnalyzingGameInstanceEventHandler] Analyzing Instance: Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER) (no flavor) - 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a (/home/lauri/Documents/curseforge/minecraft/Instances/Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER)/)
+[2024-02-08 19:00:34.901] [info]  [GamesScanStartedEventHandler] Games scan started. Comprehensive: false
+[2024-02-08 19:00:34.903] [info]  [GamesScanCompletedEventHandler] Games scan completed. Comprehensive: false. Canceled: false
+[2024-02-08 19:00:35.074] [info]  [CoreServiceImpl] Mods agent was initialized successfully
+[2024-02-08 19:00:35.118] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: true
+[2024-02-08 19:00:35.119] [info]  [AppConnectivityService] Reporting app connectivity
+[2024-02-08 19:00:35.576] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: true
+[2024-02-08 19:00:35.627] [info]  [ReleaseNotesApiImpl] Fetching /0.244.4.16117/release-notes/1 ...
+[2024-02-08 19:00:35.665] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":432,"classesOnly":true}
+[2024-02-08 19:00:35.666] [info]  [MeasurementServiceImpl] starting measurement game-dau
+[2024-02-08 19:00:35.667] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":432,"classId":4471}
+[2024-02-08 19:00:35.770] [info]  [AnalyticsService] Sent a Grafana event to https://tracking.overwolf.com/tracking/InsertStats?Stats=true. Status code is 200
+[2024-02-08 19:00:35.810] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: true
+[2024-02-08 19:00:36.269] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: true
+[2024-02-08 19:00:45.727] [info]  [AnalyticsService] trackDailyUnique is unique: true
+[2024-02-08 19:00:45.857] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":432,"classId":6}
+[2024-02-08 19:00:46.084] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":432,"classId":12}
+[2024-02-08 19:00:46.273] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":432,"classId":6552}
+[2024-02-08 19:00:46.454] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":432,"classId":17}
+[2024-02-08 19:00:51.400] [info]  [EleriumCommunicationLayer] Request - GET /games/432/versions - params: None
+[2024-02-08 19:00:51.442] [info]  [EleriumCommunicationLayer] Request - GET /mods/search?gameId=432&pageSize=20&searchFilter=jenny&sortField=1&sortOrder=desc&index=0&clientCompatible=false - params: None
+[2024-02-08 19:00:51.600] [info]  [EleriumCommunicationLayer] Request - GET /minecraft/modloader?includeAll=true - params: None
+[2024-02-08 19:01:28.384] [info]  [WebAddonsServiceImpl] Got 1 search results for game 432. Page 1
+[2024-02-08 19:01:37.920] [info]  [EleriumCommunicationLayer] Request - GET /mods/search?gameId=432&pageSize=20&searchFilter=rival+rebles&sortField=1&sortOrder=desc&index=0&clientCompatible=false - params: None
+[2024-02-08 19:01:38.197] [info]  [WebAddonsServiceImpl] Got 0 search results for game 432. Page 1
+[2024-02-08 19:01:42.685] [info]  [EleriumCommunicationLayer] Request - GET /mods/search?gameId=432&pageSize=20&searchFilter=rival+rebels&sortField=1&sortOrder=desc&index=0&clientCompatible=false - params: None
+[2024-02-08 19:01:42.978] [info]  [WebAddonsServiceImpl] Got 9 search results for game 432. Page 1
+[2024-02-08 19:02:08.122] [info]  [EleriumCommunicationLayer] Request - GET /mods/search?gameId=432&pageSize=20&searchFilter=sex&sortField=1&sortOrder=desc&index=0&clientCompatible=false - params: None
+[2024-02-08 19:02:08.367] [info]  [WebAddonsServiceImpl] Got 6 search results for game 432. Page 1
+[2024-02-08 19:02:18.358] [info]  [EleriumCommunicationLayer] Request - GET /mods/search?gameId=432&pageSize=20&searchFilter=jennymod&sortField=1&sortOrder=desc&index=0&clientCompatible=false - params: None
+[2024-02-08 19:02:18.638] [info]  [WebAddonsServiceImpl] Got 0 search results for game 432. Page 1
+[2024-02-08 19:02:24.359] [info]  [EleriumCommunicationLayer] Request - GET /mods/search?gameId=432&pageSize=20&searchFilter=jenny&sortField=1&sortOrder=desc&index=0&clientCompatible=false - params: None
+[2024-02-08 19:02:24.635] [info]  [WebAddonsServiceImpl] Got 1 search results for game 432. Page 1
+[2024-02-08 19:03:10.502] [info]  [MeasurementServiceImpl] starting measurement game-dau
+[2024-02-08 19:03:10.611] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: true
+[2024-02-08 19:03:11.042] [info]  [EleriumCommunicationLayer] Request - GET /mods/search?gameId=432&pageSize=20&searchFilter=jenny&sortField=1&sortOrder=desc&index=0&clientCompatible=false - params: None
+[2024-02-08 19:03:11.092] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: true
+[2024-02-08 19:03:11.208] [info]  [WebAddonsServiceImpl] Got 1 search results for game 432. Page 1
+[2024-02-08 19:03:20.511] [info]  [AnalyticsStorageManager] Already tracked cf_daily_active_user_per_game_gameId.432 today
+[2024-02-08 19:03:20.511] [info]  [AnalyticsService] trackDailyUnique is unique: false
+[2024-02-08 19:04:39.336] [info]  [GamesServiceImpl] Game instance changed: 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a - ["Saved"]
+[2024-02-08 19:04:49.166] [info]  [GamesServiceImpl] Game instance changed: 61a8ed5c-0cc7-4780-8fae-3e7cf25a895a - ["Saved"]
+[2024-02-08 19:07:13.357] [info]  [SessionsService] session ended
+[2024-02-08 19:07:13.358] [info]  [BackgroundController] Request to shutdown from tray ...
+[2024-02-08 19:07:13.358] [info]  [BackgroundController] Shutting down...
+[2024-02-08 19:07:13.358] [info]  [CoreServiceImpl] Performing shutdown cleanup actions
+[2024-02-08 19:07:13.359] [info]  [InstalledAddonsServiceImpl] Cleanup - committing deletion transactions
+[2024-02-08 19:07:13.359] [info]  [CoreServiceImpl] Shutdown cleanup actions complete
+[2024-02-08 19:07:22.802] [info]  [BackgroundController] Destroying desktop window...
+[2024-02-08 19:07:22.802] [info]  [AutoUpdaterServiceImpl] Stopping Auto Updater Service
+[2024-02-08 19:07:22.803] [info]  [BackgroundController] Shutdown complete. Exiting app...

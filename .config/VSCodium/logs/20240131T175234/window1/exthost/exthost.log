@@ -1,0 +1,89 @@
+2024-01-31 17:52:39.716 [info] Extension host with pid 29765 started
+2024-01-31 17:52:39.723 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-31 17:52:39.758 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-31 17:52:39.852 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-31 17:52:40.928 [info] Eager extensions activated
+2024-01-31 17:52:40.941 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-31 17:52:40.952 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-31 17:52:41.007 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-01-31 17:52:42.979 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished', root cause: franneck94.vscode-c-cpp-config
+2024-01-31 17:52:43.190 [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: false, activationEvent: 'onStartupFinished'
+2024-01-31 17:53:36.730 [info] Extension host terminating: renderer closed the MessagePort
+2024-01-31 17:53:36.733 [info] Extension host with pid 29765 exiting with code 0
+2024-01-31 17:53:37.671 [info] Extension host with pid 29982 started
+2024-01-31 17:53:37.671 [info] Skipping acquiring lock for /home/lauri/.config/VSCodium/User/workspaceStorage/c11c6a2a13c3cf263ace22dd5e65b188.
+2024-01-31 17:53:37.694 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-01-31 17:53:37.701 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-31 17:53:37.709 [info] Eager extensions activated
+2024-01-31 17:53:37.712 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-31 17:53:37.713 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-31 17:53:40.457 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-01-31 17:53:40.488 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-01-31 17:53:40.499 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished', root cause: franneck94.vscode-c-cpp-config
+2024-01-31 17:53:40.571 [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: false, activationEvent: 'onStartupFinished'
+2024-01-31 17:53:40.599 [info] ExtensionService#_doActivateExtension franneck94.c-cpp-runner, startup: false, activationEvent: 'workspaceContains:*.h,*.c,*.hh,*.cc,*.hxx,*.cxx,*.hpp,*.cpp,*.cu'
+2024-01-31 17:53:46.633 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-31 17:53:49.529 [info] Extension host terminating: renderer closed the MessagePort
+2024-01-31 17:53:49.535 [error] Canceled: Canceled
+	at new m (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:121511)
+	at u._remoteCall (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:13781)
+	at P.<computed>.x.charCodeAt.P.<computed> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10333)
+	at h._doExecuteCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:158052)
+	at h.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:157377)
+	at b.registerCommand.description (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:156621)
+	at h._executeContributedCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:158690)
+	at h._doExecuteCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:157510)
+	at h.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:157377)
+	at Object.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:27516)
+	at setContextValue (/home/lauri/.vscode-oss/extensions/franneck94.c-cpp-runner-9.2.2-universal/dist/main.js:5925:28)
+	at Object.deactivate (/home/lauri/.vscode-oss/extensions/franneck94.c-cpp-runner-9.2.2-universal/dist/main.js:3867:39)
+	at f._deactivate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:12650)
+	at /usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:10120
+	at Array.map (<anonymous>)
+	at f._deactivateAll (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:10107)
+	at f.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:10490)
+	at s.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1908)
+	at a (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:11536)
+	at MessagePortMain.<anonymous> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:7611)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-01-31 17:53:49.535 [info] Extension host with pid 29982 exiting with code 0
+2024-01-31 17:53:50.180 [info] Extension host with pid 30076 started
+2024-01-31 17:53:50.180 [info] Skipping acquiring lock for /home/lauri/.config/VSCodium/User/workspaceStorage/c11c6a2a13c3cf263ace22dd5e65b188.
+2024-01-31 17:53:50.203 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-31 17:53:50.232 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-31 17:53:50.250 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-31 17:53:50.263 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-31 17:53:50.274 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: true, activationEvent: 'workspaceContains:*.h,*.c,*.hh,*.cc,*.hxx,*.cxx,*.hpp,*.cpp,*.cu', root cause: franneck94.c-cpp-runner
+2024-01-31 17:53:50.319 [info] ExtensionService#_doActivateExtension franneck94.c-cpp-runner, startup: true, activationEvent: 'workspaceContains:*.h,*.c,*.hh,*.cc,*.hxx,*.cxx,*.hpp,*.cpp,*.cu'
+2024-01-31 17:53:50.998 [info] Eager extensions activated
+2024-01-31 17:53:51.022 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-31 17:53:51.024 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-31 17:53:51.030 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-01-31 17:53:51.044 [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: false, activationEvent: 'onStartupFinished'
+2024-01-31 17:58:15.821 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-01-31 17:59:21.108 [info] Extension host terminating: renderer closed the MessagePort
+2024-01-31 17:59:21.114 [error] Canceled: Canceled
+	at new m (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:121511)
+	at u._remoteCall (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:13781)
+	at P.<computed>.x.charCodeAt.P.<computed> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:10333)
+	at h._doExecuteCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:158052)
+	at h.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:157377)
+	at b.registerCommand.description (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:156621)
+	at h._executeContributedCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:158690)
+	at h._doExecuteCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:157510)
+	at h.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:141:157377)
+	at Object.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:27516)
+	at setContextValue (/home/lauri/.vscode-oss/extensions/franneck94.c-cpp-runner-9.2.2-universal/dist/main.js:5925:28)
+	at Object.deactivate (/home/lauri/.vscode-oss/extensions/franneck94.c-cpp-runner-9.2.2-universal/dist/main.js:3867:39)
+	at f._deactivate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:12650)
+	at /usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:10120
+	at Array.map (<anonymous>)
+	at f._deactivateAll (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:10107)
+	at f.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:154:10490)
+	at s.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:158:1908)
+	at a (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:11536)
+	at MessagePortMain.<anonymous> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:7611)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2024-01-31 17:59:21.114 [info] Extension host with pid 30076 exiting with code 0

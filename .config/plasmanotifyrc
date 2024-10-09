@@ -1,0 +1,12 @@
+[Applications][discord]
+Seen=true
+
+[Applications][vesktop]
+Seen=true
+
+[Applications][whatsdesk]
+Seen=true
+
+[Notifications]
+NormalAlwaysOnTop=true
+PopupPosition=BottomRight

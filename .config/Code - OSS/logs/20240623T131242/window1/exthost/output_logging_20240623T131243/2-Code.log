@@ -1,0 +1,8 @@
+[Running] cd "/home/lauri/Desktop/coding/c++/" && g++ tic-tac-toe.cpp -o tic-tac-toe && "/home/lauri/Desktop/coding/c++/"tic-tac-toe
+tic-tac-toe.cpp:5:10: fatal error: graphics.h: No such file or directory
+    5 | #include <graphics.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+
+[Done] exited with code=1 in 0.062 seconds
+

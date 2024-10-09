@@ -1,0 +1,44 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20240619_183239
+====================================================================================================
+
+20    |Info:    Found file: keyboard.orp attempting to validate header
+42    |Info:    Valid v4 profile found for keyboard
+1078  |Info:    ------------------------------------------------------
+1078  |Info:    |               Start device detection               |
+1078  |Info:    ------------------------------------------------------
+1078  |Info:    Initializing HID interfaces: Success
+1083  |Info:    ------------------------------------------------------
+1083  |Info:    |             Detecting I2C interfaces               |
+1083  |Info:    ------------------------------------------------------
+1083  |Info:    Registering I2C interface: /dev/i2c-3 Device 1022:790B Subsystem: 1043:87C0
+1083  |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:1AED Subsystem: 1462:C75A
+1083  |Info:    Registering I2C interface: /dev/i2c-8 Device 10DE:21C4 Subsystem: 1462:C75A
+1083  |Info:    Registering I2C interface: /dev/i2c-6 Device 10DE:21C4 Subsystem: 1462:C75A
+1083  |Info:    Registering I2C interface: /dev/i2c-4 Device 1022:790B Subsystem: 1043:87C0
+1083  |Info:    Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1043:87C0
+1083  |Info:    Registering I2C interface: /dev/i2c-0 Device 0000:0000 Subsystem: 0000:0000
+1083  |Info:    Registering I2C interface: /dev/i2c-9 Device 10DE:21C4 Subsystem: 1462:C75A
+1083  |Info:    Registering I2C interface: /dev/i2c-7 Device 10DE:21C4 Subsystem: 1462:C75A
+1083  |Info:    Registering I2C interface: /dev/i2c-5 Device 10DE:21C4 Subsystem: 1462:C75A
+1083  |Info:    ------------------------------------------------------
+1083  |Info:    |               Detecting I2C devices                |
+1083  |Info:    ------------------------------------------------------
+2323  |Info:    ------------------------------------------------------
+2323  |Info:    |               Detecting I2C PCI devices            |
+2323  |Info:    ------------------------------------------------------
+2324  |Info:    ------------------------------------------------------
+2324  |Info:    |               Detecting HID devices                |
+2324  |Info:    ------------------------------------------------------
+2403  |Info:    [ASUS TUF GAMING B550-PLUS] Registering RGB controller
+2404  |Info:    [HyperX Alloy Origins 60] Registering RGB controller
+2404  |Info:    ------------------------------------------------------
+2404  |Info:    |            Detecting libusb HID devices            |
+2404  |Info:    ------------------------------------------------------
+2521  |Info:    ------------------------------------------------------
+2521  |Info:    |              Detecting other devices               |
+2521  |Info:    ------------------------------------------------------
+2551  |Info:    ------------------------------------------------------
+2551  |Info:    |                Detection completed                 |
+2551  |Info:    ------------------------------------------------------

@@ -1,0 +1,466 @@
+[2024-05-31 20:58:39.517] [info]  No state version found, assuming empty state.
+[2024-05-31 20:58:41.055] [info]  State version: 60
+[2024-05-31 20:58:55.214] [info]  Error: The name is not activatable
+[2024-05-31 20:58:55.217] [info]  Error: The name is not activatable
+[2024-05-31 20:58:55.281] [info]  Error: The name is not activatable
+[2024-05-31 20:58:56.345] [info]  Error: The name is not activatable
+[2024-05-31 20:58:56.346] [info]  Error: The name is not activatable
+[2024-05-31 20:58:56.544] [info]  Error: The name is not activatable
+[2024-05-31 20:58:56.549] [info]  Error: The name is not activatable
+[2024-05-31 20:58:56.550] [info]  Error: The name is not activatable
+[2024-05-31 20:58:56.563] [error] Error: Failed to decode access token: JWT must have 3 parts
+[2024-05-31 20:58:56.568] [info]  Error: The name is not activatable
+[2024-05-31 20:58:59.942] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:89016:36)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:88777:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/usr/lib/bitwarden/app.asar/main.js:88773:12)
+    at WindowMain.updateWindowState (/usr/lib/bitwarden/app.asar/main.js:89011:16)
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:88946:28)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:88777:71
+    at new Promise (<anonymous>)
+[2024-09-14 19:06:41.897] [info]  State version: 60
+[2024-09-14 19:06:41.909] [info]  Migrator MinVersionMigrator (to version 3) should migrate: false - up
+[2024-09-14 19:06:41.910] [info]  Migrator RemoveEverBeenUnlockedMigrator (to version 4) should migrate: false - up
+[2024-09-14 19:06:41.910] [info]  Migrator AddKeyTypeToOrgKeysMigrator (to version 5) should migrate: false - up
+[2024-09-14 19:06:41.910] [info]  Migrator RemoveLegacyEtmKeyMigrator (to version 6) should migrate: false - up
+[2024-09-14 19:06:41.910] [info]  Migrator MoveBiometricAutoPromptToAccount (to version 7) should migrate: false - up
+[2024-09-14 19:06:41.910] [info]  Migrator MoveStateVersionMigrator (to version 8) should migrate: false - up
+[2024-09-14 19:06:41.911] [info]  Migrator MoveBrowserSettingsToGlobal (to version 9) should migrate: false - up
+[2024-09-14 19:06:41.911] [info]  Migrator EverHadUserKeyMigrator (to version 10) should migrate: false - up
+[2024-09-14 19:06:41.911] [info]  Migrator OrganizationKeyMigrator (to version 11) should migrate: false - up
+[2024-09-14 19:06:41.911] [info]  Migrator MoveEnvironmentStateToProviders (to version 12) should migrate: false - up
+[2024-09-14 19:06:41.911] [info]  Migrator ProviderKeyMigrator (to version 13) should migrate: false - up
+[2024-09-14 19:06:41.911] [info]  Migrator MoveBiometricClientKeyHalfToStateProviders (to version 14) should migrate: false - up
+[2024-09-14 19:06:41.912] [info]  Migrator FolderMigrator (to version 15) should migrate: false - up
+[2024-09-14 19:06:41.912] [info]  Migrator LastSyncMigrator (to version 16) should migrate: false - up
+[2024-09-14 19:06:41.912] [info]  Migrator EnablePasskeysMigrator (to version 17) should migrate: false - up
+[2024-09-14 19:06:41.912] [info]  Migrator AutofillSettingsKeyMigrator (to version 18) should migrate: false - up
+[2024-09-14 19:06:41.912] [info]  Migrator RequirePasswordOnStartMigrator (to version 19) should migrate: false - up
+[2024-09-14 19:06:41.912] [info]  Migrator PrivateKeyMigrator (to version 20) should migrate: false - up
+[2024-09-14 19:06:41.912] [info]  Migrator CollectionMigrator (to version 21) should migrate: false - up
+[2024-09-14 19:06:41.912] [info]  Migrator CollapsedGroupingsMigrator (to version 22) should migrate: false - up
+[2024-09-14 19:06:41.912] [info]  Migrator MoveBiometricPromptsToStateProviders (to version 23) should migrate: false - up
+[2024-09-14 19:06:41.913] [info]  Migrator SmOnboardingTasksMigrator (to version 24) should migrate: false - up
+[2024-09-14 19:06:41.913] [info]  Migrator ClearClipboardDelayMigrator (to version 25) should migrate: false - up
+[2024-09-14 19:06:41.913] [info]  Migrator RevertLastSyncMigrator (to version 26) should migrate: false - up
+[2024-09-14 19:06:41.913] [info]  Migrator BadgeSettingsMigrator (to version 27) should migrate: false - up
+[2024-09-14 19:06:41.913] [info]  Migrator MoveBiometricUnlockToStateProviders (to version 28) should migrate: false - up
+[2024-09-14 19:06:41.913] [info]  Migrator UserNotificationSettingsKeyMigrator (to version 29) should migrate: false - up
+[2024-09-14 19:06:41.913] [info]  Migrator PolicyMigrator (to version 30) should migrate: false - up
+[2024-09-14 19:06:41.913] [info]  Migrator EnableContextMenuMigrator (to version 31) should migrate: false - up
+[2024-09-14 19:06:41.913] [info]  Migrator PreferredLanguageMigrator (to version 32) should migrate: false - up
+[2024-09-14 19:06:41.913] [info]  Migrator AppIdMigrator (to version 33) should migrate: false - up
+[2024-09-14 19:06:41.914] [info]  Migrator DomainSettingsMigrator (to version 34) should migrate: false - up
+[2024-09-14 19:06:41.914] [info]  Migrator MoveThemeToStateProviderMigrator (to version 35) should migrate: false - up
+[2024-09-14 19:06:41.914] [info]  Migrator VaultSettingsKeyMigrator (to version 36) should migrate: false - up
+[2024-09-14 19:06:41.914] [info]  Migrator AvatarColorMigrator (to version 37) should migrate: false - up
+[2024-09-14 19:06:41.914] [info]  Migrator TokenServiceStateProviderMigrator (to version 38) should migrate: false - up
+[2024-09-14 19:06:41.914] [info]  Migrator MoveBillingAccountProfileMigrator (to version 39) should migrate: false - up
+[2024-09-14 19:06:41.914] [info]  Migrator OrganizationMigrator (to version 40) should migrate: false - up
+[2024-09-14 19:06:41.914] [info]  Migrator EventCollectionMigrator (to version 41) should migrate: false - up
+[2024-09-14 19:06:41.914] [info]  Migrator EnableFaviconMigrator (to version 42) should migrate: false - up
+[2024-09-14 19:06:41.914] [info]  Migrator AutoConfirmFingerPrintsMigrator (to version 43) should migrate: false - up
+[2024-09-14 19:06:41.915] [info]  Migrator UserDecryptionOptionsMigrator (to version 44) should migrate: false - up
+[2024-09-14 19:06:41.915] [info]  Migrator MergeEnvironmentState (to version 45) should migrate: false - up
+[2024-09-14 19:06:41.915] [info]  Migrator DeleteBiometricPromptCancelledData (to version 46) should migrate: false - up
+[2024-09-14 19:06:41.915] [info]  Migrator MoveDesktopSettingsMigrator (to version 47) should migrate: false - up
+[2024-09-14 19:06:41.915] [info]  Migrator MoveDdgToStateProviderMigrator (to version 48) should migrate: false - up
+[2024-09-14 19:06:41.915] [info]  Migrator AccountServerConfigMigrator (to version 49) should migrate: false - up
+[2024-09-14 19:06:41.915] [info]  Migrator KeyConnectorMigrator (to version 50) should migrate: false - up
+[2024-09-14 19:06:41.915] [info]  Migrator RememberedEmailMigrator (to version 51) should migrate: false - up
+[2024-09-14 19:06:41.915] [info]  Migrator DeleteInstalledVersion (to version 52) should migrate: false - up
+[2024-09-14 19:06:41.915] [info]  Migrator DeviceTrustServiceStateProviderMigrator (to version 53) should migrate: false - up
+[2024-09-14 19:06:41.915] [info]  Migrator SendMigrator (to version 54) should migrate: false - up
+[2024-09-14 19:06:41.916] [info]  Migrator MoveMasterKeyStateToProviderMigrator (to version 55) should migrate: false - up
+[2024-09-14 19:06:41.916] [info]  Migrator AuthRequestMigrator (to version 56) should migrate: false - up
+[2024-09-14 19:06:41.916] [info]  Migrator CipherServiceMigrator (to version 57) should migrate: false - up
+[2024-09-14 19:06:41.916] [info]  Migrator RemoveRefreshTokenMigratedFlagMigrator (to version 58) should migrate: false - up
+[2024-09-14 19:06:41.916] [info]  Migrator KdfConfigMigrator (to version 59) should migrate: false - up
+[2024-09-14 19:06:41.916] [info]  Migrator KnownAccountsMigrator (to version 60) should migrate: false - up
+[2024-09-14 19:06:41.916] [info]  Migrator PinStateMigrator (to version 61) should migrate: true - up
+[2024-09-14 19:06:41.917] [info]  Migrator PinStateMigrator (to version 61) migrated - up
+[2024-09-14 19:06:41.917] [info]  Setting stateVersion
+[2024-09-14 19:06:41.987] [info]  Migrator PinStateMigrator (to version 61) updated version - up
+[2024-09-14 19:06:41.988] [info]  Migrator VaultTimeoutSettingsServiceStateProviderMigrator (to version 62) should migrate: true - up
+[2024-09-14 19:06:41.988] [info]  Setting user_73b5dcb1-3472-45fd-bffa-b06b00f16c40_vaultTimeoutSettings_vaultTimeout
+[2024-09-14 19:06:42.029] [info]  Setting user_73b5dcb1-3472-45fd-bffa-b06b00f16c40_vaultTimeoutSettings_vaultTimeoutAction
+[2024-09-14 19:06:42.071] [info]  Setting 73b5dcb1-3472-45fd-bffa-b06b00f16c40
+[2024-09-14 19:06:42.113] [info]  Setting global
+[2024-09-14 19:06:42.155] [info]  Removing global\.vaultTimeout
+[2024-09-14 19:06:42.197] [info]  Removing global\.vaultTimeoutAction
+[2024-09-14 19:06:42.239] [info]  Migrator VaultTimeoutSettingsServiceStateProviderMigrator (to version 62) migrated - up
+[2024-09-14 19:06:42.239] [info]  Setting stateVersion
+[2024-09-14 19:06:42.289] [info]  Migrator VaultTimeoutSettingsServiceStateProviderMigrator (to version 62) updated version - up
+[2024-09-14 19:06:42.289] [info]  Migrator PasswordOptionsMigrator (to version 63) should migrate: true - up
+[2024-09-14 19:06:42.290] [info]  Migrator PasswordOptionsMigrator (to version 63) migrated - up
+[2024-09-14 19:06:42.290] [info]  Setting stateVersion
+[2024-09-14 19:06:42.339] [info]  Migrator PasswordOptionsMigrator (to version 63) updated version - up
+[2024-09-14 19:06:42.339] [info]  Migrator GeneratorHistoryMigrator (to version 64) should migrate: true - up
+[2024-09-14 19:06:42.340] [info]  Migrator GeneratorHistoryMigrator (to version 64) migrated - up
+[2024-09-14 19:06:42.340] [info]  Setting stateVersion
+[2024-09-14 19:06:42.389] [info]  Migrator GeneratorHistoryMigrator (to version 64) updated version - up
+[2024-09-14 19:06:42.390] [info]  Migrator ForwarderOptionsMigrator (to version 65) should migrate: true - up
+[2024-09-14 19:06:42.390] [info]  Migrator ForwarderOptionsMigrator (to version 65) migrated - up
+[2024-09-14 19:06:42.390] [info]  Setting stateVersion
+[2024-09-14 19:06:42.440] [info]  Migrator ForwarderOptionsMigrator (to version 65) updated version - up
+[2024-09-14 19:06:42.440] [info]  Migrator MoveFinalDesktopSettingsMigrator (to version 66) should migrate: true - up
+[2024-09-14 19:06:42.440] [info]  Migrator MoveFinalDesktopSettingsMigrator (to version 66) migrated - up
+[2024-09-14 19:06:42.441] [info]  Setting stateVersion
+[2024-09-14 19:06:42.490] [info]  Migrator MoveFinalDesktopSettingsMigrator (to version 66) updated version - up
+[2024-09-14 19:06:42.490] [info]  Migrator RemoveUnassignedItemsBannerDismissed (to version 67) should migrate: true - up
+[2024-09-14 19:06:42.491] [info]  Removing user_73b5dcb1-3472-45fd-bffa-b06b00f16c40_unassignedItemsBanner_showBanner
+[2024-09-14 19:06:42.540] [info]  Migrator RemoveUnassignedItemsBannerDismissed (to version 67) migrated - up
+[2024-09-14 19:06:42.540] [info]  Setting stateVersion
+[2024-09-14 19:06:42.590] [info]  Migrator RemoveUnassignedItemsBannerDismissed (to version 67) updated version - up
+[2024-09-14 19:06:42.590] [info]  Migrator MoveLastSyncDate (to version 68) should migrate: true - up
+[2024-09-14 19:06:42.591] [info]  Migrator MoveLastSyncDate (to version 68) migrated - up
+[2024-09-14 19:06:42.591] [info]  Setting stateVersion
+[2024-09-14 19:06:42.641] [info]  Migrator MoveLastSyncDate (to version 68) updated version - up
+[2024-09-14 19:06:42.723] [info]  Coredumps are disabled in renderer process
+[2024-09-14 19:06:44.625] [info]  State version: 68
+[2024-09-14 19:06:44.660] [info]  Error: The name is not activatable
+[2024-09-14 19:06:44.692] [info]  Error: The name is not activatable
+[2024-09-14 19:06:44.706] [error] Refresh token not found in secure storage. Access token will fail to refresh upon expiration or manual refresh.
+[2024-09-14 19:06:44.723] [error] Error refreshing access token:  Error: Cannot refresh access token, no refresh token or api keys are stored.
+[2024-09-14 19:06:45.749] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:86121:36)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:85852:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/usr/lib/bitwarden/app.asar/main.js:85848:12)
+    at WindowMain.updateWindowState (/usr/lib/bitwarden/app.asar/main.js:86116:16)
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:86051:28)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:85852:71
+    at new Promise (<anonymous>)
+[2024-09-14 19:06:47.205] [info]  State version: 68
+[2024-09-14 19:06:47.209] [info]  Migrator MinVersionMigrator (to version 3) should migrate: false - up
+[2024-09-14 19:06:47.209] [info]  Migrator RemoveEverBeenUnlockedMigrator (to version 4) should migrate: false - up
+[2024-09-14 19:06:47.210] [info]  Migrator AddKeyTypeToOrgKeysMigrator (to version 5) should migrate: false - up
+[2024-09-14 19:06:47.210] [info]  Migrator RemoveLegacyEtmKeyMigrator (to version 6) should migrate: false - up
+[2024-09-14 19:06:47.210] [info]  Migrator MoveBiometricAutoPromptToAccount (to version 7) should migrate: false - up
+[2024-09-14 19:06:47.210] [info]  Migrator MoveStateVersionMigrator (to version 8) should migrate: false - up
+[2024-09-14 19:06:47.210] [info]  Migrator MoveBrowserSettingsToGlobal (to version 9) should migrate: false - up
+[2024-09-14 19:06:47.210] [info]  Migrator EverHadUserKeyMigrator (to version 10) should migrate: false - up
+[2024-09-14 19:06:47.211] [info]  Migrator OrganizationKeyMigrator (to version 11) should migrate: false - up
+[2024-09-14 19:06:47.211] [info]  Migrator MoveEnvironmentStateToProviders (to version 12) should migrate: false - up
+[2024-09-14 19:06:47.211] [info]  Migrator ProviderKeyMigrator (to version 13) should migrate: false - up
+[2024-09-14 19:06:47.211] [info]  Migrator MoveBiometricClientKeyHalfToStateProviders (to version 14) should migrate: false - up
+[2024-09-14 19:06:47.211] [info]  Migrator FolderMigrator (to version 15) should migrate: false - up
+[2024-09-14 19:06:47.211] [info]  Migrator LastSyncMigrator (to version 16) should migrate: false - up
+[2024-09-14 19:06:47.211] [info]  Migrator EnablePasskeysMigrator (to version 17) should migrate: false - up
+[2024-09-14 19:06:47.212] [info]  Migrator AutofillSettingsKeyMigrator (to version 18) should migrate: false - up
+[2024-09-14 19:06:47.212] [info]  Migrator RequirePasswordOnStartMigrator (to version 19) should migrate: false - up
+[2024-09-14 19:06:47.212] [info]  Migrator PrivateKeyMigrator (to version 20) should migrate: false - up
+[2024-09-14 19:06:47.212] [info]  Migrator CollectionMigrator (to version 21) should migrate: false - up
+[2024-09-14 19:06:47.212] [info]  Migrator CollapsedGroupingsMigrator (to version 22) should migrate: false - up
+[2024-09-14 19:06:47.212] [info]  Migrator MoveBiometricPromptsToStateProviders (to version 23) should migrate: false - up
+[2024-09-14 19:06:47.212] [info]  Migrator SmOnboardingTasksMigrator (to version 24) should migrate: false - up
+[2024-09-14 19:06:47.212] [info]  Migrator ClearClipboardDelayMigrator (to version 25) should migrate: false - up
+[2024-09-14 19:06:47.212] [info]  Migrator RevertLastSyncMigrator (to version 26) should migrate: false - up
+[2024-09-14 19:06:47.213] [info]  Migrator BadgeSettingsMigrator (to version 27) should migrate: false - up
+[2024-09-14 19:06:47.213] [info]  Migrator MoveBiometricUnlockToStateProviders (to version 28) should migrate: false - up
+[2024-09-14 19:06:47.213] [info]  Migrator UserNotificationSettingsKeyMigrator (to version 29) should migrate: false - up
+[2024-09-14 19:06:47.213] [info]  Migrator PolicyMigrator (to version 30) should migrate: false - up
+[2024-09-14 19:06:47.213] [info]  Migrator EnableContextMenuMigrator (to version 31) should migrate: false - up
+[2024-09-14 19:06:47.213] [info]  Migrator PreferredLanguageMigrator (to version 32) should migrate: false - up
+[2024-09-14 19:06:47.213] [info]  Migrator AppIdMigrator (to version 33) should migrate: false - up
+[2024-09-14 19:06:47.213] [info]  Migrator DomainSettingsMigrator (to version 34) should migrate: false - up
+[2024-09-14 19:06:47.213] [info]  Migrator MoveThemeToStateProviderMigrator (to version 35) should migrate: false - up
+[2024-09-14 19:06:47.214] [info]  Migrator VaultSettingsKeyMigrator (to version 36) should migrate: false - up
+[2024-09-14 19:06:47.214] [info]  Migrator AvatarColorMigrator (to version 37) should migrate: false - up
+[2024-09-14 19:06:47.214] [info]  Migrator TokenServiceStateProviderMigrator (to version 38) should migrate: false - up
+[2024-09-14 19:06:47.214] [info]  Migrator MoveBillingAccountProfileMigrator (to version 39) should migrate: false - up
+[2024-09-14 19:06:47.214] [info]  Migrator OrganizationMigrator (to version 40) should migrate: false - up
+[2024-09-14 19:06:47.214] [info]  Migrator EventCollectionMigrator (to version 41) should migrate: false - up
+[2024-09-14 19:06:47.214] [info]  Migrator EnableFaviconMigrator (to version 42) should migrate: false - up
+[2024-09-14 19:06:47.214] [info]  Migrator AutoConfirmFingerPrintsMigrator (to version 43) should migrate: false - up
+[2024-09-14 19:06:47.214] [info]  Migrator UserDecryptionOptionsMigrator (to version 44) should migrate: false - up
+[2024-09-14 19:06:47.214] [info]  Migrator MergeEnvironmentState (to version 45) should migrate: false - up
+[2024-09-14 19:06:47.214] [info]  Migrator DeleteBiometricPromptCancelledData (to version 46) should migrate: false - up
+[2024-09-14 19:06:47.215] [info]  Migrator MoveDesktopSettingsMigrator (to version 47) should migrate: false - up
+[2024-09-14 19:06:47.215] [info]  Migrator MoveDdgToStateProviderMigrator (to version 48) should migrate: false - up
+[2024-09-14 19:06:47.215] [info]  Migrator AccountServerConfigMigrator (to version 49) should migrate: false - up
+[2024-09-14 19:06:47.215] [info]  Migrator KeyConnectorMigrator (to version 50) should migrate: false - up
+[2024-09-14 19:06:47.215] [info]  Migrator RememberedEmailMigrator (to version 51) should migrate: false - up
+[2024-09-14 19:06:47.215] [info]  Migrator DeleteInstalledVersion (to version 52) should migrate: false - up
+[2024-09-14 19:06:47.215] [info]  Migrator DeviceTrustServiceStateProviderMigrator (to version 53) should migrate: false - up
+[2024-09-14 19:06:47.215] [info]  Migrator SendMigrator (to version 54) should migrate: false - up
+[2024-09-14 19:06:47.215] [info]  Migrator MoveMasterKeyStateToProviderMigrator (to version 55) should migrate: false - up
+[2024-09-14 19:06:47.215] [info]  Migrator AuthRequestMigrator (to version 56) should migrate: false - up
+[2024-09-14 19:06:47.216] [info]  Migrator CipherServiceMigrator (to version 57) should migrate: false - up
+[2024-09-14 19:06:47.216] [info]  Migrator RemoveRefreshTokenMigratedFlagMigrator (to version 58) should migrate: false - up
+[2024-09-14 19:06:47.216] [info]  Migrator KdfConfigMigrator (to version 59) should migrate: false - up
+[2024-09-14 19:06:47.216] [info]  Migrator KnownAccountsMigrator (to version 60) should migrate: false - up
+[2024-09-14 19:06:47.216] [info]  Migrator PinStateMigrator (to version 61) should migrate: false - up
+[2024-09-14 19:06:47.216] [info]  Migrator VaultTimeoutSettingsServiceStateProviderMigrator (to version 62) should migrate: false - up
+[2024-09-14 19:06:47.216] [info]  Migrator PasswordOptionsMigrator (to version 63) should migrate: false - up
+[2024-09-14 19:06:47.216] [info]  Migrator GeneratorHistoryMigrator (to version 64) should migrate: false - up
+[2024-09-14 19:06:47.216] [info]  Migrator ForwarderOptionsMigrator (to version 65) should migrate: false - up
+[2024-09-14 19:06:47.216] [info]  Migrator MoveFinalDesktopSettingsMigrator (to version 66) should migrate: false - up
+[2024-09-14 19:06:47.216] [info]  Migrator RemoveUnassignedItemsBannerDismissed (to version 67) should migrate: false - up
+[2024-09-14 19:06:47.217] [info]  Migrator MoveLastSyncDate (to version 68) should migrate: false - up
+[2024-09-14 19:06:47.283] [info]  Coredumps are disabled in renderer process
+[2024-09-14 19:06:48.085] [info]  State version: 68
+[2024-09-14 19:06:48.089] [info]  Error: The name is not activatable
+[2024-09-14 19:06:48.119] [info]  Error: The name is not activatable
+[2024-09-14 19:06:48.127] [error] Refresh token not found in secure storage. Access token will fail to refresh upon expiration or manual refresh.
+[2024-09-14 19:06:48.152] [error] Error refreshing access token:  Error: Cannot refresh access token, no refresh token or api keys are stored.
+[2024-09-14 19:06:54.931] [info]  Error: The name is not activatable
+[2024-09-14 19:06:54.932] [info]  Error: The name is not activatable
+[2024-09-14 19:06:54.981] [info]  Error: The name is not activatable
+[2024-09-14 19:06:54.989] [info]  Error: The name is not activatable
+[2024-09-14 19:06:54.990] [info]  Error: The name is not activatable
+[2024-09-14 19:06:54.991] [error] Access token key not found to decrypt encrypted access token. Logging user out.
+[2024-09-14 19:06:54.999] [info]  Error: The name is not activatable
+[2024-09-14 19:06:55.007] [error] Refresh token not found in secure storage. Access token will fail to refresh upon expiration or manual refresh.
+[2024-09-14 19:06:55.007] [error] Access token key not found to decrypt encrypted access token. Logging user out.
+[2024-09-14 19:06:55.009] [error] Error: Failed to decode access token: Access token not found.
+[2024-09-14 19:06:55.011] [error] Error refreshing access token:  Error: Cannot refresh access token, no refresh token or api keys are stored.
+[2024-09-14 19:06:58.265] [info]  Error: The name is not activatable
+[2024-09-14 19:06:58.266] [info]  Error: The name is not activatable
+[2024-09-14 19:06:58.349] [info]  Error: The name is not activatable
+[2024-09-14 19:06:58.350] [info]  Error: The name is not activatable
+[2024-09-14 19:07:00.378] [info]  Error: The name is not activatable
+[2024-09-14 19:07:00.378] [info]  Error: The name is not activatable
+[2024-09-14 19:07:00.379] [info]  Error: The name is not activatable
+[2024-09-14 19:07:00.379] [info]  Error: The name is not activatable
+[2024-09-14 19:07:00.990] [info]  Error: The name is not activatable
+[2024-09-14 19:07:00.991] [info]  Error: The name is not activatable
+[2024-09-14 19:07:00.991] [info]  Error: The name is not activatable
+[2024-09-14 19:07:00.991] [info]  Error: The name is not activatable
+[2024-09-14 19:07:00.991] [info]  Error: The name is not activatable
+[2024-09-14 19:07:00.992] [info]  Error: The name is not activatable
+[2024-09-14 19:07:00.992] [info]  Error: The name is not activatable
+[2024-09-14 19:07:00.992] [info]  Error: The name is not activatable
+[2024-09-14 19:07:01.626] [info]  State version: 68
+[2024-09-14 19:07:01.630] [info]  Error: The name is not activatable
+[2024-09-14 19:07:01.685] [info]  Retrieving 'global_applicationId_appId' from storage, value is non-null
+[2024-09-14 19:07:13.899] [info]  Retrieving 'global_applicationId_appId' from storage, value is non-null
+[2024-09-14 19:07:19.327] [info]  Retrieving 'global_applicationId_appId' from storage, value is non-null
+[2024-09-14 19:07:20.143] [info]  Error: The name is not activatable
+[2024-09-14 19:07:20.145] [info]  Error: The name is not activatable
+[2024-09-14 19:07:20.147] [info]  Error: The name is not activatable
+[2024-09-14 19:07:20.148] [error] SetAccessToken: storing encrypted access token in secure storage failed. Falling back to disk storage. Error: New Access token key unable to be retrieved from secure storage.
+[2024-09-14 19:07:20.192] [info]  Error: The name is not activatable
+[2024-09-14 19:07:20.195] [info]  Error: The name is not activatable
+[2024-09-14 19:07:20.196] [error] SetRefreshToken: storing refresh token in secure storage failed. Falling back to disk storage. Error: Refresh token failed to save to secure storage.
+[2024-09-14 19:07:20.451] [info]  Error: The name is not activatable
+[2024-09-14 19:07:20.452] [info]  Error: The name is not activatable
+[2024-09-14 19:07:20.493] [info]  Error: The name is not activatable
+[2024-09-14 19:07:20.634] [info]  Error: The name is not activatable
+[2024-09-14 19:07:20.638] [info]  Error: The name is not activatable
+[2024-09-14 19:07:20.639] [info]  Error: The name is not activatable
+[2024-09-14 19:07:20.648] [info]  Error: The name is not activatable
+[2024-09-14 19:07:20.654] [info]  Error: The name is not activatable
+[2024-09-14 19:07:20.942] [info]  Error: The name is not activatable
+[2024-09-14 19:07:21.043] [info]  Error: The name is not activatable
+[2024-09-14 19:07:21.044] [info]  Finished search indexing
+[2024-09-14 19:07:21.046] [info]  Error: The name is not activatable
+[2024-09-14 19:07:21.047] [error] SetAccessToken: storing encrypted access token in secure storage failed. Falling back to disk storage. Error: New Access token key unable to be retrieved from secure storage.
+[2024-09-14 19:07:21.086] [info]  Error: The name is not activatable
+[2024-09-14 19:07:21.088] [info]  Error: The name is not activatable
+[2024-09-14 19:07:21.088] [error] SetRefreshToken: storing refresh token in secure storage failed. Falling back to disk storage. Error: Refresh token failed to save to secure storage.
+[2024-09-14 19:07:21.129] [info]  Error: The name is not activatable
+[2024-09-14 19:07:21.130] [info]  Error: The name is not activatable
+[2024-09-14 19:07:22.425] [info]  Error: The name is not activatable
+[2024-09-14 19:07:22.969] [info]  Error: The name is not activatable
+[2024-09-14 19:07:22.973] [info]  Error: The name is not activatable
+[2024-09-14 19:07:22.975] [info]  Error: The name is not activatable
+[2024-09-14 19:07:23.228] [info]  Starting decryption using multithreading
+[2024-09-14 19:07:23.406] [info]  Finished search indexing
+[2024-09-14 19:07:39.008] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:86121:36)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:85852:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/usr/lib/bitwarden/app.asar/main.js:85848:12)
+    at WindowMain.updateWindowState (/usr/lib/bitwarden/app.asar/main.js:86116:16)
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:86051:28)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:85852:71
+    at new Promise (<anonymous>)
+[2024-09-14 21:22:55.007] [info]  State version: 68
+[2024-09-14 21:22:55.010] [info]  Migrator MinVersionMigrator (to version 3) should migrate: false - up
+[2024-09-14 21:22:55.010] [info]  Migrator RemoveEverBeenUnlockedMigrator (to version 4) should migrate: false - up
+[2024-09-14 21:22:55.011] [info]  Migrator AddKeyTypeToOrgKeysMigrator (to version 5) should migrate: false - up
+[2024-09-14 21:22:55.011] [info]  Migrator RemoveLegacyEtmKeyMigrator (to version 6) should migrate: false - up
+[2024-09-14 21:22:55.011] [info]  Migrator MoveBiometricAutoPromptToAccount (to version 7) should migrate: false - up
+[2024-09-14 21:22:55.011] [info]  Migrator MoveStateVersionMigrator (to version 8) should migrate: false - up
+[2024-09-14 21:22:55.011] [info]  Migrator MoveBrowserSettingsToGlobal (to version 9) should migrate: false - up
+[2024-09-14 21:22:55.012] [info]  Migrator EverHadUserKeyMigrator (to version 10) should migrate: false - up
+[2024-09-14 21:22:55.012] [info]  Migrator OrganizationKeyMigrator (to version 11) should migrate: false - up
+[2024-09-14 21:22:55.012] [info]  Migrator MoveEnvironmentStateToProviders (to version 12) should migrate: false - up
+[2024-09-14 21:22:55.012] [info]  Migrator ProviderKeyMigrator (to version 13) should migrate: false - up
+[2024-09-14 21:22:55.012] [info]  Migrator MoveBiometricClientKeyHalfToStateProviders (to version 14) should migrate: false - up
+[2024-09-14 21:22:55.012] [info]  Migrator FolderMigrator (to version 15) should migrate: false - up
+[2024-09-14 21:22:55.012] [info]  Migrator LastSyncMigrator (to version 16) should migrate: false - up
+[2024-09-14 21:22:55.013] [info]  Migrator EnablePasskeysMigrator (to version 17) should migrate: false - up
+[2024-09-14 21:22:55.013] [info]  Migrator AutofillSettingsKeyMigrator (to version 18) should migrate: false - up
+[2024-09-14 21:22:55.013] [info]  Migrator RequirePasswordOnStartMigrator (to version 19) should migrate: false - up
+[2024-09-14 21:22:55.013] [info]  Migrator PrivateKeyMigrator (to version 20) should migrate: false - up
+[2024-09-14 21:22:55.013] [info]  Migrator CollectionMigrator (to version 21) should migrate: false - up
+[2024-09-14 21:22:55.013] [info]  Migrator CollapsedGroupingsMigrator (to version 22) should migrate: false - up
+[2024-09-14 21:22:55.013] [info]  Migrator MoveBiometricPromptsToStateProviders (to version 23) should migrate: false - up
+[2024-09-14 21:22:55.013] [info]  Migrator SmOnboardingTasksMigrator (to version 24) should migrate: false - up
+[2024-09-14 21:22:55.013] [info]  Migrator ClearClipboardDelayMigrator (to version 25) should migrate: false - up
+[2024-09-14 21:22:55.014] [info]  Migrator RevertLastSyncMigrator (to version 26) should migrate: false - up
+[2024-09-14 21:22:55.014] [info]  Migrator BadgeSettingsMigrator (to version 27) should migrate: false - up
+[2024-09-14 21:22:55.014] [info]  Migrator MoveBiometricUnlockToStateProviders (to version 28) should migrate: false - up
+[2024-09-14 21:22:55.014] [info]  Migrator UserNotificationSettingsKeyMigrator (to version 29) should migrate: false - up
+[2024-09-14 21:22:55.014] [info]  Migrator PolicyMigrator (to version 30) should migrate: false - up
+[2024-09-14 21:22:55.014] [info]  Migrator EnableContextMenuMigrator (to version 31) should migrate: false - up
+[2024-09-14 21:22:55.014] [info]  Migrator PreferredLanguageMigrator (to version 32) should migrate: false - up
+[2024-09-14 21:22:55.014] [info]  Migrator AppIdMigrator (to version 33) should migrate: false - up
+[2024-09-14 21:22:55.014] [info]  Migrator DomainSettingsMigrator (to version 34) should migrate: false - up
+[2024-09-14 21:22:55.014] [info]  Migrator MoveThemeToStateProviderMigrator (to version 35) should migrate: false - up
+[2024-09-14 21:22:55.015] [info]  Migrator VaultSettingsKeyMigrator (to version 36) should migrate: false - up
+[2024-09-14 21:22:55.015] [info]  Migrator AvatarColorMigrator (to version 37) should migrate: false - up
+[2024-09-14 21:22:55.015] [info]  Migrator TokenServiceStateProviderMigrator (to version 38) should migrate: false - up
+[2024-09-14 21:22:55.015] [info]  Migrator MoveBillingAccountProfileMigrator (to version 39) should migrate: false - up
+[2024-09-14 21:22:55.015] [info]  Migrator OrganizationMigrator (to version 40) should migrate: false - up
+[2024-09-14 21:22:55.015] [info]  Migrator EventCollectionMigrator (to version 41) should migrate: false - up
+[2024-09-14 21:22:55.015] [info]  Migrator EnableFaviconMigrator (to version 42) should migrate: false - up
+[2024-09-14 21:22:55.015] [info]  Migrator AutoConfirmFingerPrintsMigrator (to version 43) should migrate: false - up
+[2024-09-14 21:22:55.015] [info]  Migrator UserDecryptionOptionsMigrator (to version 44) should migrate: false - up
+[2024-09-14 21:22:55.015] [info]  Migrator MergeEnvironmentState (to version 45) should migrate: false - up
+[2024-09-14 21:22:55.015] [info]  Migrator DeleteBiometricPromptCancelledData (to version 46) should migrate: false - up
+[2024-09-14 21:22:55.016] [info]  Migrator MoveDesktopSettingsMigrator (to version 47) should migrate: false - up
+[2024-09-14 21:22:55.016] [info]  Migrator MoveDdgToStateProviderMigrator (to version 48) should migrate: false - up
+[2024-09-14 21:22:55.016] [info]  Migrator AccountServerConfigMigrator (to version 49) should migrate: false - up
+[2024-09-14 21:22:55.016] [info]  Migrator KeyConnectorMigrator (to version 50) should migrate: false - up
+[2024-09-14 21:22:55.016] [info]  Migrator RememberedEmailMigrator (to version 51) should migrate: false - up
+[2024-09-14 21:22:55.016] [info]  Migrator DeleteInstalledVersion (to version 52) should migrate: false - up
+[2024-09-14 21:22:55.016] [info]  Migrator DeviceTrustServiceStateProviderMigrator (to version 53) should migrate: false - up
+[2024-09-14 21:22:55.016] [info]  Migrator SendMigrator (to version 54) should migrate: false - up
+[2024-09-14 21:22:55.016] [info]  Migrator MoveMasterKeyStateToProviderMigrator (to version 55) should migrate: false - up
+[2024-09-14 21:22:55.016] [info]  Migrator AuthRequestMigrator (to version 56) should migrate: false - up
+[2024-09-14 21:22:55.017] [info]  Migrator CipherServiceMigrator (to version 57) should migrate: false - up
+[2024-09-14 21:22:55.017] [info]  Migrator RemoveRefreshTokenMigratedFlagMigrator (to version 58) should migrate: false - up
+[2024-09-14 21:22:55.017] [info]  Migrator KdfConfigMigrator (to version 59) should migrate: false - up
+[2024-09-14 21:22:55.017] [info]  Migrator KnownAccountsMigrator (to version 60) should migrate: false - up
+[2024-09-14 21:22:55.017] [info]  Migrator PinStateMigrator (to version 61) should migrate: false - up
+[2024-09-14 21:22:55.017] [info]  Migrator VaultTimeoutSettingsServiceStateProviderMigrator (to version 62) should migrate: false - up
+[2024-09-14 21:22:55.017] [info]  Migrator PasswordOptionsMigrator (to version 63) should migrate: false - up
+[2024-09-14 21:22:55.017] [info]  Migrator GeneratorHistoryMigrator (to version 64) should migrate: false - up
+[2024-09-14 21:22:55.017] [info]  Migrator ForwarderOptionsMigrator (to version 65) should migrate: false - up
+[2024-09-14 21:22:55.017] [info]  Migrator MoveFinalDesktopSettingsMigrator (to version 66) should migrate: false - up
+[2024-09-14 21:22:55.017] [info]  Migrator RemoveUnassignedItemsBannerDismissed (to version 67) should migrate: false - up
+[2024-09-14 21:22:55.018] [info]  Migrator MoveLastSyncDate (to version 68) should migrate: false - up
+[2024-09-14 21:22:55.083] [info]  Coredumps are disabled in renderer process
+[2024-09-14 21:22:55.901] [info]  State version: 68
+[2024-09-14 21:22:55.905] [info]  Error: The name is not activatable
+[2024-09-14 21:22:55.938] [info]  Error: The name is not activatable
+[2024-09-14 21:22:56.676] [info]  Error: The name is not activatable
+[2024-09-14 21:22:56.679] [info]  Error: The name is not activatable
+[2024-09-14 21:22:56.681] [info]  Error: The name is not activatable
+[2024-09-14 21:22:56.681] [error] SetAccessToken: storing encrypted access token in secure storage failed. Falling back to disk storage. Error: New Access token key unable to be retrieved from secure storage.
+[2024-09-14 21:22:56.735] [info]  Error: The name is not activatable
+[2024-09-14 21:22:56.738] [info]  Error: The name is not activatable
+[2024-09-14 21:22:56.738] [error] SetRefreshToken: storing refresh token in secure storage failed. Falling back to disk storage. Error: Refresh token failed to save to secure storage.
+[2024-09-14 21:22:56.837] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:86121:36)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:85852:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/usr/lib/bitwarden/app.asar/main.js:85848:12)
+    at WindowMain.updateWindowState (/usr/lib/bitwarden/app.asar/main.js:86116:16)
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:86051:28)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:85852:71
+    at new Promise (<anonymous>)
+[2024-09-14 21:22:56.884] [info]  Error: The name is not activatable
+[2024-09-15 10:28:48.861] [info]  State version: 68
+[2024-09-15 10:28:48.902] [info]  Migrator MinVersionMigrator (to version 3) should migrate: false - up
+[2024-09-15 10:28:48.903] [info]  Migrator RemoveEverBeenUnlockedMigrator (to version 4) should migrate: false - up
+[2024-09-15 10:28:48.903] [info]  Migrator AddKeyTypeToOrgKeysMigrator (to version 5) should migrate: false - up
+[2024-09-15 10:28:48.903] [info]  Migrator RemoveLegacyEtmKeyMigrator (to version 6) should migrate: false - up
+[2024-09-15 10:28:48.903] [info]  Migrator MoveBiometricAutoPromptToAccount (to version 7) should migrate: false - up
+[2024-09-15 10:28:48.903] [info]  Migrator MoveStateVersionMigrator (to version 8) should migrate: false - up
+[2024-09-15 10:28:48.903] [info]  Migrator MoveBrowserSettingsToGlobal (to version 9) should migrate: false - up
+[2024-09-15 10:28:48.904] [info]  Migrator EverHadUserKeyMigrator (to version 10) should migrate: false - up
+[2024-09-15 10:28:48.904] [info]  Migrator OrganizationKeyMigrator (to version 11) should migrate: false - up
+[2024-09-15 10:28:48.904] [info]  Migrator MoveEnvironmentStateToProviders (to version 12) should migrate: false - up
+[2024-09-15 10:28:48.904] [info]  Migrator ProviderKeyMigrator (to version 13) should migrate: false - up
+[2024-09-15 10:28:48.904] [info]  Migrator MoveBiometricClientKeyHalfToStateProviders (to version 14) should migrate: false - up
+[2024-09-15 10:28:48.904] [info]  Migrator FolderMigrator (to version 15) should migrate: false - up
+[2024-09-15 10:28:48.905] [info]  Migrator LastSyncMigrator (to version 16) should migrate: false - up
+[2024-09-15 10:28:48.905] [info]  Migrator EnablePasskeysMigrator (to version 17) should migrate: false - up
+[2024-09-15 10:28:48.905] [info]  Migrator AutofillSettingsKeyMigrator (to version 18) should migrate: false - up
+[2024-09-15 10:28:48.905] [info]  Migrator RequirePasswordOnStartMigrator (to version 19) should migrate: false - up
+[2024-09-15 10:28:48.905] [info]  Migrator PrivateKeyMigrator (to version 20) should migrate: false - up
+[2024-09-15 10:28:48.905] [info]  Migrator CollectionMigrator (to version 21) should migrate: false - up
+[2024-09-15 10:28:48.905] [info]  Migrator CollapsedGroupingsMigrator (to version 22) should migrate: false - up
+[2024-09-15 10:28:48.905] [info]  Migrator MoveBiometricPromptsToStateProviders (to version 23) should migrate: false - up
+[2024-09-15 10:28:48.905] [info]  Migrator SmOnboardingTasksMigrator (to version 24) should migrate: false - up
+[2024-09-15 10:28:48.906] [info]  Migrator ClearClipboardDelayMigrator (to version 25) should migrate: false - up
+[2024-09-15 10:28:48.906] [info]  Migrator RevertLastSyncMigrator (to version 26) should migrate: false - up
+[2024-09-15 10:28:48.906] [info]  Migrator BadgeSettingsMigrator (to version 27) should migrate: false - up
+[2024-09-15 10:28:48.906] [info]  Migrator MoveBiometricUnlockToStateProviders (to version 28) should migrate: false - up
+[2024-09-15 10:28:48.906] [info]  Migrator UserNotificationSettingsKeyMigrator (to version 29) should migrate: false - up
+[2024-09-15 10:28:48.906] [info]  Migrator PolicyMigrator (to version 30) should migrate: false - up
+[2024-09-15 10:28:48.906] [info]  Migrator EnableContextMenuMigrator (to version 31) should migrate: false - up
+[2024-09-15 10:28:48.906] [info]  Migrator PreferredLanguageMigrator (to version 32) should migrate: false - up
+[2024-09-15 10:28:48.906] [info]  Migrator AppIdMigrator (to version 33) should migrate: false - up
+[2024-09-15 10:28:48.906] [info]  Migrator DomainSettingsMigrator (to version 34) should migrate: false - up
+[2024-09-15 10:28:48.907] [info]  Migrator MoveThemeToStateProviderMigrator (to version 35) should migrate: false - up
+[2024-09-15 10:28:48.907] [info]  Migrator VaultSettingsKeyMigrator (to version 36) should migrate: false - up
+[2024-09-15 10:28:48.907] [info]  Migrator AvatarColorMigrator (to version 37) should migrate: false - up
+[2024-09-15 10:28:48.907] [info]  Migrator TokenServiceStateProviderMigrator (to version 38) should migrate: false - up
+[2024-09-15 10:28:48.907] [info]  Migrator MoveBillingAccountProfileMigrator (to version 39) should migrate: false - up
+[2024-09-15 10:28:48.907] [info]  Migrator OrganizationMigrator (to version 40) should migrate: false - up
+[2024-09-15 10:28:48.907] [info]  Migrator EventCollectionMigrator (to version 41) should migrate: false - up
+[2024-09-15 10:28:48.907] [info]  Migrator EnableFaviconMigrator (to version 42) should migrate: false - up
+[2024-09-15 10:28:48.907] [info]  Migrator AutoConfirmFingerPrintsMigrator (to version 43) should migrate: false - up
+[2024-09-15 10:28:48.907] [info]  Migrator UserDecryptionOptionsMigrator (to version 44) should migrate: false - up
+[2024-09-15 10:28:48.907] [info]  Migrator MergeEnvironmentState (to version 45) should migrate: false - up
+[2024-09-15 10:28:48.908] [info]  Migrator DeleteBiometricPromptCancelledData (to version 46) should migrate: false - up
+[2024-09-15 10:28:48.908] [info]  Migrator MoveDesktopSettingsMigrator (to version 47) should migrate: false - up
+[2024-09-15 10:28:48.908] [info]  Migrator MoveDdgToStateProviderMigrator (to version 48) should migrate: false - up
+[2024-09-15 10:28:48.908] [info]  Migrator AccountServerConfigMigrator (to version 49) should migrate: false - up
+[2024-09-15 10:28:48.908] [info]  Migrator KeyConnectorMigrator (to version 50) should migrate: false - up
+[2024-09-15 10:28:48.908] [info]  Migrator RememberedEmailMigrator (to version 51) should migrate: false - up
+[2024-09-15 10:28:48.908] [info]  Migrator DeleteInstalledVersion (to version 52) should migrate: false - up
+[2024-09-15 10:28:48.908] [info]  Migrator DeviceTrustServiceStateProviderMigrator (to version 53) should migrate: false - up
+[2024-09-15 10:28:48.908] [info]  Migrator SendMigrator (to version 54) should migrate: false - up
+[2024-09-15 10:28:48.908] [info]  Migrator MoveMasterKeyStateToProviderMigrator (to version 55) should migrate: false - up
+[2024-09-15 10:28:48.909] [info]  Migrator AuthRequestMigrator (to version 56) should migrate: false - up
+[2024-09-15 10:28:48.909] [info]  Migrator CipherServiceMigrator (to version 57) should migrate: false - up
+[2024-09-15 10:28:48.909] [info]  Migrator RemoveRefreshTokenMigratedFlagMigrator (to version 58) should migrate: false - up
+[2024-09-15 10:28:48.909] [info]  Migrator KdfConfigMigrator (to version 59) should migrate: false - up
+[2024-09-15 10:28:48.909] [info]  Migrator KnownAccountsMigrator (to version 60) should migrate: false - up
+[2024-09-15 10:28:48.909] [info]  Migrator PinStateMigrator (to version 61) should migrate: false - up
+[2024-09-15 10:28:48.909] [info]  Migrator VaultTimeoutSettingsServiceStateProviderMigrator (to version 62) should migrate: false - up
+[2024-09-15 10:28:48.909] [info]  Migrator PasswordOptionsMigrator (to version 63) should migrate: false - up
+[2024-09-15 10:28:48.909] [info]  Migrator GeneratorHistoryMigrator (to version 64) should migrate: false - up
+[2024-09-15 10:28:48.909] [info]  Migrator ForwarderOptionsMigrator (to version 65) should migrate: false - up
+[2024-09-15 10:28:48.909] [info]  Migrator MoveFinalDesktopSettingsMigrator (to version 66) should migrate: false - up
+[2024-09-15 10:28:48.910] [info]  Migrator RemoveUnassignedItemsBannerDismissed (to version 67) should migrate: false - up
+[2024-09-15 10:28:48.910] [info]  Migrator MoveLastSyncDate (to version 68) should migrate: false - up
+[2024-09-15 10:28:51.915] [info]  Coredumps are disabled in renderer process
+[2024-09-15 10:28:59.384] [info]  State version: 68
+[2024-09-15 10:28:59.388] [info]  Error: The name is not activatable
+[2024-09-15 10:28:59.449] [info]  Error: The name is not activatable
+[2024-09-15 10:29:00.427] [info]  Error: The name is not activatable
+[2024-09-15 10:29:00.437] [info]  Error: The name is not activatable
+[2024-09-15 10:29:00.439] [info]  Error: The name is not activatable
+[2024-09-15 10:29:00.439] [error] SetAccessToken: storing encrypted access token in secure storage failed. Falling back to disk storage. Error: New Access token key unable to be retrieved from secure storage.
+[2024-09-15 10:29:00.496] [info]  Error: The name is not activatable
+[2024-09-15 10:29:00.498] [info]  Error: The name is not activatable
+[2024-09-15 10:29:00.499] [error] SetRefreshToken: storing refresh token in secure storage failed. Falling back to disk storage. Error: Refresh token failed to save to secure storage.
+[2024-09-15 10:29:00.547] [info]  Error: The name is not activatable
+[2024-09-15 10:29:00.550] [info]  Error: The name is not activatable
+[2024-09-15 10:29:01.544] [error] TypeError: Object has been destroyed
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:86121:36)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:85852:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/usr/lib/bitwarden/app.asar/main.js:85848:12)
+    at WindowMain.updateWindowState (/usr/lib/bitwarden/app.asar/main.js:86116:16)
+    at WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:86051:28)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:85852:71
+    at new Promise (<anonymous>)

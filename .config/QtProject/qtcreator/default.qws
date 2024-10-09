@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorSession>
+<!-- Written by QtCreator 13.0.1, 2024-05-15T19:15:38. -->
+<qtcreator>
+ <data>
+  <variable>CascadeSetActive</variable>
+  <value type="bool">false</value>
+ </data>
+ <data>
+  <variable>Color</variable>
+  <value type="QString">#666666</value>
+ </data>
+ <data>
+  <variable>EditorSettings</variable>
+  <value type="QByteArray">AAAAD0VkaXRvck1hbmFnZXJWNQAAAAQAAACEAC8AaABvAG0AZQAvAGwAYQB1AHIAaQAvAEQAZQBzAGsAdABvAHAALwBjACsAKwAvAGcAYQBtAGUALQBzAHQAdQBmAGYALwBmAGEAcgBtAGkAbgBnAF8AcwBpAG0AdQBsAGEAdABvAHIAXwAxADgANAA1AC8AbQBhAGkAbgAuAGMAcABwAAAADAAAAAAgAAAAAgAAAAAAAAAAAAAAUQAAAC8AAAAAAAAAAAAAADkAAACQAC8AaABvAG0AZQAvAGwAYQB1AHIAaQAvAEQAZQBzAGsAdABvAHAALwBjACsAKwAvAGcAYQBtAGUALQBzAHQAdQBmAGYALwBmAGEAcgBtAGkAbgBnAF8AcwBpAG0AdQBsAGEAdABvAHIAXwAxADgANAA1AC8AbQBhAGkAbgB3AGkAbgBkAG8AdwAuAGMAcABwAAAADAAAAAAgAAAAAgAAAAAAAAAAAAAACgAAACgAAAAAAAAAAAAAAAoAAACOAC8AaABvAG0AZQAvAGwAYQB1AHIAaQAvAEQAZQBzAGsAdABvAHAALwBjACsAKwAvAGcAYQBtAGUALQBzAHQAdQBmAGYALwBmAGEAcgBtAGkAbgBnAF8AcwBpAG0AdQBsAGEAdABvAHIAXwAxADgANAA1AC8AbQBhAGkAbgB3AGkAbgBkAG8AdwAuAHUAaQAAAAwAAAAAIAAAAAIAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAfAAAAVgAvAGgAbwBtAGUALwBsAGEAdQByAGkALwBEAGUAcwBrAHQAbwBwAC8AYwArACsALwBnAGEAbQBlAC0AcwB0AHUAZgBmAC8AbQBhAGkAbgAuAGMAcABwAAAADAAAAAAgAAAAAgAAACQAAAAAAAAAWwAAAAAAAAAAAAAAJAAAAFoAAAAEAAAAhAAvAGgAbwBtAGUALwBsAGEAdQByAGkALwBEAGUAcwBrAHQAbwBwAC8AYwArACsALwBnAGEAbQBlAC0AcwB0AHUAZgBmAC8AZgBhAHIAbQBpAG4AZwBfAHMAaQBtAHUAbABhAHQAbwByAF8AMQA4ADQANQAvAG0AYQBpAG4ALgBjAHAAcAAAABAAbQBhAGkAbgAuAGMAcABwAAAAE0NwcEVkaXRvci5DKytFZGl0b3IAAAAAVgAvAGgAbwBtAGUALwBsAGEAdQByAGkALwBEAGUAcwBrAHQAbwBwAC8AYwArACsALwBnAGEAbQBlAC0AcwB0AHUAZgBmAC8AbQBhAGkAbgAuAGMAcABwAAAAEABtAGEAaQBuAC4AYwBwAHAAAAATQ3BwRWRpdG9yLkMrK0VkaXRvcgAAAACQAC8AaABvAG0AZQAvAGwAYQB1AHIAaQAvAEQAZQBzAGsAdABvAHAALwBjACsAKwAvAGcAYQBtAGUALQBzAHQAdQBmAGYALwBmAGEAcgBtAGkAbgBnAF8AcwBpAG0AdQBsAGEAdABvAHIAXwAxADgANAA1AC8AbQBhAGkAbgB3AGkAbgBkAG8AdwAuAGMAcABwAAAAHABtAGEAaQBuAHcAaQBuAGQAbwB3AC4AYwBwAHAAAAATQ3BwRWRpdG9yLkMrK0VkaXRvcgAAAACOAC8AaABvAG0AZQAvAGwAYQB1AHIAaQAvAEQAZQBzAGsAdABvAHAALwBjACsAKwAvAGcAYQBtAGUALQBzAHQAdQBmAGYALwBmAGEAcgBtAGkAbgBnAF8AcwBpAG0AdQBsAGEAdABvAHIAXwAxADgANAA1AC8AbQBhAGkAbgB3AGkAbgBkAG8AdwAuAHUAaQAAABoAbQBhAGkAbgB3AGkAbgBkAG8AdwAuAHUAaQAAABxGb3JtRWRpdG9yLkRlc2lnbmVyWG1sRWRpdG9yAAAABBQAAAANY3VycmVudGVkaXRvcgAAAI4ALwBoAG8AbQBlAC8AbABhAHUAcgBpAC8ARABlAHMAawB0AG8AcAAvAGMAKwArAC8AZwBhAG0AZQAtAHMAdAB1AGYAZgAvAGYAYQByAG0AaQBuAGcAXwBzAGkAbQB1AGwAYQB0AG8AcgBfADEAOAA0ADUALwBtAGEAaQBuAHcAaQBuAGQAbwB3AC4AdQBpAAAAOABGAG8AcgBtAEUAZABpAHQAbwByAC4ARABlAHMAaQBnAG4AZQByAFgAbQBsAEUAZABpAHQAbwByAAAAIAAAAAIAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAfAAAABAAAANYAAACOAC8AaABvAG0AZQAvAGwAYQB1AHIAaQAvAEQAZQBzAGsAdABvAHAALwBjACsAKwAvAGcAYQBtAGUALQBzAHQAdQBmAGYALwBmAGEAcgBtAGkAbgBnAF8AcwBpAG0AdQBsAGEAdABvAHIAXwAxADgANAA1AC8AbQBhAGkAbgB3AGkAbgBkAG8AdwAuAHUAaQAAABxGb3JtRWRpdG9yLkRlc2lnbmVyWG1sRWRpdG9yAAAAIAAAAAIAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAfAAAAzwAAAJAALwBoAG8AbQBlAC8AbABhAHUAcgBpAC8ARABlAHMAawB0AG8AcAAvAGMAKwArAC8AZwBhAG0AZQAtAHMAdAB1AGYAZgAvAGYAYQByAG0AaQBuAGcAXwBzAGkAbQB1AGwAYQB0AG8AcgBfADEAOAA0ADUALwBtAGEAaQBuAHcAaQBuAGQAbwB3AC4AYwBwAHAAAAATQ3BwRWRpdG9yLkMrK0VkaXRvcgAAACAAAAACAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAACgAAAMMAAACEAC8AaABvAG0AZQAvAGwAYQB1AHIAaQAvAEQAZQBzAGsAdABvAHAALwBjACsAKwAvAGcAYQBtAGUALQBzAHQAdQBmAGYALwBmAGEAcgBtAGkAbgBnAF8AcwBpAG0AdQBsAGEAdABvAHIAXwAxADgANAA1AC8AbQBhAGkAbgAuAGMAcABwAAAAE0NwcEVkaXRvci5DKytFZGl0b3IAAAAgAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAoAAACVAAAAVgAvAGgAbwBtAGUALwBsAGEAdQByAGkALwBEAGUAcwBrAHQAbwBwAC8AYwArACsALwBnAGEAbQBlAC0AcwB0AHUAZgBmAC8AbQBhAGkAbgAuAGMAcABwAAAAE0NwcEVkaXRvci5DKytFZGl0b3IAAAAgAAAAAgAAACIAAAAAAAAASAAAACAAAAAAAAAAIgAAAFoAAAAA</value>
+ </data>
+ <data>
+  <variable>ProjectDependencies</variable>
+  <valuemap type="QVariantMap"/>
+ </data>
+ <data>
+  <variable>ProjectList</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">/home/lauri/Desktop/c++/game-stuff/farming_simulator_1845/farming_simulator_1845.pro</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>StartupProject</variable>
+  <value type="QString">/home/lauri/Desktop/c++/game-stuff/farming_simulator_1845/farming_simulator_1845.pro</value>
+ </data>
+ <data>
+  <variable>value-ActiveMode</variable>
+  <value type="QString">Design</value>
+ </data>
+ <data>
+  <variable>value-Breakpoints</variable>
+  <valuelist type="QVariantList">
+   <valuemap type="QVariantMap">
+    <value type="QString" key="filename">/home/lauri/Desktop/c++/game-stuff/farming_simulator_1845/main.cpp</value>
+    <value type="int" key="linenumber">2</value>
+   </valuemap>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-ProjectTree.ExpandData</variable>
+  <valuelist type="QVariantList">
+   <valuelist type="QVariantList">
+    <value type="QString">/home/lauri/Desktop/c++/game-stuff/farming_simulator_1845</value>
+    <value type="int">200000</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/home/lauri/Desktop/c++/game-stuff/farming_simulator_1845</value>
+    <value type="int">299998</value>
+   </valuelist>
+   <valuelist type="QVariantList">
+    <value type="QString">/home/lauri/Desktop/c++/game-stuff/farming_simulator_1845</value>
+    <value type="int">299999</value>
+   </valuelist>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-TaskWindow.Categories</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">Task.Category.QmlAnalysis</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>value-TaskWindow.IncludeWarnings</variable>
+  <value type="bool">true</value>
+ </data>
+ <data>
+  <variable>valueKeys</variable>
+  <valuelist type="QVariantList">
+   <value type="QString">ActiveMode</value>
+   <value type="QString">Breakpoints</value>
+   <value type="QString">ProjectTree.ExpandData</value>
+   <value type="QString">TaskWindow.Categories</value>
+   <value type="QString">TaskWindow.IncludeWarnings</value>
+  </valuelist>
+ </data>
+</qtcreator>

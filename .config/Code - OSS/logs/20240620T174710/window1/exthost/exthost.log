@@ -1,0 +1,25 @@
+2024-06-20 17:47:11.602 [info] Extension host with pid 320181 started
+2024-06-20 17:47:11.602 [info] Skipping acquiring lock for /home/lauri/.config/Code - OSS/User/workspaceStorage/4d16234a34541619843f3d770e375973.
+2024-06-20 17:47:11.648 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-20 17:47:11.650 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2024-06-20 17:47:11.656 [info] ExtensionService#_doActivateExtension tombonnike.vscode-status-bar-format-toggle, startup: true, activationEvent: '*'
+2024-06-20 17:47:11.671 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-20 17:47:11.690 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-20 17:47:11.718 [info] Eager extensions activated
+2024-06-20 17:47:11.733 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 17:47:11.734 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 17:47:11.738 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 17:47:11.746 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 17:47:11.757 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished', root cause: franneck94.vscode-c-cpp-config
+2024-06-20 17:47:11.762 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 17:47:11.767 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 17:47:11.824 [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: false, activationEvent: 'onStartupFinished'
+2024-06-20 17:47:12.822 [error] Error: ENOENT: no such file or directory, open '/home/lauri/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'
+2024-06-20 17:48:39.028 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-06-20 17:48:39.047 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-20 18:00:18.591 [warning] TextEditor is closed/disposed
+2024-06-20 18:00:18.591 [warning] TextEditor is closed/disposed
+2024-06-20 18:00:18.597 [warning] ExtHostTextEditorOptions 'setCursorStyle' failed:'
+2024-06-20 18:00:18.597 [warning] Illegal argument: TextEditor(vs.editor.ICodeEditor:1,$model1)
+2024-06-20 18:00:20.773 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-20 18:00:20.784 [info] Extension host with pid 320181 exiting with code 0

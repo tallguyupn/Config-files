@@ -1,0 +1,13 @@
+2024-06-20 14:52:49.489 [info] Deleted uninstalled extension from disk franneck94.vscode-c-cpp-config /home/lauri/.vscode-oss/extensions/franneck94.vscode-c-cpp-config-5.10.0-universal
+2024-06-20 14:52:49.520 [info] Deleted uninstalled extension from disk formulahendry.code-runner /home/lauri/.vscode-oss/extensions/formulahendry.code-runner-0.12.1-universal
+2024-06-20 14:52:51.473 [info] Getting Manifest... asvetliakov.vscode-neovim
+2024-06-20 14:52:52.534 [info] Installing extension: asvetliakov.vscode-neovim vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 14:52:53.566 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-20 14:52:53.566 [info] Extension signature verification is not done: asvetliakov.vscode-neovim
+2024-06-20 14:52:53.612 [info] Extracted extension to file:///home/lauri/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.17.2-universal: asvetliakov.vscode-neovim
+2024-06-20 14:52:53.689 [info] Renamed to /home/lauri/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.17.2-universal
+2024-06-20 14:52:53.778 [info] Marked extension as uninstalled asvetliakov.vscode-neovim-1.17.0-universal
+2024-06-20 14:52:53.791 [info] Extension installed successfully: asvetliakov.vscode-neovim vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json

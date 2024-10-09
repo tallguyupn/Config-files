@@ -1,0 +1,787 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 12619,
+  "Arguments": [
+    "/tmp/.mount_CurseFdKUlwo/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=55086",
+    "--to-port=55106",
+    "--pid=12457",
+    "--appDataPath=/home/lauri/.config/CurseForge",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2024-02-07T14:40:58.2861835Z",
+  "Version": "0.244.4.16117",
+  "BuildDate": "2000-01-05T06:57:14Z",
+  "Start": "2024-02-07T16:40:59.1469586+02:00",
+  "Log": [
+{
+  "timestamp": "2024-02-07T16:40:59.1362751+02:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2024-02-07T16:40:59.1428608+02:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 0.244.4.16117"
+},
+{
+  "timestamp": "2024-02-07T16:40:59.1443078+02:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=55086,--to-port=55106,--pid=12457,--appDataPath=/home/lauri/.config/CurseForge,--clientId=Overwolf"
+},
+{
+  "timestamp": "2024-02-07T16:40:59.1465846+02:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 12457"
+},
+{
+  "timestamp": "2024-02-07T16:40:59.8379304+02:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/lauri/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2024-02-07T16:40:59.8613782+02:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "missing implementation of: getForegroundWindowFromPoint"
+},
+{
+  "timestamp": "2024-02-07T16:40:59.8919037+02:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 55086"
+},
+{
+  "timestamp": "2024-02-07T16:41:00.9162009+02:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2024-02-07T16:41:01.0638467+02:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2024-02-07T16:41:01.0674429+02:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2024-02-07T16:41:01.0884649+02:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2024-02-07T16:41:01.1527473+02:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-02-07T16:41:01.1606084+02:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2024-02-07T16:41:01.7187959+02:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2024-02-07T16:41:01.7196238+02:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2024-02-07T16:41:01.7795399+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Loaded 26 games from the server"
+},
+{
+  "timestamp": "2024-02-07T16:41:01.7797083+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/lauri/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2024-02-07T16:41:01.8004583+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "79.00"
+  }
+},
+{
+  "timestamp": "2024-02-07T16:41:01.8225768+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2024-02-07T16:41:01.8230551+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2024-02-07T16:41:01.8414973+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2024-02-07T16:41:01.8420215+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2024-02-07T16:41:01.8425978+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2024-02-07T16:41:01.8906895+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] LoadInstancesFromDisk loaded 0 instances"
+},
+{
+  "timestamp": "2024-02-07T16:41:01.8908207+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.0420994+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] LoadInstancesFromDisk loaded 1 instances"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.048511+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/lauri/Documents/curseforge/minecraft/Instances/Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER)/"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.0792187+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initialized game Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER) instance"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.0794108+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.0841321+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 26 games..."
+},
+{
+  "timestamp": "2024-02-07T16:41:02.0918748+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 1 detected game instances. Operation took 12 ms"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.0935337+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.0943394+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "/home/lauri/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-02-07T16:41:02.094619+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Beginning initialization of InstanceManager"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.0954316+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Setting file watcher on instance directory /home/lauri/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.1003893+02:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER)"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.1106647+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "InstanceManager initialized."
+},
+{
+  "timestamp": "2024-02-07T16:41:02.1114601+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.1115927+02:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.1120855+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.1133988+02:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Resolving Minecraft instances list from /home/lauri/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.1139861+02:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/lauri/Documents/curseforge/minecraft/Instances/Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER)"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.1177071+02:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.1282601+02:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.1282776+02:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "/home/lauri/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-02-07T16:41:02.3115548+02:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[ModLoaderDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "180.00"
+  }
+},
+{
+  "timestamp": "2024-02-07T16:41:02.3859718+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "45.00"
+  }
+},
+{
+  "timestamp": "2024-02-07T16:41:02.4447051+02:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.5859555+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.6210928+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.6211168+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "/home/lauri/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-02-07T16:41:02.8513338+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-02-07T16:41:02.8513563+02:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "/home/lauri/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-02-07T16:41:03.1246417+02:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-02-07T16:41:03.1246577+02:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/lauri/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-02-07T16:41:07.6607146+02:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "InstallTask 7e37fecc-9be7-4929-a8d9-f688c04d6e78 LaunchMinecraftTask started..."
+},
+{
+  "timestamp": "2024-02-07T16:41:07.6617714+02:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Validate required Minecraft version prior to launch"
+},
+{
+  "timestamp": "2024-02-07T16:41:07.6678672+02:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Verifying Minecraft version: 1.7.10"
+},
+{
+  "timestamp": "2024-02-07T16:41:07.6725303+02:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-02-07T16:41:07.6725408+02:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "/home/lauri/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2024-02-07T16:41:07.6725575+02:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Minecraft version 1.7.10 already exists... Skipping installation."
+},
+{
+  "timestamp": "2024-02-07T16:41:07.6728898+02:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Installing Forge mod loader forge-10.13.4.1614."
+},
+{
+  "timestamp": "2024-02-07T16:41:07.7030096+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on MinecraftVersionInstallTask.Run -> _instance.SaveToDisk"
+},
+{
+  "timestamp": "2024-02-07T16:41:07.7871537+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2024-02-07T16:41:11.9414684+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 4154ms"
+},
+{
+  "timestamp": "2024-02-07T16:41:11.945945+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Launching Minecraft instance: Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER)"
+},
+{
+  "timestamp": "2024-02-07T16:41:11.95989+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Setting minecraft version.json asset index"
+},
+{
+  "timestamp": "2024-02-07T16:41:11.9602788+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/lauri/Documents/curseforge/minecraft/Install/versions/forge-10.13.4.1614/forge-10.13.4.1614.json"
+},
+{
+  "timestamp": "2024-02-07T16:41:11.9607893+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Setting Minecraft version.json jar location"
+},
+{
+  "timestamp": "2024-02-07T16:41:11.9608988+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[Minecraft] loading version.json from /home/lauri/Documents/curseforge/minecraft/Install/versions/forge-10.13.4.1614/forge-10.13.4.1614.json"
+},
+{
+  "timestamp": "2024-02-07T16:41:11.961469+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[Minecraft] Saving version.json to /home/lauri/Documents/curseforge/minecraft/Install/versions/forge-10.13.4.1614/forge-10.13.4.1614.json"
+},
+{
+  "timestamp": "2024-02-07T16:41:11.9833903+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Reading launcher_profiles.json from /home/lauri/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2024-02-07T16:41:11.9926252+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Launcher args determined as: -Xmx7968m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/lauri/Documents/curseforge/minecraft/Install/libraries\""
+},
+{
+  "timestamp": "2024-02-07T16:41:11.99391+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Inserting pre-launch profile (version format 3)",
+  "data": {
+    "name": "Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER)",
+    "gameDir": "/home/lauri/Documents/curseforge/minecraft/Instances/Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER)/",
+    "lastVersionId": "forge-10.13.4.1614",
+    "javaArgs": "-Xmx7968m -Xms256m -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -Duser.language=en -Duser.country=US -DlibraryDirectory=\"/home/lauri/Documents/curseforge/minecraft/Install/libraries\"",
+    "type": "custom",
+    "created": "2024-02-07T14:41:11.9917926Z",
+    "lastUsed": "2024-02-07T14:41:11.9918243Z"
+  }
+},
+{
+  "timestamp": "2024-02-07T16:41:11.9953845+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Saving launcher_profiles.json"
+},
+{
+  "timestamp": "2024-02-07T16:41:11.9981432+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Writing profile to: /home/lauri/Documents/curseforge/minecraft/Install/launcher_profiles.json"
+},
+{
+  "timestamp": "2024-02-07T16:41:12.1026338+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Process start '/home/lauri/Documents/curseforge/minecraft/Install/minecraft-launcher' args determined: --workDir \"/home/lauri/Documents/curseforge/minecraft/Install\""
+},
+{
+  "timestamp": "2024-02-07T16:41:12.1026738+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Starting Process..."
+},
+{
+  "timestamp": "2024-02-07T16:41:12.1287366+02:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "InstallTask 7e37fecc-9be7-4929-a8d9-f688c04d6e78 LaunchMinecraftTask completed"
+},
+{
+  "timestamp": "2024-02-07T16:41:17.1076622+02:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2024-02-07T16:41:20.8063406+02:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 3698ms"
+},
+{
+  "timestamp": "2024-02-07T16:44:40.9736639+02:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-02-07T16:44:41.0090946+02:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-02-07T16:49:44.7017561+02:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2024-02-07T16:49:44.7326825+02:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-02-07T16:50:27.3450232+02:00",
+  "level": "Error",
+  "thread": 19,
+  "memory": 0.0,
+  "error": {
+    "message": "Could not find file '/home/lauri/Documents/curseforge/minecraft/Instances/Voltz (Volts) Community Modpack (WITH OFFICIAL SERVER)/saves/New World/betterquesting/LifeDatabase.json.tmp'.",
+    "type": "System.IO.FileNotFoundException",
+    "stack": [
+      "System.IO.FileSystemInfo.ThrowNotFound(String)",
+      "System.IO.FileSystem.GetAttributes(String)",
+      "Curse.Radium.Minecraft.MinecraftInstanceService.DetermineChangeFileContext(String,String)",
+      "Curse.Radium.Minecraft.MinecraftInstanceService+<>c__DisplayClass38_0.<OnInstanceFileCreated>b__0()",
+      "Curse.Common.Threading.SerialQueue+<>c__DisplayClass3_0.<Enqueue>b__0()",
+      "Curse.Common.Threading.SerialQueue+<>c__DisplayClass4_0`1.<Enqueue>b__0(Task)",
+      "System.Threading.Tasks.ContinuationResultTaskFromTask`1.InnerInvoke()",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task&,Thread)",
+      "System.Threading.Tasks.ThreadPoolTaskScheduler.TryExecuteTaskInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskScheduler.TryRunInline(Task,Boolean)",
+      "System.Threading.Tasks.TaskContinuation.InlineIfPossibleOrElseQueue(Task,Boolean)",
+      "System.Threading.Tasks.ContinueWithTaskContinuation.Run(Task,Boolean)",
+      "System.Threading.Tasks.Task.ContinueWithCore(Task,TaskScheduler,CancellationToken,TaskContinuationOptions)",
+      "System.Threading.Tasks.Task.ContinueWith[TResult](Func`2,TaskScheduler,CancellationToken,TaskContinuationOptions)",
+      "System.Threading.Tasks.Task.ContinueWith[TResult](Func`2,TaskContinuationOptions)",
+      "Curse.Common.Threading.SerialQueue.Enqueue[T](Func`1)",
+      "Curse.Common.Threading.SerialQueue.Enqueue(Action)",
+      "Curse.Radium.Minecraft.MinecraftInstanceService+<OnInstanceFileCreated>d__38.MoveNext()",
+      "System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine&)",
+      "Curse.Radium.Minecraft.MinecraftInstanceService.OnInstanceFileCreated(Object,FileSystemEventArgs)",
+      "System.IO.FileSystemWatcher.NotifyFileSystemEventArgs(WatcherChangeTypes,ReadOnlySpan`1)",
+      "System.IO.FileSystemWatcher+RunningInstance.ProcessEvents()",
+      "System.IO.FileSystemWatcher+RunningInstance+<>c.<Start>b__14_0(Object)",
+      "System.Threading.Thread+StartHelper.RunWorker()",
+      "System.Threading.Thread+StartHelper.Callback(Object)",
+      "System.Threading.ExecutionContext.RunInternal(ExecutionContext,ContextCallback,Object)",
+      "System.Threading.Thread+StartHelper.Run()",
+      "System.Threading.Thread.StartCallback()"
+    ]
+  }
+},
+{
+  "timestamp": "2024-02-07T16:50:43.3592972+02:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Curse Mods Agent is shutting down"
+},
+{
+  "timestamp": "2024-02-07T16:50:43.3594277+02:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Shutting down periodic tasks"
+},
+{
+  "timestamp": "2024-02-07T16:50:43.3595488+02:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Disabling periodic timers"
+},
+{
+  "timestamp": "2024-02-07T16:50:43.3621968+02:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2024-02-07T16:50:43.3622464+02:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2024-02-07T16:50:43.3622476+02:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2024-02-07T16:50:43.3623232+02:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Shutdown game instances."
+},
+{
+  "timestamp": "2024-02-07T16:50:43.3629925+02:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2024-02-07T16:50:47.5831019+02:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 4220ms"
+},
+{
+  "timestamp": "2024-02-07T16:50:47.5835122+02:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2024-02-07T16:50:47.6927812+02:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Web Socket session disconnected"
+},
+{
+  "timestamp": "2024-02-07T16:50:47.6941873+02:00",
+  "level": "Warn",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Client disconnected from server"
+},
+{
+  "timestamp": "2024-02-07T16:50:47.6585096+02:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 74ms"
+},
+{
+  "timestamp": "2024-02-07T16:50:47.6727612+02:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Received a shutdown command. Shutting down..."
+},
+{
+  "timestamp": "2024-02-07T16:50:47.6769155+02:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Shutting down the logger"
+},
+{
+  "timestamp": "2024-02-07T16:50:47.7584393+02:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Logging worker finished"
+}
+]}

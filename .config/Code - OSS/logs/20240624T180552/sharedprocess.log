@@ -1,0 +1,44 @@
+2024-06-24 18:40:40.340 [info] Getting Manifest... rust-lang.rust
+2024-06-24 18:40:40.588 [info] Installing extension: rust-lang.rust vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-24 18:40:41.515 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-24 18:40:41.515 [info] Extension signature verification is not done: rust-lang.rust
+2024-06-24 18:40:41.568 [info] Extracted extension to file:///home/lauri/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal: rust-lang.rust
+2024-06-24 18:40:41.615 [info] Renamed to /home/lauri/.vscode-oss/extensions/rust-lang.rust-0.7.8-universal
+2024-06-24 18:40:41.704 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-24 18:40:41.707 [info] Extension installed successfully: rust-lang.rust vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-24 18:53:09.304 [info] Getting Manifest... rust-lang.rust-analyzer
+2024-06-24 18:53:09.913 [info] Installing extension: rust-lang.rust-analyzer vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-24 18:53:13.377 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-24 18:53:13.377 [info] Extension signature verification is not done: rust-lang.rust-analyzer
+2024-06-24 18:53:13.655 [info] Extracted extension to file:///home/lauri/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.2002-linux-x64: rust-lang.rust-analyzer
+2024-06-24 18:53:13.693 [info] Renamed to /home/lauri/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.2002-linux-x64
+2024-06-24 18:53:13.786 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-24 18:53:13.791 [info] Extension installed successfully: rust-lang.rust-analyzer vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-24 18:53:21.074 [info] Uninstalling extension from the profile: rust-lang.rust@0.7.8 vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-24 18:53:21.132 [info] Marked extension as uninstalled rust-lang.rust-0.7.8-universal
+2024-06-24 18:53:21.161 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-24 18:53:21.302 [info] Successfully uninstalled extension from the profile rust-lang.rust@0.7.8 vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json

@@ -1,0 +1,6 @@
+2024/10/08-15:53:17.109 7f4 Reusing MANIFEST /home/lauri/.config/whatsdesk/Local Storage/leveldb/MANIFEST-000001
+2024/10/08-15:53:17.138 7f4 Recovering log #3
+2024/10/08-15:53:18.408 7f4 Reusing old log /home/lauri/.config/whatsdesk/Local Storage/leveldb/000003.log 
+2024/10/08-15:55:26.280 1722 Level-0 table #5: started
+2024/10/08-15:55:26.527 1722 Level-0 table #5: 16718 bytes OK
+2024/10/08-15:55:26.661 1722 Delete type=0 #3

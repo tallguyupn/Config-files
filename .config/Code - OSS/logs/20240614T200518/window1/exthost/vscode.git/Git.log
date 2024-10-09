@@ -1,0 +1,40 @@
+2024-06-14 20:05:41.100 [info] Log level: Info
+2024-06-14 20:05:41.100 [info] Validating found git in: "git"
+2024-06-14 20:05:41.100 [info] Using git "2.45.2" from "git"
+2024-06-14 20:05:55.096 [info] Log level: Info
+2024-06-14 20:05:55.096 [info] Validating found git in: "git"
+2024-06-14 20:05:55.096 [info] Using git "2.45.2" from "git"
+2024-06-14 20:06:53.454 [info] Log level: Info
+2024-06-14 20:06:53.454 [info] Validating found git in: "git"
+2024-06-14 20:06:53.454 [info] Using git "2.45.2" from "git"
+2024-06-14 20:06:53.454 [info] > git rev-parse --show-toplevel [14ms]
+2024-06-14 20:06:53.465 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2024-06-14 20:06:53.473 [info] Open repository: /home/lauri/FlaxEngine
+2024-06-14 20:06:53.492 [info] > git rev-parse --show-toplevel [9ms]
+2024-06-14 20:06:53.493 [info] > git config --get commit.template [14ms]
+2024-06-14 20:06:53.534 [info] > git rev-parse --show-toplevel [35ms]
+2024-06-14 20:06:53.642 [info] > git rev-parse --show-toplevel [8ms]
+2024-06-14 20:06:53.646 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-14 20:06:53.650 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-14 20:06:53.654 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-14 20:06:53.658 [info] > git rev-parse --show-toplevel [0ms]
+2024-06-14 20:06:53.660 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [152ms]
+2024-06-14 20:06:53.663 [warning] ENOENT: no such file or directory, open '/home/lauri/FlaxEngine/.git/refs/remotes/origin/master'
+2024-06-14 20:06:53.664 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-06-14 20:06:54.003 [info] > git check-ignore -v -z --stdin [4ms]
+2024-06-14 20:06:54.597 [info] > git status -z -uall [929ms]
+2024-06-14 20:06:54.609 [info] > git merge-base refs/heads/master refs/remotes/origin/master [7ms]
+2024-06-14 20:06:54.624 [info] > git config --get commit.template [14ms]
+2024-06-14 20:06:54.624 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [1ms]
+2024-06-14 20:06:54.657 [info] > git diff --name-status -z --diff-filter=ADMR f52059522b524daddb1ad2659647d41db8ff2496...refs/remotes/origin/master [30ms]
+2024-06-14 20:06:54.659 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-06-14 20:06:54.663 [warning] ENOENT: no such file or directory, open '/home/lauri/FlaxEngine/.git/refs/remotes/origin/master'
+2024-06-14 20:06:54.664 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-06-14 20:06:54.862 [info] > git status -z -uall [195ms]
+2024-06-14 20:07:16.423 [info] > git check-ignore -v -z --stdin [2ms]
+2024-06-14 20:07:17.917 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-14 20:07:19.502 [info] > git check-ignore -v -z --stdin [2ms]
+2024-06-14 20:07:23.871 [info] > git check-ignore -v -z --stdin [2ms]
+2024-06-14 20:07:27.364 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-14 20:07:29.217 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-14 20:07:30.189 [info] > git check-ignore -v -z --stdin [1ms]

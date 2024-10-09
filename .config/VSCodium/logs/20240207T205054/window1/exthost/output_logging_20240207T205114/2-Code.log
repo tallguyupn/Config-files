@@ -1,0 +1,7 @@
+[Running] cd "/home/lauri/Desktop/c++/" && g++ main.cpp -o main && "/home/lauri/Desktop/c++/"main
+/usr/bin/ld: /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+
+[Done] exited with code=1 in 0.817 seconds
+

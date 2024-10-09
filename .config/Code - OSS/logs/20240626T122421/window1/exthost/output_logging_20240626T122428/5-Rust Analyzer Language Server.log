@@ -1,0 +1,5 @@
+2024-06-26T09:24:43.344334Z ERROR rust_analyzer::config: failed to find any projects in [AbsPathBuf("/home/lauri/Desktop/coding")]
+2024-06-26T09:24:43.380380Z ERROR rust_analyzer::main_loop: FetchWorkspaceError:
+rust-analyzer failed to discover workspace
+2024-06-26T09:24:43.381647Z ERROR rust_analyzer::main_loop: FetchWorkspaceError:
+rust-analyzer failed to discover workspace

@@ -1,0 +1,29 @@
+[General]
+LastUsedVersion=210800
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Desktop/memes/_107187256_p07bxgvc.jpg
+File2[$e]=$HOME/Desktop/wholesome ;3/RDT_20231231_2253503374519666225866704.jpg
+File3[$e]=$HOME/Desktop/wholesome ;3/RDT_20231231_2257507764331431116080748.jpg
+File4[$e]=$HOME/Desktop/wholesome ;3/RDT_20231229_2255385772694763321387898.jpg
+File5[$e]=$HOME/Desktop/wholesome ;3/RDT_20231231_2256039218542970633427400.jpg
+File6[$e]=$HOME/Desktop/turri kuvat/RDT_20240319_2159191432954736897275378.jpg
+File7[$e]=$HOME/Desktop/memes/Screenshot_2024-03-04-16-00-49-340_com.reddit.frontpage-edit.jpg
+File8[$e]=$HOME/Desktop/memes/Screenshot_2024-01-06-23-54-24-082_app.rvx.android.youtube.jpg
+File9[$e]=$HOME/Desktop/memes/RDT_20240404_1112165123816450182603683.jpg
+Name1[$e]=_107187256_p07bxgvc.jpg
+Name2[$e]=RDT_20231231_2253503374519666225866704.jpg
+Name3[$e]=RDT_20231231_2257507764331431116080748.jpg
+Name4[$e]=RDT_20231229_2255385772694763321387898.jpg
+Name5[$e]=RDT_20231231_2256039218542970633427400.jpg
+Name6[$e]=RDT_20240319_2159191432954736897275378.jpg
+Name7[$e]=Screenshot_2024-03-04-16-00-49-340_com.reddit.frontpage-edit.jpg
+Name8[$e]=Screenshot_2024-01-06-23-54-24-082_app.rvx.android.youtube.jpg
+Name9[$e]=RDT_20240404_1112165123816450182603683.jpg
+
+[SideBar]
+InformationSplitterSizes=231,236

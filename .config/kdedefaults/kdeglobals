@@ -1,0 +1,9 @@
+[General]
+ColorScheme=BreezeDark
+TerminalApplication=alacritty
+
+[Icons]
+Theme=breeze-dark
+
+[KDE]
+widgetStyle=Breeze

@@ -1,0 +1,51 @@
+2024-06-20 15:03:28.858 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1002
+2024-06-20 15:04:53.399 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1003
+2024-06-20 15:05:39.013 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1004
+2024-06-20 15:07:22.937 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1005
+2024-06-20 15:08:53.421 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1006
+2024-06-20 15:09:02.492 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1007
+2024-06-20 15:10:37.755 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1008
+2024-06-20 15:10:54.173 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1009
+2024-06-20 15:11:35.638 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1010
+2024-06-20 15:11:44.659 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1012
+2024-06-20 15:11:44.660 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1011
+2024-06-20 15:11:57.908 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1013
+2024-06-20 15:16:02.985 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1014
+2024-06-20 15:16:38.753 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1015
+2024-06-20 15:18:47.834 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1016
+2024-06-20 15:18:47.870 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1017
+2024-06-20 15:18:59.027 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1018
+2024-06-20 15:19:48.963 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1019
+2024-06-20 15:20:05.391 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1020
+2024-06-20 15:20:05.432 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1021
+2024-06-20 15:20:18.135 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1022
+2024-06-20 15:20:24.990 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1023
+2024-06-20 15:20:25.031 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1024
+2024-06-20 15:20:25.468 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1023
+2024-06-20 15:20:25.933 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1025
+2024-06-20 15:20:25.976 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1026
+2024-06-20 15:20:26.066 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1025
+2024-06-20 15:20:26.108 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1026
+2024-06-20 15:20:26.424 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1027
+2024-06-20 15:20:26.464 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1028
+2024-06-20 15:20:26.780 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1029
+2024-06-20 15:20:26.824 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1030
+2024-06-20 15:20:26.990 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1029
+2024-06-20 15:20:27.705 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1031
+2024-06-20 15:20:27.751 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1032
+2024-06-20 15:20:28.034 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1031
+2024-06-20 15:20:42.688 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1033
+2024-06-20 15:28:34.620 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1034
+2024-06-20 15:28:34.665 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1035
+2024-06-20 15:33:40.439 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1036
+2024-06-20 15:34:53.975 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1037
+2024-06-20 15:35:12.170 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1038
+2024-06-20 15:35:38.737 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1039
+2024-06-20 15:36:01.438 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1040
+2024-06-20 15:36:13.020 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1041
+2024-06-20 15:36:27.987 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1042
+2024-06-20 15:36:40.321 [warning] ViewportManager: Unable to update scrolled view. No grid for winId: 1043
+2024-06-20 15:37:03.003 [warning] DocumentChangeManager: Can't get last known neovim content for vscode-userdata:/home/lauri/.config/Code%20-%20OSS/User/settings.json, skipping
+2024-06-20 15:37:03.003 [warning] DocumentChangeManager: Can't get last known neovim content for vscode-userdata:/home/lauri/.config/Code%20-%20OSS/User/settings.json, skipping
+2024-06-20 15:37:03.051 [warning] DocumentChangeManager: Can't get last known neovim content for vscode-userdata:/home/lauri/.config/Code%20-%20OSS/User/settings.json, skipping
+2024-06-20 15:37:03.051 [warning] DocumentChangeManager: Can't get last known neovim content for vscode-userdata:/home/lauri/.config/Code%20-%20OSS/User/settings.json, skipping

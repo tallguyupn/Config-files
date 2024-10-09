@@ -1,0 +1,17 @@
+{
+    "name": "funny",
+    "type": 3,
+    "author": "",
+    "icon": "img/effects/sequence.svg",
+    "summary": "",
+    "map_device": "Razer BlackWidow V3",
+    "map_device_icon": "keyboard",
+    "map_graphic": "blackwidow_v3_en_US.svg",
+    "map_cols": 22,
+    "map_rows": 6,
+    "save_format": 8,
+    "revision": 1,
+    "fps": 10,
+    "loop": true,
+    "frames": []
+}

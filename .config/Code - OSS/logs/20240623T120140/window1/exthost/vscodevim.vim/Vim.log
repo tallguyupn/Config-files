@@ -1,0 +1,11 @@
+2024-06-23 12:01:51.549 [info] Active editor: file:///home/lauri/Desktop/coding/website/index.html
+2024-06-23 12:01:56.249 [info] /home/lauri/Desktop/coding/website/index.html closed
+2024-06-23 12:02:01.253 [info] Active editor: file:///home/lauri/Desktop/coding/c%2B%2B/tic-tac-toe.cpp
+2024-06-23 12:02:01.893 [info] /home/lauri/Desktop/coding/c++/tic-tac-toe.cpp closed
+2024-06-23 12:02:05.280 [info] Active editor: file:///home/lauri/Desktop/coding/c%2B%2B/tic-tac-toe.cpp
+2024-06-23 12:02:50.276 [info] /home/lauri/Desktop/coding/c++/tic-tac-toe.cpp closed
+2024-06-23 12:03:18.984 [info] Active editor: file:///home/lauri/Desktop/coding/c%2B%2B/tic-tac-toe.cpp
+2024-06-23 12:08:30.021 [info] Executing :q
+2024-06-23 12:08:30.037 [info] /home/lauri/Desktop/coding/c++/tic-tac-toe.cpp closed
+2024-06-23 12:08:30.038 [warning] getLineLength() called with out-of-bounds line 14
+2024-06-23 12:08:30.038 [warning] getLineLength() called with out-of-bounds line 14

@@ -1,0 +1,16 @@
+[Running] cd "/home/lauri/Desktop/coding/c++/" && g++ tic-tac-toe.cpp -o tic-tac-toe && "/home/lauri/Desktop/coding/c++/"tic-tac-toe
+tic-tac-toe.cpp: In function ‘void tutorial()’:
+tic-tac-toe.cpp:20:1: error: expected primary-expression before ‘}’ token
+   20 | }
+      | ^
+
+[Done] exited with code=1 in 1.906 seconds
+
+[Running] cd "/home/lauri/Desktop/coding/c++/" && g++ tic-tac-toe.cpp -o tic-tac-toe && "/home/lauri/Desktop/coding/c++/"tic-tac-toe
+**********TIC-TAC-TOE**********
+Welcome to tic-tac-toe
+ Please select a gamemode or a tutorial
+1. play the game
+2. see the tutorial
+3. quit
+Enter your choice: 

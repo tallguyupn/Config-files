@@ -1,0 +1,56 @@
+2024-06-24 14:18:28.087 [info] Active editor: file:///home/lauri/Desktop/coding/website/index.html
+2024-06-24 14:24:06.615 [info] Executing :w
+2024-06-24 14:27:37.972 [info] Executing :w
+2024-06-24 14:31:30.413 [info] Executing :w
+2024-06-24 14:32:21.307 [info] Executing :w
+2024-06-24 14:32:52.343 [info] Executing :w
+2024-06-24 14:35:27.792 [info] Executing :w
+2024-06-24 14:35:45.864 [warning] Transformations overlapping: [{"type":"replaceText","range":[{"line":12,"character":23},{"line":12,"character":34}],"text":"10_A_strife","cursorIndex":0},{"type":"replaceText","range":[{"line":12,"character":23},{"line":12,"character":34}],"text":"10_A_strife","cursorIndex":0}]
+2024-06-24 14:36:06.341 [info] Executing :w
+2024-06-24 14:36:35.024 [info] Executing :w
+2024-06-24 14:36:49.453 [info] Executing :w
+2024-06-24 14:39:37.325 [info] Executing :w
+2024-06-24 14:40:24.389 [info] Executing :w
+2024-06-24 14:40:53.989 [info] Executing :w
+2024-06-24 14:42:02.040 [info] Executing :w
+2024-06-24 14:42:17.931 [info] /home/lauri/.config/Code - OSS/User/settings.json closed
+2024-06-24 14:42:17.939 [info] Configuration changed
+2024-06-24 14:42:18.020 [info] /home/lauri/.config/Code - OSS/User/settings.json closed
+2024-06-24 14:42:18.036 [info] Configuration changed
+2024-06-24 14:42:18.187 [info] /home/lauri/.config/Code - OSS/User/settings.json closed
+2024-06-24 14:42:18.203 [info] Configuration changed
+2024-06-24 14:42:53.441 [info] Executing :w
+2024-06-24 14:44:04.241 [info] Executing :w
+2024-06-24 14:44:37.646 [info] Executing :w
+2024-06-24 14:50:29.847 [info] Executing :w
+2024-06-24 14:51:30.310 [info] Executing :w
+2024-06-24 14:51:41.971 [info] Executing :w
+2024-06-24 14:51:57.887 [info] Executing :w
+2024-06-24 14:52:37.943 [info] Executing :w
+2024-06-24 14:54:46.489 [info] Executing :w
+2024-06-24 14:59:08.811 [info] Active editor: file:///home/lauri/Desktop/coding/website/index.html
+2024-06-24 15:01:11.137 [info] Executing :w
+2024-06-24 15:02:24.490 [info] Executing :'<,'>w
+2024-06-24 15:02:26.622 [info] Executing :w
+2024-06-24 15:02:37.660 [info] Executing :w
+2024-06-24 15:04:16.536 [info] Executing :w
+2024-06-24 15:05:13.096 [info] Active editor: file:///home/lauri/Desktop/coding/website/form.html
+2024-06-24 15:06:22.915 [info] Active editor: file:///home/lauri/Desktop/coding/c%2B%2B/tic-tac-toe.cpp
+2024-06-24 15:08:31.611 [info] Executing :w
+2024-06-24 15:08:36.728 [info] Active editor: output:extension-output-formulahendry.code-runner-%231-Code
+2024-06-24 15:09:05.240 [info] /home/lauri/Desktop/coding/website/form.html closed
+2024-06-24 15:09:05.258 [info] Active editor: file:///home/lauri/Desktop/coding/c%2B%2B/list.cpp
+2024-06-24 15:09:07.530 [info] /home/lauri/Desktop/coding/c++/list.cpp closed
+2024-06-24 15:09:07.541 [info] Active editor: file:///home/lauri/Desktop/coding/c%2B%2B/calculator.cpp
+2024-06-24 15:09:10.959 [info] /home/lauri/Desktop/coding/c++/calculator.cpp closed
+2024-06-24 15:09:10.969 [info] Active editor: file:///home/lauri/Desktop/coding/c%2B%2B/graphics.h
+2024-06-24 15:09:12.296 [info] /home/lauri/Desktop/coding/c++/graphics.h closed
+2024-06-24 15:09:12.306 [info] Active editor: file:///home/lauri/Desktop/coding/c%2B%2B/list.cpp
+2024-06-24 15:09:13.477 [info] /home/lauri/Desktop/coding/c++/list.cpp closed
+2024-06-24 15:09:13.487 [info] Active editor: file:///home/lauri/Desktop/coding/c%2B%2B/mbr-fucker.cpp
+2024-06-24 15:09:15.864 [info] Active editor: file:///home/lauri/Desktop/coding/c%2B%2B/tic-tac-toe.cpp
+2024-06-24 15:09:22.358 [info] Executing :w
+2024-06-24 15:09:43.395 [info] Active editor: output:extension-output-formulahendry.code-runner-%231-Code
+2024-06-24 15:09:59.783 [info] /home/lauri/Desktop/coding/c++/mbr-fucker.cpp closed
+2024-06-24 15:09:59.795 [info] Active editor: file:///home/lauri/Desktop/coding/c%2B%2B/graphics.h
+2024-06-24 15:11:08.725 [info] Active editor: file:///home/lauri/Desktop/coding/c%2B%2B/tic-tac-toe.cpp

@@ -1,0 +1,5 @@
+# PSM Certificate Override Settings file
+# This is a generated file!  Do not edit.
+dna.wifi:443:	OID.2.16.840.1.101.3.4.2.1	72:2F:E2:2C:DB:AE:32:62:E9:7E:2E:BE:0E:0A:AA:6A:58:A3:BF:AC:0E:DF:36:09:67:A6:C9:D7:80:6D:36:C7	
+alphacephei.com:443:	OID.2.16.840.1.101.3.4.2.1	1D:B5:12:63:46:A3:6A:26:CA:26:D3:27:91:3A:87:F8:E0:87:7C:00:FF:2A:C3:2B:21:49:B3:61:F2:FB:DC:89	
+phobosxilamwcg75xt22id7aywkzol6q6rfl2flipcqoc4e4ahima5id.onion.pet:443:	OID.2.16.840.1.101.3.4.2.1	E9:7B:34:0F:8D:5F:E9:7F:46:DE:52:D4:23:0F:12:6B:C6:99:BD:9E:52:75:3F:1C:B1:4B:60:3F:20:BA:CA:EA	

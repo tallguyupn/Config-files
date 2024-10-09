@@ -1,0 +1,62 @@
+2024-06-24 18:06:12.131 [info] /home/lauri/Desktop/coding/c++/tic-tac-toe.cpp closed
+2024-06-24 18:06:14.063 [info] Active editor: file:///home/lauri/Desktop/coding/website/index.html
+2024-06-24 18:10:33.056 [info] Executing :w
+2024-06-24 18:11:08.577 [info] Executing :w
+2024-06-24 18:11:40.020 [info] Executing :w
+2024-06-24 18:12:30.038 [info] extension-output-formulahendry.code-runner-#1-Code closed
+2024-06-24 18:12:53.559 [info] Executing :w
+2024-06-24 18:16:44.305 [info] Executing :w
+2024-06-24 18:18:41.933 [info] Executing :w
+2024-06-24 18:21:22.950 [info] Executing :w
+2024-06-24 18:23:14.800 [info] Executing :w
+2024-06-24 18:23:18.194 [info] Active editor: file:///home/lauri/Desktop/coding/website/form.html
+2024-06-24 18:23:20.228 [info] Active editor: file:///home/lauri/Desktop/coding/website/index.html
+2024-06-24 18:24:10.499 [info] /home/lauri/Desktop/coding/website/form.html closed
+2024-06-24 18:24:15.030 [info] Active editor: file:///home/lauri/Desktop/coding/website/index.html
+2024-06-24 18:24:44.932 [info] Executing :w
+2024-06-24 18:25:17.816 [info] Executing :w
+2024-06-24 18:27:38.561 [info] Executing :w
+2024-06-24 18:28:05.935 [info] Executing :q
+2024-06-24 18:28:05.985 [info] /home/lauri/Desktop/coding/website/index.html closed
+2024-06-24 18:28:05.986 [warning] getLineLength() called with out-of-bounds line 58
+2024-06-24 18:28:05.986 [warning] invalid cursor position. [[58, 3] | [58, 3]].
+2024-06-24 18:40:41.755 [info] Configuration changed
+2024-06-24 18:41:43.790 [info] Active editor: file:///home/lauri/Desktop/coding/rust/main.rs
+2024-06-24 18:42:30.756 [info] Executing :w
+2024-06-24 18:44:10.442 [info] Executing :w
+2024-06-24 18:44:14.694 [info] Active editor: output:extension-output-formulahendry.code-runner-%231-Code
+2024-06-24 18:44:25.892 [info] Active editor: file:///home/lauri/Desktop/coding/rust/main.rs
+2024-06-24 18:45:21.287 [info] Executing :w
+2024-06-24 18:45:27.787 [info] Active editor: output:extension-output-formulahendry.code-runner-%231-Code
+2024-06-24 18:45:29.772 [info] Active editor: file:///home/lauri/Desktop/coding/rust/main.rs
+2024-06-24 18:45:32.892 [info] Executing :w
+2024-06-24 18:49:56.093 [info] Executing :w
+2024-06-24 18:50:44.591 [info] Executing :w
+2024-06-24 18:51:24.078 [info] Executing :w
+2024-06-24 18:51:26.375 [info] Active editor: output:extension-output-formulahendry.code-runner-%231-Code
+2024-06-24 18:51:33.743 [info] Active editor: file:///home/lauri/Desktop/coding/rust/main.rs
+2024-06-24 18:51:52.657 [info] Executing :w
+2024-06-24 18:51:57.973 [info] Active editor: output:extension-output-formulahendry.code-runner-%231-Code
+2024-06-24 18:53:00.264 [info] Active editor: file:///home/lauri/Desktop/coding/rust/main.rs
+2024-06-24 18:53:13.834 [info] Configuration changed
+2024-06-24 18:53:52.043 [info] Active editor: file:///home/lauri/Desktop/coding/rust/main.rs
+2024-06-24 18:53:54.229 [info] Active editor: file:///home/lauri/Desktop/coding/rust/main.rs
+2024-06-24 18:54:45.287 [info] Executing :w
+2024-06-24 18:54:53.222 [info] Executing :w
+2024-06-24 18:55:06.813 [info] extension-output-formulahendry.code-runner-#1-Code closed
+2024-06-24 18:56:59.024 [info] Executing :w
+2024-06-24 18:59:24.214 [info] extension-output-formulahendry.code-runner-#1-Code closed
+2024-06-24 19:00:09.105 [info] Executing :w
+2024-06-24 19:00:26.357 [info] Executing :w
+2024-06-24 19:02:19.140 [info] Executing :w
+2024-06-24 19:03:01.739 [info] /home/lauri/.config/Code - OSS/User/settings.json closed
+2024-06-24 19:03:01.746 [info] Configuration changed
+2024-06-24 19:03:01.846 [info] /home/lauri/.config/Code - OSS/User/settings.json closed
+2024-06-24 19:03:01.858 [info] Configuration changed
+2024-06-24 19:03:01.972 [info] /home/lauri/.config/Code - OSS/User/settings.json closed
+2024-06-24 19:03:01.989 [info] Configuration changed
+2024-06-24 19:05:44.924 [info] Executing :q
+2024-06-24 19:05:46.259 [info] Executing :q
+2024-06-24 19:05:49.041 [info] Executing :q!
+2024-06-24 19:05:49.099 [info] /home/lauri/Desktop/coding/rust/main.rs closed
+2024-06-24 19:05:49.099 [warning] invalid cursor position. [[5, 0] | [5, 0]].

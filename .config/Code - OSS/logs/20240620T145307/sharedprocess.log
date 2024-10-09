@@ -1,0 +1,166 @@
+2024-06-20 14:53:09.030 [info] Deleted uninstalled extension from disk asvetliakov.vscode-neovim /home/lauri/.vscode-oss/extensions/asvetliakov.vscode-neovim-1.17.0-universal
+2024-06-20 14:54:14.145 [info] Getting Manifest... gydunhn.javascript-essentials
+2024-06-20 14:54:14.340 [info] Installing extension: gydunhn.javascript-essentials vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 14:54:14.548 [info] Getting Manifest... christian-kohler.npm-intellisense
+2024-06-20 14:54:14.787 [info] Getting Manifest... christian-kohler.path-intellisense
+2024-06-20 14:54:15.009 [info] Getting Manifest... dbaeumer.vscode-eslint
+2024-06-20 14:54:15.241 [info] Getting Manifest... tombonnike.vscode-status-bar-format-toggle
+2024-06-20 14:54:15.534 [info] Getting Manifest... xabikos.javascriptsnippets
+2024-06-20 14:54:15.762 [info] Getting Manifest... firefox-devtools.vscode-firefox-debug
+2024-06-20 14:54:16.089 [info] Installing extension: christian-kohler.npm-intellisense vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 14:54:16.089 [info] Installing extension: christian-kohler.path-intellisense vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 14:54:16.089 [info] Installing extension: dbaeumer.vscode-eslint vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 14:54:16.089 [info] Installing extension: tombonnike.vscode-status-bar-format-toggle vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 14:54:16.089 [info] Installing extension: xabikos.javascriptsnippets vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 14:54:16.089 [info] Installing extension: firefox-devtools.vscode-firefox-debug vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 14:54:17.021 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-20 14:54:17.021 [info] Extension signature verification is not done: gydunhn.javascript-essentials
+2024-06-20 14:54:17.022 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-20 14:54:17.022 [info] Extension signature verification is not done: tombonnike.vscode-status-bar-format-toggle
+2024-06-20 14:54:17.082 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-20 14:54:17.082 [info] Extension signature verification is not done: christian-kohler.path-intellisense
+2024-06-20 14:54:17.083 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-20 14:54:17.083 [info] Extension signature verification is not done: xabikos.javascriptsnippets
+2024-06-20 14:54:17.095 [info] Extracted extension to file:///home/lauri/.vscode-oss/extensions/gydunhn.javascript-essentials-0.1.1-universal: gydunhn.javascript-essentials
+2024-06-20 14:54:17.099 [info] Extracted extension to file:///home/lauri/.vscode-oss/extensions/xabikos.javascriptsnippets-1.8.0-universal: xabikos.javascriptsnippets
+2024-06-20 14:54:17.104 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-20 14:54:17.105 [info] Extension signature verification is not done: dbaeumer.vscode-eslint
+2024-06-20 14:54:17.105 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-20 14:54:17.105 [info] Extension signature verification is not done: firefox-devtools.vscode-firefox-debug
+2024-06-20 14:54:17.107 [info] Extracted extension to file:///home/lauri/.vscode-oss/extensions/tombonnike.vscode-status-bar-format-toggle-3.2.0-universal: tombonnike.vscode-status-bar-format-toggle
+2024-06-20 14:54:17.189 [info] Extracted extension to file:///home/lauri/.vscode-oss/extensions/dbaeumer.vscode-eslint-3.0.10-universal: dbaeumer.vscode-eslint
+2024-06-20 14:54:17.214 [info] Extracted extension to file:///home/lauri/.vscode-oss/extensions/firefox-devtools.vscode-firefox-debug-2.9.1-universal: firefox-devtools.vscode-firefox-debug
+2024-06-20 14:54:17.215 [info] Renamed to /home/lauri/.vscode-oss/extensions/gydunhn.javascript-essentials-0.1.1-universal
+2024-06-20 14:54:17.274 [info] Renamed to /home/lauri/.vscode-oss/extensions/xabikos.javascriptsnippets-1.8.0-universal
+2024-06-20 14:54:17.274 [info] Renamed to /home/lauri/.vscode-oss/extensions/tombonnike.vscode-status-bar-format-toggle-3.2.0-universal
+2024-06-20 14:54:17.295 [info] Extracted extension to file:///home/lauri/.vscode-oss/extensions/christian-kohler.path-intellisense-2.8.0-universal: christian-kohler.path-intellisense
+2024-06-20 14:54:17.305 [info] Renamed to /home/lauri/.vscode-oss/extensions/dbaeumer.vscode-eslint-3.0.10-universal
+2024-06-20 14:54:17.305 [info] Renamed to /home/lauri/.vscode-oss/extensions/firefox-devtools.vscode-firefox-debug-2.9.1-universal
+2024-06-20 14:54:17.371 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-20 14:54:17.372 [info] Renamed to /home/lauri/.vscode-oss/extensions/christian-kohler.path-intellisense-2.8.0-universal
+2024-06-20 14:54:17.486 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-20 14:54:17.486 [info] Extension signature verification is not done: christian-kohler.npm-intellisense
+2024-06-20 14:54:17.508 [info] Extracted extension to file:///home/lauri/.vscode-oss/extensions/christian-kohler.npm-intellisense-1.4.5-universal: christian-kohler.npm-intellisense
+2024-06-20 14:54:17.582 [info] Renamed to /home/lauri/.vscode-oss/extensions/christian-kohler.npm-intellisense-1.4.5-universal
+2024-06-20 14:54:17.876 [info] Extension installed successfully: gydunhn.javascript-essentials vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 14:54:17.876 [info] Extension installed successfully: xabikos.javascriptsnippets vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 14:54:17.876 [info] Extension installed successfully: tombonnike.vscode-status-bar-format-toggle vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 14:54:17.877 [info] Extension installed successfully: dbaeumer.vscode-eslint vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 14:54:17.877 [info] Extension installed successfully: firefox-devtools.vscode-firefox-debug vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 14:54:17.877 [info] Extension installed successfully: christian-kohler.path-intellisense vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 14:54:17.877 [info] Extension installed successfully: christian-kohler.npm-intellisense vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 14:54:29.840 [info] Getting Manifest... abusaidm.html-snippets
+2024-06-20 14:54:30.017 [info] Installing extension: abusaidm.html-snippets vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 14:54:30.732 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-20 14:54:30.732 [info] Extension signature verification is not done: abusaidm.html-snippets
+2024-06-20 14:54:30.739 [info] Extracted extension to file:///home/lauri/.vscode-oss/extensions/abusaidm.html-snippets-0.2.1-universal: abusaidm.html-snippets
+2024-06-20 14:54:30.765 [info] Renamed to /home/lauri/.vscode-oss/extensions/abusaidm.html-snippets-0.2.1-universal
+2024-06-20 14:54:30.856 [info] Extension installed successfully: abusaidm.html-snippets vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 14:54:30.858 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-20 15:02:43.602 [info] Getting Manifest... yandeu.five-server
+2024-06-20 15:02:43.745 [info] Installing extension: yandeu.five-server vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 15:02:44.823 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-20 15:02:44.823 [info] Extension signature verification is not done: yandeu.five-server
+2024-06-20 15:02:44.909 [info] Extracted extension to file:///home/lauri/.vscode-oss/extensions/yandeu.five-server-0.3.1-universal: yandeu.five-server
+2024-06-20 15:02:44.957 [info] Renamed to /home/lauri/.vscode-oss/extensions/yandeu.five-server-0.3.1-universal
+2024-06-20 15:02:45.008 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-20 15:02:45.038 [info] Extension installed successfully: yandeu.five-server vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 15:02:49.501 [info] Uninstalling extension from the profile: yandeu.five-server@0.3.1 vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 15:02:49.562 [info] Marked extension as uninstalled yandeu.five-server-0.3.1-universal
+2024-06-20 15:02:49.586 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-20 15:02:49.714 [info] Successfully uninstalled extension from the profile yandeu.five-server@0.3.1 vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 15:02:51.599 [info] Getting Manifest... ritwickdey.liveserver
+2024-06-20 15:02:51.773 [info] Installing extension: ritwickdey.liveserver vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 15:02:53.537 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-20 15:02:53.537 [info] Extension signature verification is not done: ritwickdey.liveserver
+2024-06-20 15:02:55.063 [info] Extracted extension to file:///home/lauri/.vscode-oss/extensions/ritwickdey.liveserver-5.7.9-universal: ritwickdey.liveserver
+2024-06-20 15:02:55.153 [info] Renamed to /home/lauri/.vscode-oss/extensions/ritwickdey.liveserver-5.7.9-universal
+2024-06-20 15:02:55.239 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-20 15:02:55.246 [info] Extension installed successfully: ritwickdey.liveserver vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 15:04:44.676 [info] Getting Manifest... vscodevim.vim
+2024-06-20 15:04:44.831 [info] Installing extension: vscodevim.vim vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 15:04:45.668 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-20 15:04:45.668 [info] Extension signature verification is not done: vscodevim.vim
+2024-06-20 15:04:45.689 [info] Extracted extension to file:///home/lauri/.vscode-oss/extensions/vscodevim.vim-1.27.2-universal: vscodevim.vim
+2024-06-20 15:04:45.743 [info] Renamed to /home/lauri/.vscode-oss/extensions/vscodevim.vim-1.27.2-universal
+2024-06-20 15:04:45.824 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-20 15:04:45.833 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 15:05:06.152 [info] Uninstalling extension from the profile: asvetliakov.vscode-neovim@1.17.2 vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-06-20 15:05:06.236 [info] Marked extension as uninstalled asvetliakov.vscode-neovim-1.17.2-universal
+2024-06-20 15:05:06.237 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-20 15:05:06.431 [info] Successfully uninstalled extension from the profile asvetliakov.vscode-neovim@1.17.2 vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
