@@ -9,7 +9,7 @@
     "modules": [
         {
             "type": "custom",
-            "format": "\u001b[36m    Y I F F"
+            "format": "\u001b[36m    Y I F F UwU"
         },
         {
             "type": "custom",
@@ -17,22 +17,22 @@
         },
         {
             "type": "os",
-            "key": "   OS",
+            "key": "   OwO",
             "keyColor": "red"
         },
         {
             "type": "kernel",
-            "key": "   Kernel",
+            "key": "   Kewnel",
             "keyColor": "red"
         },
         {
             "type": "packages",
-            "key": "   Packages",
+            "key": "   Pkgs",
             "keyColor": "green"
         },
         {
             "type": "display",
-            "key": "   Display",
+            "key": "   Dispway",
             "keyColor": "green"
         },
         {
@@ -42,7 +42,7 @@
         },
         {
             "type": "terminal",
-            "key": "   Terminal",
+            "key": "   Tewminal",
             "keyColor": "yellow"
         },
         {
@@ -61,24 +61,24 @@
         {
             "type": "cpu",
             "format": "{1}",
-            "key": "   CPU",
+            "key": "   CPUwU",
             "keyColor": "blue"
         },
         {
             "type": "gpu",
             "format": "{2}",
-            "key": "   GPU",
+            "key": "   GPUwU",
             "keyColor": "blue"
         },
         {
             "type": "gpu",
             "format": "{3}",
-            "key": "   GPU Driver",
+            "key": "   GPUwU Dwivew",
             "keyColor": "magenta"
         },
         {
             "type": "memory",
-            "key": "  ﬙ Memory",
+            "key": "  ﬙ Memowy",
             "keyColor": "magenta"
         },
         {
