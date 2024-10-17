@@ -1,4 +1,5 @@
 [Show]
+Menu-Refresh=false
 compressfileitemaction=true
 extractfileitemaction=true
 forgetfileitemaction=true
@@ -12,5 +13,6 @@ plasmavaultfileitemaction=true
 runInKonsole=true
 setAsWallpaper=true
 sharefileitemaction=true
+slideshowfileitemaction=false
 tagsfileitemaction=true
 wallpaperfileitemaction=true

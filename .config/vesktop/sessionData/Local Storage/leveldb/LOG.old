@@ -1,0 +1,48 @@
+2024/10/16-15:49:14.573 7a2 Reusing MANIFEST /home/lauri/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/10/16-15:49:14.752 7a2 Recovering log #17
+2024/10/16-15:49:14.841 7a2 Reusing old log /home/lauri/.config/vesktop/sessionData/Local Storage/leveldb/000017.log 
+2024/10/16-15:50:19.358 7a3 Level-0 table #22: started
+2024/10/16-15:50:19.402 7a3 Level-0 table #22: 136669 bytes OK
+2024/10/16-15:50:19.433 7a3 Delete type=0 #17
+2024/10/16-15:51:19.357 7a3 Level-0 table #24: started
+2024/10/16-15:51:19.410 7a3 Level-0 table #24: 139963 bytes OK
+2024/10/16-15:51:19.448 7a3 Delete type=0 #21
+2024/10/16-17:46:12.666 7a3 Level-0 table #26: started
+2024/10/16-17:46:12.817 7a3 Level-0 table #26: 19382 bytes OK
+2024/10/16-17:46:12.874 7a3 Delete type=0 #23
+2024/10/16-17:47:46.910 7a3 Level-0 table #28: started
+2024/10/16-17:47:46.950 7a3 Level-0 table #28: 134511 bytes OK
+2024/10/16-17:47:46.986 7a3 Delete type=0 #25
+2024/10/16-17:47:46.986 7a3 Compacting 4@0 + 1@1 files
+2024/10/16-17:47:47.125 7a3 Generated table #29@0: 26 keys, 139154 bytes
+2024/10/16-17:47:47.125 7a3 Compacted 4@0 + 1@1 files => 139154 bytes
+2024/10/16-17:47:47.161 7a3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/10/16-17:47:47.161 7a3 Delete type=2 #22
+2024/10/16-17:47:47.161 7a3 Delete type=2 #28
+2024/10/16-17:47:47.161 7a3 Delete type=2 #19
+2024/10/16-17:47:47.161 7a3 Delete type=2 #26
+2024/10/16-17:47:47.161 7a3 Delete type=2 #24
+2024/10/16-18:42:30.464 7a3 Level-0 table #31: started
+2024/10/16-18:42:30.519 7a3 Level-0 table #31: 19364 bytes OK
+2024/10/16-18:42:30.579 7a3 Delete type=0 #27
+2024/10/16-19:30:43.587 7a3 Level-0 table #33: started
+2024/10/16-19:30:43.642 7a3 Level-0 table #33: 12677 bytes OK
+2024/10/16-19:30:43.712 7a3 Delete type=0 #30
+2024/10/16-19:42:30.467 7a3 Level-0 table #35: started
+2024/10/16-19:42:30.527 7a3 Level-0 table #35: 141839 bytes OK
+2024/10/16-19:42:30.561 7a3 Delete type=0 #32
+2024/10/16-20:23:19.708 7a3 Level-0 table #37: started
+2024/10/16-20:23:19.754 7a3 Level-0 table #37: 16257 bytes OK
+2024/10/16-20:23:19.788 7a3 Delete type=0 #34
+2024/10/16-20:23:19.789 7a3 Compacting 4@0 + 1@1 files
+2024/10/16-20:23:19.863 7a3 Generated table #38@0: 33 keys, 144426 bytes
+2024/10/16-20:23:19.863 7a3 Compacted 4@0 + 1@1 files => 144426 bytes
+2024/10/16-20:23:19.897 7a3 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/10/16-20:23:19.897 7a3 Delete type=2 #35
+2024/10/16-20:23:19.897 7a3 Delete type=2 #33
+2024/10/16-20:23:19.897 7a3 Delete type=2 #29
+2024/10/16-20:23:19.897 7a3 Delete type=2 #37
+2024/10/16-20:23:19.897 7a3 Delete type=2 #31
+2024/10/16-20:43:18.305 7a3 Level-0 table #40: started
+2024/10/16-20:43:18.353 7a3 Level-0 table #40: 137848 bytes OK
+2024/10/16-20:43:18.389 7a3 Delete type=0 #36

@@ -1,0 +1,6 @@
+2024/10/17-15:46:33.445 677 Reusing MANIFEST /home/lauri/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/10/17-15:46:33.607 677 Recovering log #39
+2024/10/17-15:46:34.091 677 Reusing old log /home/lauri/.config/vesktop/sessionData/Local Storage/leveldb/000039.log 
+2024/10/17-16:03:12.213 678 Level-0 table #43: started
+2024/10/17-16:03:12.257 678 Level-0 table #43: 145222 bytes OK
+2024/10/17-16:03:12.290 678 Delete type=0 #39
