@@ -1,7 +1,7 @@
 #set previewer ~/.config/lf/previewer
 #set cleaner ~/.config/lf/cleaner
 
-
+export $IMAGE
 set previewer ctpv
 set cleaner ctpvclear
 &ctpv -s $id
@@ -15,6 +15,32 @@ cmd y-f ${{
 map <c-c> y-f Copy file to clipboard
 #-------------------
 
+cmd open ${{
+  case $(file --brief --mime-type $f) in
+    text/*) $EDITOR $fx;;
+    audio/*) setsid mpv --audio-display=no $f;;
+    video/*) setsid mpv $f -quiet >/dev/null 2>&1;;
+    image/*) setsid eog $f >/dev/null 2>&1;;
+    *) for f in $fx; do setid $OPENER $f > /dev/null 2> /dev/null & done;; 
+esac
+}}
+
+
+cmd vim ${{
+  nvim "$f"
+}}
+
+cmd wine ${{
+  wine "$f"
+}}
+
+cmd krita ${{
+  krita "$f"
+}}
+
+cmd kdenlive ${{
+  kdenlive "$f" 
+}}
 # Basic Settings
 set hidden true
 set ignorecase true
@@ -28,6 +54,7 @@ cmd mkdir ${{
   read ans
   mkdir $ans
 }}
+export $IMAGE
 
 cmd mkfile ${{
   printf "File Name: "
@@ -35,9 +62,6 @@ cmd mkfile ${{
   $EDITOR $ans
 }}
 
-cmd setwallpaper ${{
-    setwallpaper "$f"
-}}
 
 # Archive bindings
 cmd unarchive ${{
@@ -53,12 +77,6 @@ cmd unarchive ${{
 }}
 
 
-cmd open &{{
-	case $(file --mime-type -Lb $f) in
-		text/*) lf -remote "send $id \$nvim \$fx";;
-		*) xdg-open "$f"
-	esac
-}}
 
 cmd on-select &{{
     lf -remote "send $id set statfmt \"$(exa -ld --color=always "$f")\""
@@ -119,7 +137,7 @@ map <enter> open
 map R reload
 map mf mkfile
 map md mkdir
-map bg setwallpaper
+map bg chmod
 map C clear
 
 # Movement
