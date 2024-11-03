@@ -25,6 +25,12 @@ cmd open ${{
 esac
 }}
 
+cmd mpv ${{
+  mpv "$f"
+}}
+cmd office ${{
+  libreoffice "$f"
+}}
 
 cmd vim ${{
   nvim "$f"
