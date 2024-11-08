@@ -1,0 +1,182 @@
+2024-11-07 16:22:27.883 [info] [main] Log level: Info
+2024-11-07 16:22:27.883 [info] [main] Validating found git in: "git"
+2024-11-07 16:22:27.883 [info] [main] Using git "2.47.0" from "git"
+2024-11-07 16:22:27.883 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-07 16:22:27.883 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-07 16:23:16.720 [info] > git clone tallguyupn/laksut /home/lauri/Desktop/c++/laksut --progress [3ms]
+2024-11-07 16:23:16.720 [info] fatal: repository 'tallguyupn/laksut' does not exist
+2024-11-07 16:23:44.110 [info] > git clone https://github.com/tallguyupn/Laksyt /home/lauri/Desktop/c++/Laksyt --progress [1581ms]
+2024-11-07 16:23:44.110 [info] Cloning into '/home/lauri/Desktop/c++/Laksyt'...
+remote: Enumerating objects: 9, done.        
+remote: Counting objects:  11% (1/9)        remote: Counting objects:  22% (2/9)        remote: Counting objects:  33% (3/9)        remote: Counting objects:  44% (4/9)        remote: Counting objects:  55% (5/9)        remote: Counting objects:  66% (6/9)        remote: Counting objects:  77% (7/9)        remote: Counting objects:  88% (8/9)        remote: Counting objects: 100% (9/9)        remote: Counting objects: 100% (9/9), done.        
+remote: Compressing objects:  12% (1/8)        remote: Compressing objects:  25% (2/8)        remote: Compressing objects:  37% (3/8)        remote: Compressing objects:  50% (4/8)        remote: Compressing objects:  62% (5/8)        remote: Compressing objects:  75% (6/8)        remote: Compressing objects:  87% (7/8)        remote: Compressing objects: 100% (8/8)        remote: Compressing objects: 100% (8/8), done.        
+remote: Total 9 (delta 1), reused 8 (delta 0), pack-reused 0 (from 0)        
+Receiving objects:  11% (1/9)Receiving objects:  22% (2/9)Receiving objects:  33% (3/9)Receiving objects:  44% (4/9)Receiving objects:  55% (5/9)Receiving objects:  66% (6/9)Receiving objects:  77% (7/9)Receiving objects:  88% (8/9)Receiving objects: 100% (9/9)Receiving objects: 100% (9/9), done.
+Resolving deltas:   0% (0/1)Resolving deltas: 100% (1/1)Resolving deltas: 100% (1/1), done.
+2024-11-07 16:23:48.109 [info] [main] Log level: Info
+2024-11-07 16:23:48.109 [info] [main] Validating found git in: "git"
+2024-11-07 16:23:48.109 [info] [main] Using git "2.47.0" from "git"
+2024-11-07 16:23:48.109 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-07 16:23:48.109 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-07 16:23:48.117 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-11-07 16:23:48.124 [info] [Model][openRepository] Opened repository: /home/lauri/Desktop/c++/Laksyt
+2024-11-07 16:23:48.125 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-07 16:23:48.137 [info] > git config --get commit.template [5ms]
+2024-11-07 16:23:48.176 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-11-07 16:23:48.180 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/lauri/Desktop/c++/Laksyt/.git/refs/remotes/origin/main'
+2024-11-07 16:23:48.181 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-11-07 16:23:48.190 [info] > git status -z -uall [5ms]
+2024-11-07 16:23:48.213 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [24ms]
+2024-11-07 16:23:48.230 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-11-07 16:23:48.235 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-11-07 16:23:48.235 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-07 16:23:48.239 [info] > git config --get commit.template [12ms]
+2024-11-07 16:23:48.266 [info] > git reflog main --grep-reflog=branch: Created from *. [27ms]
+2024-11-07 16:23:48.272 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-11-07 16:23:48.275 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-11-07 16:23:48.279 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/lauri/Desktop/c++/Laksyt/.git/refs/remotes/origin/main'
+2024-11-07 16:23:48.280 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-11-07 16:23:48.288 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [12ms]
+2024-11-07 16:23:48.292 [info] > git status -z -uall [8ms]
+2024-11-07 16:23:48.292 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-07 16:23:48.298 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-07 16:23:48.302 [info] > git config --local branch.main.vscode-merge-base origin/main [11ms]
+2024-11-07 16:23:48.307 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2024-11-07 16:23:48.311 [info] > git config --get commit.template [5ms]
+2024-11-07 16:23:48.311 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [0ms]
+2024-11-07 16:23:48.325 [info] > git merge-base refs/heads/main refs/remotes/origin/main [10ms]
+2024-11-07 16:23:48.330 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-11-07 16:23:48.333 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/lauri/Desktop/c++/Laksyt/.git/refs/remotes/origin/main'
+2024-11-07 16:23:48.333 [info] > git diff --name-status -z --diff-filter=ADMR bea225dda801f57b88914df00745b909cccb93c7...refs/remotes/origin/main [4ms]
+2024-11-07 16:23:48.334 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-11-07 16:23:48.341 [info] > git status -z -uall [3ms]
+2024-11-07 16:23:48.342 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-07 16:23:48.655 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-07 16:23:48.800 [info] > git show --textconv :tehtävä2.cpp [5ms]
+2024-11-07 16:23:48.801 [info] > git ls-files --stage -- /home/lauri/Desktop/c++/Laksyt/tehtävä2.cpp [1ms]
+2024-11-07 16:23:48.805 [info] > git cat-file -s 5a41d4203d785f61cb836e774fe4001ac1995013 [1ms]
+2024-11-07 16:23:49.380 [info] > git config --get commit.template [5ms]
+2024-11-07 16:23:49.380 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-07 16:23:49.384 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/lauri/Desktop/c++/Laksyt/.git/refs/remotes/origin/main'
+2024-11-07 16:23:49.384 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-11-07 16:23:49.392 [info] > git status -z -uall [4ms]
+2024-11-07 16:23:49.393 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-07 16:23:49.477 [info] > git ls-files --stage -- /home/lauri/Desktop/c++/Laksyt/tehtävä2.cpp [1ms]
+2024-11-07 16:23:49.481 [info] > git cat-file -s 5a41d4203d785f61cb836e774fe4001ac1995013 [1ms]
+2024-11-07 16:23:49.486 [info] > git show --textconv :tehtävä2.cpp [1ms]
+2024-11-07 16:23:55.340 [info] > git config --get commit.template [4ms]
+2024-11-07 16:23:55.340 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-07 16:23:55.344 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/lauri/Desktop/c++/Laksyt/.git/refs/remotes/origin/main'
+2024-11-07 16:23:55.344 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-11-07 16:23:55.352 [info] > git status -z -uall [4ms]
+2024-11-07 16:23:55.352 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-07 16:24:02.279 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms]
+2024-11-07 16:24:02.637 [info] > git config --get commit.template [4ms]
+2024-11-07 16:24:02.638 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [0ms]
+2024-11-07 16:24:02.641 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/lauri/Desktop/c++/Laksyt/.git/refs/remotes/origin/main'
+2024-11-07 16:24:02.642 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-11-07 16:24:02.650 [info] > git status -z -uall [4ms]
+2024-11-07 16:24:02.651 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-07 16:24:13.007 [info] > git ls-files --stage -- /home/lauri/Desktop/c++/Laksyt/tehtävä3.cpp [1ms]
+2024-11-07 16:24:13.017 [info] > git show --textconv :tehtävä3.cpp [15ms]
+2024-11-07 16:24:13.289 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-07 16:24:13.833 [info] > git config --get commit.template [4ms]
+2024-11-07 16:24:13.833 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-07 16:24:13.837 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/lauri/Desktop/c++/Laksyt/.git/refs/remotes/origin/main'
+2024-11-07 16:24:13.837 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-11-07 16:24:13.845 [info] > git status -z -uall [4ms]
+2024-11-07 16:24:13.846 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-07 16:28:28.146 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms]
+2024-11-07 16:30:49.146 [info] > git config --get commit.template [5ms]
+2024-11-07 16:30:49.149 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-11-07 16:30:49.152 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/lauri/Desktop/c++/Laksyt/.git/refs/remotes/origin/main'
+2024-11-07 16:30:49.153 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-11-07 16:30:49.163 [info] > git status -z -uall [5ms]
+2024-11-07 16:30:49.163 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-07 16:30:51.820 [info] > git ls-files --stage -- /home/lauri/Desktop/c++/Laksyt/tehtävä3.cpp [1ms]
+2024-11-07 16:30:51.825 [info] > git show --textconv :tehtävä3.cpp [0ms]
+2024-11-07 16:30:54.177 [info] > git config --get commit.template [4ms]
+2024-11-07 16:30:54.177 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-07 16:30:54.181 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/lauri/Desktop/c++/Laksyt/.git/refs/remotes/origin/main'
+2024-11-07 16:30:54.181 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-11-07 16:30:54.189 [info] > git status -z -uall [4ms]
+2024-11-07 16:30:54.190 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-07 16:31:32.321 [info] > git config --get commit.template [5ms]
+2024-11-07 16:31:32.322 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-11-07 16:31:32.326 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/lauri/Desktop/c++/Laksyt/.git/refs/remotes/origin/main'
+2024-11-07 16:31:32.327 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-11-07 16:31:32.335 [info] > git status -z -uall [4ms]
+2024-11-07 16:31:32.335 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-07 16:31:37.351 [info] > git config --get commit.template [5ms]
+2024-11-07 16:31:37.351 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-07 16:31:37.355 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/lauri/Desktop/c++/Laksyt/.git/refs/remotes/origin/main'
+2024-11-07 16:31:37.356 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-11-07 16:31:37.364 [info] > git status -z -uall [4ms]
+2024-11-07 16:31:37.364 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-07 16:31:37.979 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-07 16:31:57.010 [info] > git config --get commit.template [5ms]
+2024-11-07 16:31:57.010 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-07 16:31:57.014 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/lauri/Desktop/c++/Laksyt/.git/refs/remotes/origin/main'
+2024-11-07 16:31:57.014 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-11-07 16:31:57.024 [info] > git status -z -uall [6ms]
+2024-11-07 16:31:57.024 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-07 16:32:02.041 [info] > git config --get commit.template [4ms]
+2024-11-07 16:32:02.041 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-07 16:32:02.045 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/lauri/Desktop/c++/Laksyt/.git/refs/remotes/origin/main'
+2024-11-07 16:32:02.045 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2024-11-07 16:32:02.053 [info] > git status -z -uall [4ms]
+2024-11-07 16:32:02.054 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-07 16:32:19.750 [info] > git config --get commit.template [4ms]
+2024-11-07 16:32:19.751 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-07 16:32:19.755 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/lauri/Desktop/c++/Laksyt/.git/refs/remotes/origin/main'
+2024-11-07 16:32:19.756 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-11-07 16:32:19.764 [info] > git status -z -uall [4ms]
+2024-11-07 16:32:19.765 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-07 16:32:25.133 [info] > git add -A -- /home/lauri/Desktop/c++/Laksyt/tehtävä3.cpp [2ms]
+2024-11-07 16:32:25.141 [info] > git config --get commit.template [4ms]
+2024-11-07 16:32:25.142 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-07 16:32:25.145 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/lauri/Desktop/c++/Laksyt/.git/refs/remotes/origin/main'
+2024-11-07 16:32:25.146 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-11-07 16:32:25.154 [info] > git status -z -uall [5ms]
+2024-11-07 16:32:25.154 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-07 16:32:26.219 [info] > git config --get commit.template [5ms]
+2024-11-07 16:32:26.219 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-11-07 16:32:26.223 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/lauri/Desktop/c++/Laksyt/.git/refs/remotes/origin/main'
+2024-11-07 16:32:26.224 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-11-07 16:32:26.232 [info] > git status -z -uall [4ms]
+2024-11-07 16:32:26.232 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-07 16:32:26.314 [info] > git ls-files --stage -- /home/lauri/Desktop/c++/Laksyt/tehtävä3.cpp [1ms]
+2024-11-07 16:32:26.319 [info] > git cat-file -s 3100c6f03d7380a7ecb7bf4024f87b16f72050a4 [1ms]
+2024-11-07 16:32:26.325 [info] > git show --textconv :tehtävä3.cpp [1ms]
+2024-11-07 16:32:28.922 [info] > git show --textconv :.git/COMMIT_EDITMSG [6ms]
+2024-11-07 16:32:28.922 [info] > git ls-files --stage -- /home/lauri/Desktop/c++/Laksyt/.git/COMMIT_EDITMSG [1ms]
+2024-11-07 16:32:29.230 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-07 16:32:29.740 [info] > git ls-files --stage -- /home/lauri/Desktop/c++/Laksyt/.git/COMMIT_EDITMSG [1ms]
+2024-11-07 16:32:29.745 [info] > git show --textconv :.git/COMMIT_EDITMSG [1ms]
+2024-11-07 16:32:36.062 [info] > git show --textconv :tehtävä3.cpp [4ms]
+2024-11-07 16:32:36.063 [info] > git ls-files --stage -- /home/lauri/Desktop/c++/Laksyt/tehtävä3.cpp [1ms]
+2024-11-07 16:32:36.067 [info] > git cat-file -s 3100c6f03d7380a7ecb7bf4024f87b16f72050a4 [1ms]
+2024-11-07 16:33:23.807 [info] > git show --textconv :.git/COMMIT_EDITMSG [6ms]
+2024-11-07 16:33:23.807 [info] > git ls-files --stage -- /home/lauri/Desktop/c++/Laksyt/.git/COMMIT_EDITMSG [1ms]
+2024-11-07 16:33:43.420 [info] > git ls-files --stage -- /home/lauri/Desktop/c++/Laksyt/.git/COMMIT_EDITMSG [1ms]
+2024-11-07 16:33:43.428 [info] > git show --textconv :.git/COMMIT_EDITMSG [1ms]
+2024-11-07 16:33:49.947 [info] > git show --textconv :tehtävä3.cpp [4ms]
+2024-11-07 16:33:49.948 [info] > git ls-files --stage -- /home/lauri/Desktop/c++/Laksyt/tehtävä3.cpp [1ms]
+2024-11-07 16:33:49.952 [info] > git cat-file -s 3100c6f03d7380a7ecb7bf4024f87b16f72050a4 [1ms]
+2024-11-07 16:33:52.154 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms]
+2024-11-07 16:34:13.014 [info] > git ls-files --stage -- /home/lauri/Desktop/c++/Laksyt/tehtävä3.cpp [1ms]
+2024-11-07 16:34:13.020 [info] > git cat-file -s 3100c6f03d7380a7ecb7bf4024f87b16f72050a4 [1ms]
+2024-11-07 16:34:13.027 [info] > git show --textconv :tehtävä3.cpp [1ms]
+2024-11-07 16:34:32.778 [info] > git ls-files --stage -- /home/lauri/Desktop/c++/Laksyt/tehtävä3.cpp [1ms]
+2024-11-07 16:34:32.783 [info] > git cat-file -s 3100c6f03d7380a7ecb7bf4024f87b16f72050a4 [0ms]
+2024-11-07 16:34:32.790 [info] > git show --textconv :tehtävä3.cpp [1ms]
+2024-11-07 16:35:12.931 [info] > git ls-files --stage -- /home/lauri/Desktop/c++/Laksyt/tehtävä3.cpp [1ms]
+2024-11-07 16:35:12.940 [info] > git cat-file -s 3100c6f03d7380a7ecb7bf4024f87b16f72050a4 [1ms]
+2024-11-07 16:35:12.949 [info] > git show --textconv :tehtävä3.cpp [1ms]
+2024-11-07 16:35:17.712 [info] > git show --textconv HEAD:tehtävä3.cpp [22ms]
+2024-11-07 16:35:17.712 [info] > git show --textconv :tehtävä3.cpp [15ms]
+2024-11-07 16:35:17.712 [info] > git ls-files --stage -- /home/lauri/Desktop/c++/Laksyt/tehtävä3.cpp [3ms]
+2024-11-07 16:35:17.717 [info] > git ls-tree -l HEAD -- /home/lauri/Desktop/c++/Laksyt/tehtävä3.cpp [13ms]
+2024-11-07 16:35:17.718 [info] > git cat-file -s 3100c6f03d7380a7ecb7bf4024f87b16f72050a4 [1ms]
+2024-11-07 16:35:18.217 [info] > git check-ignore -v -z --stdin [0ms]
+2024-11-07 16:35:20.047 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms]

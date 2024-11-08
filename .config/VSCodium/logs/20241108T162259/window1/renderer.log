@@ -1,0 +1,4 @@
+2024-11-08 16:23:03.311 [info] Started local extension host with pid 5370.
+2024-11-08 16:23:04.454 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-11-08 16:23:06.350 [info] [perf] Render performance baseline is 17ms
+2024-11-08 16:23:06.484 [error] ENOENT: no such file or directory, open '/home/lauri/.config/VSCodium/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/lauri/.config/VSCodium/User/globalStorage/vscodevim.vim/.registers'

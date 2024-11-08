@@ -1,0 +1,30 @@
+2024/11/08-16:21:41.812 880 Reusing MANIFEST /home/lauri/.config/whatsdesk/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/08-16:21:41.812 880 Recovering log #132
+2024/11/08-16:21:41.896 880 Reusing old log /home/lauri/.config/whatsdesk/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000132.log 
+2024/11/08-16:21:46.418 883 Level-0 table #139: started
+2024/11/08-16:21:46.660 883 Level-0 table #139: 532901 bytes OK
+2024/11/08-16:21:46.828 883 Delete type=0 #132
+2024/11/08-16:21:46.828 883 Manual compaction at level-0 from '\x00#\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00$\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/08-16:21:47.488 884 Compacting 1@1 + 3@2 files
+2024/11/08-16:21:47.695 884 Generated table #140@1: 34090 keys, 2205613 bytes
+2024/11/08-16:21:48.153 884 Generated table #141@1: 16138 keys, 2203787 bytes
+2024/11/08-16:21:48.445 884 Generated table #142@1: 46402 keys, 1466217 bytes
+2024/11/08-16:21:48.445 884 Compacted 1@1 + 3@2 files => 5875617 bytes
+2024/11/08-16:21:48.770 884 compacted to: files[ 0 0 3 0 0 0 0 ]
+2024/11/08-16:21:48.771 884 Delete type=2 #139
+2024/11/08-16:21:48.771 884 Delete type=2 #134
+2024/11/08-16:21:48.771 884 Delete type=2 #135
+2024/11/08-16:21:48.771 884 Delete type=2 #136
+2024/11/08-17:19:22.369 142a3 Level-0 table #144: started
+2024/11/08-17:19:22.430 142a3 Level-0 table #144: 1038065 bytes OK
+2024/11/08-17:19:22.471 142a3 Delete type=0 #138
+2024/11/08-17:19:29.871 13fc2 Compacting 1@1 + 3@2 files
+2024/11/08-17:19:30.014 13fc2 Generated table #145@1: 35588 keys, 2215233 bytes
+2024/11/08-17:19:30.089 13fc2 Generated table #146@1: 15711 keys, 2198606 bytes
+2024/11/08-17:19:30.156 13fc2 Generated table #147@1: 48943 keys, 1602442 bytes
+2024/11/08-17:19:30.156 13fc2 Compacted 1@1 + 3@2 files => 6016281 bytes
+2024/11/08-17:19:30.194 13fc2 compacted to: files[ 0 0 3 0 0 0 0 ]
+2024/11/08-17:19:30.194 13fc2 Delete type=2 #142
+2024/11/08-17:19:30.194 13fc2 Delete type=2 #140
+2024/11/08-17:19:30.194 13fc2 Delete type=2 #144
+2024/11/08-17:19:30.194 13fc2 Delete type=2 #141

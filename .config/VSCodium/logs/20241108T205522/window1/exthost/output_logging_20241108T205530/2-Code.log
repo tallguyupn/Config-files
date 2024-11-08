@@ -1,0 +1,8 @@
+[Running] cd "/home/lauri/Desktop/c++/Laksyt/" && g++ tehtävä5.cpp -o tehtävä5 && "/home/lauri/Desktop/c++/Laksyt/"tehtävä5
+tehtävä5.cpp: In function ‘int main()’:
+tehtävä5.cpp:15:5: error: ‘määrä’ was not declared in this scope
+   15 |     määrä - origin;
+      |     ^~~~~
+
+[Done] exited with code=1 in 1.439 seconds
+

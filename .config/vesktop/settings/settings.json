@@ -181,7 +181,8 @@
             "nearestNeighbour": false,
             "square": false,
             "saveZoomValues": true,
-            "zoomSpeed": 0.5
+            "zoomSpeed": 0.5,
+            "invertScroll": true
         },
         "InvisibleChat": {
             "enabled": true
@@ -224,7 +225,8 @@
             "ignoreChannels": "",
             "ignoreGuilds": "",
             "logEdits": true,
-            "logDeletes": true
+            "logDeletes": true,
+            "inlineEdits": true
         },
         "MessageTags": {
             "enabled": false
@@ -332,14 +334,6 @@
         },
         "PreviewMessage": {
             "enabled": false
-        },
-        "PronounDB": {
-            "enabled": true,
-            "showInMessages": true,
-            "showSelf": true,
-            "pronounSource": 0,
-            "showInProfile": true,
-            "pronounsFormat": "LOWERCASE"
         },
         "QuickMention": {
             "enabled": false
@@ -639,6 +633,20 @@
         "WebContextMenus": {
             "enabled": true,
             "addBack": true
+        },
+        "UserMessagesPronouns": {
+            "enabled": true,
+            "showInMessages": true,
+            "showSelf": true,
+            "pronounSource": 0,
+            "showInProfile": true,
+            "pronounsFormat": "LOWERCASE"
+        },
+        "DynamicImageModalAPI": {
+            "enabled": false
+        },
+        "FixImagesQuality": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -651,6 +659,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1729014109835
+        "settingsSyncVersion": 1731080669382
     }
 }

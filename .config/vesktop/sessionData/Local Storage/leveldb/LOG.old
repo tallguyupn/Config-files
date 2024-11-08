@@ -1,0 +1,39 @@
+2024/11/08-16:21:30.326 796 Reusing MANIFEST /home/lauri/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/11/08-16:21:30.909 796 Recovering log #74
+2024/11/08-16:21:30.973 796 Reusing old log /home/lauri/.config/vesktop/sessionData/Local Storage/leveldb/000074.log 
+2024/11/08-16:35:32.818 797 Level-0 table #78: started
+2024/11/08-16:35:32.857 797 Level-0 table #78: 135892 bytes OK
+2024/11/08-16:35:32.892 797 Delete type=0 #74
+2024/11/08-17:22:08.938 797 Level-0 table #80: started
+2024/11/08-17:22:08.985 797 Level-0 table #80: 137317 bytes OK
+2024/11/08-17:22:09.022 797 Delete type=0 #77
+2024/11/08-17:22:09.022 797 Compacting 4@0 + 1@1 files
+2024/11/08-17:22:09.086 797 Generated table #81@0: 44 keys, 142691 bytes
+2024/11/08-17:22:09.086 797 Compacted 4@0 + 1@1 files => 142691 bytes
+2024/11/08-17:22:09.122 797 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/11/08-17:22:09.122 797 Delete type=2 #75
+2024/11/08-17:22:09.122 797 Delete type=2 #78
+2024/11/08-17:22:09.122 797 Delete type=2 #71
+2024/11/08-17:22:09.122 797 Delete type=2 #73
+2024/11/08-17:22:09.122 797 Delete type=2 #80
+2024/11/08-17:31:35.341 797 Level-0 table #83: started
+2024/11/08-17:31:35.386 797 Level-0 table #83: 133401 bytes OK
+2024/11/08-17:31:35.426 797 Delete type=0 #79
+2024/11/08-18:55:33.278 797 Level-0 table #85: started
+2024/11/08-18:55:33.403 797 Level-0 table #85: 138709 bytes OK
+2024/11/08-18:55:33.515 797 Delete type=0 #82
+2024/11/08-20:01:57.910 797 Level-0 table #87: started
+2024/11/08-20:01:58.009 797 Level-0 table #87: 22482 bytes OK
+2024/11/08-20:01:58.079 797 Delete type=0 #84
+2024/11/08-20:31:57.910 797 Level-0 table #89: started
+2024/11/08-20:31:57.968 797 Level-0 table #89: 140798 bytes OK
+2024/11/08-20:31:58.038 797 Delete type=0 #86
+2024/11/08-20:31:58.066 797 Compacting 4@0 + 1@1 files
+2024/11/08-20:31:58.143 797 Generated table #90@0: 45 keys, 142783 bytes
+2024/11/08-20:31:58.144 797 Compacted 4@0 + 1@1 files => 142783 bytes
+2024/11/08-20:31:58.179 797 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/11/08-20:31:58.180 797 Delete type=2 #89
+2024/11/08-20:31:58.180 797 Delete type=2 #81
+2024/11/08-20:31:58.180 797 Delete type=2 #85
+2024/11/08-20:31:58.180 797 Delete type=2 #83
+2024/11/08-20:31:58.180 797 Delete type=2 #87

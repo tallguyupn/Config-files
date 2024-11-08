@@ -1,0 +1,17 @@
+2024-11-07 16:19:53.214 [info] Extension host with pid 46629 started
+2024-11-07 16:19:53.214 [info] Skipping acquiring lock for /home/lauri/.config/Code - OSS/User/workspaceStorage/69a99cbac97317948996a3bcc1b01ac1.
+2024-11-07 16:19:53.345 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-07 16:19:53.404 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-07 16:19:53.429 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-07 16:19:53.533 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-07 16:19:53.628 [warning] [vscode.git] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'git.openRepositoryInParentFolders', provide the URI of a resource or 'null' for any resource.
+2024-11-07 16:19:53.628 [warning] [vscode.git] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'git.showProgress', provide the URI of a resource or 'null' for any resource.
+2024-11-07 16:19:53.640 [info] Eager extensions activated
+2024-11-07 16:19:53.653 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-07 16:19:53.717 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-07 16:19:53.811 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-11-07 16:19:53.988 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-11-07 16:19:54.290 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-11-07 16:19:54.411 [warning] [formulahendry.code-runner] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'code-runner.enableAppInsights', provide the URI of a resource or 'null' for any resource.
+2024-11-07 16:19:54.733 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-11-07 16:20:05.785 [info] ExtensionService#_doActivateExtension pixl-garden.BongoCat, startup: false, activationEvent: '*'

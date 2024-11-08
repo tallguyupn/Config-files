@@ -1,0 +1,35 @@
+[Running] cd "/home/lauri/Desktop/coding/c++/" && g++ main.cpp -o main && "/home/lauri/Desktop/coding/c++/"main
+main.cpp: In function ‘int main()’:
+main.cpp:23:18: error: ‘ptr’ was not declared in this scope
+   23 |         switch (*ptr){
+      |                  ^~~
+main.cpp:39:22: error: expected ‘;’ before ‘default’
+   39 |                 break
+      |                      ^
+      |                      ;
+   40 | 
+   41 |             default:
+      |             ~~~~~~~   
+
+[Done] exited with code=1 in 1.272 seconds
+
+[Running] cd "/home/lauri/Desktop/coding/c++/" && g++ main.cpp -o main && "/home/lauri/Desktop/coding/c++/"main
+main.cpp: In function ‘int main()’:
+main.cpp:23:18: error: ‘ptr’ was not declared in this scope
+   23 |         switch (*ptr){
+      |                  ^~~
+
+[Done] exited with code=1 in 0.206 seconds
+
+[Running] cd "/home/lauri/Desktop/coding/c++/" && g++ main.cpp -o main && "/home/lauri/Desktop/coding/c++/"main
+***Temperature conversion program***
+Would you like to convert (C)elsius, (K)elvin or (F)ahrenheit? (Exit program with Q)
+Make your choice: 
+[Done] exited with code=null in 21.773 seconds
+
+[Running] cd "/home/lauri/Desktop/coding/c++/" && g++ main.cpp -o main && "/home/lauri/Desktop/coding/c++/"main
+***Temperature conversion program***
+Would you like to convert (C)elsius, (K)elvin or (F)ahrenheit? (Exit program with Q)
+Make your choice: 
+[Done] exited with code=null in 42.608 seconds
+

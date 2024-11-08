@@ -1,0 +1,6 @@
+2024/11/03-19:00:16.406 1e46d Creating DB /home/lauri/.config/vesktop/sessionData/WebStorage/2/IndexedDB/indexeddb.leveldb since it was missing.
+2024/11/03-19:00:16.956 1e46d Reusing MANIFEST /home/lauri/.config/vesktop/sessionData/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2024/11/03-19:05:17.573 1e3dd Level-0 table #5: started
+2024/11/03-19:05:17.631 1e3dd Level-0 table #5: 24859 bytes OK
+2024/11/03-19:05:17.699 1e3dd Delete type=0 #3
+2024/11/03-19:05:17.700 1e3dd Manual compaction at level-0 from (begin) .. (end); will stop at (end)

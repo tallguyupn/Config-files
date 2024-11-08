@@ -1,0 +1,10 @@
+2024-11-07 16:22:27.346 [info] Started local extension host with pid 52361.
+2024-11-07 16:22:27.594 [error] Error scanning extensions at /$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1: Unable to resolve nonexistent file '/$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1'
+2024-11-07 16:22:27.617 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-11-07 16:22:29.996 [info] [perf] Render performance baseline is 20ms
+2024-11-07 16:23:16.723 [error] [Extension Host] (node:52361) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-11-07 16:23:47.460 [info] Started local extension host with pid 54477.
+2024-11-07 16:23:47.643 [error] Error scanning extensions at /$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1: Unable to resolve nonexistent file '/$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1'
+2024-11-07 16:23:47.661 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-11-07 16:23:50.084 [info] [perf] Render performance baseline is 22ms

@@ -1,0 +1,23 @@
+2024-11-07 16:19:52.274 [info] Deleted uninstalled extension from disk ms-vscode.cpptools-themes /home/lauri/.vscode-oss/extensions/ms-vscode.cpptools-themes-1.0.0-universal
+2024-11-07 16:19:52.296 [info] Deleted uninstalled extension from disk franneck94.c-cpp-runner /home/lauri/.vscode-oss/extensions/franneck94.c-cpp-runner-9.4.7-universal
+2024-11-07 16:19:52.325 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/franneck94.c-cpp-runner-9.4.7-universal.3b468e18.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/franneck94.c-cpp-runner-9.4.7-universal.3b468e18.vsctmp'
+    at hm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-07 16:20:04.068 [info] Getting Manifest... pixl-garden.bongocat
+2024-11-07 16:20:04.894 [info] Installing extension: pixl-garden.bongocat {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json","path":"/home/lauri/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.1","date":"2024-11-01T17:20:55.708Z"}}
+2024-11-07 16:20:05.559 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-11-07 16:20:05.560 [info] Extension signature verification is not done: pixl-garden.bongocat
+2024-11-07 16:20:05.569 [info] Extracted extension to file:///home/lauri/.vscode-oss/extensions/pixl-garden.bongocat-0.0.2-universal: pixl-garden.bongocat
+2024-11-07 16:20:05.622 [info] Renamed to /home/lauri/.vscode-oss/extensions/pixl-garden.bongocat-0.0.2-universal
+2024-11-07 16:20:05.677 [info] Extension installed successfully: pixl-garden.bongocat vscode-userdata:/home/lauri/.vscode-oss/extensions/extensions.json
+2024-11-07 16:20:05.701 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lauri/.vscode-oss/extensions/extensions.json.vsctmp'
+    at hm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)

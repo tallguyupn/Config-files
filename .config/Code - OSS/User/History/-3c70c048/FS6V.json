@@ -1,0 +1,11 @@
+{
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "explorer.confirmDelete": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "code-runner.runInTerminal": true
+}

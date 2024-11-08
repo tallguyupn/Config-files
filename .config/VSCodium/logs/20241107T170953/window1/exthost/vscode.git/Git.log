@@ -1,0 +1,34 @@
+2024-11-07 17:09:55.525 [info] [main] Log level: Info
+2024-11-07 17:09:55.525 [info] [main] Validating found git in: "git"
+2024-11-07 17:09:55.525 [info] [main] Using git "2.47.0" from "git"
+2024-11-07 17:09:55.525 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-07 17:09:55.525 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-07 17:09:55.525 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-07 17:09:55.525 [info] > git rev-parse --show-toplevel [26ms]
+2024-11-07 17:09:55.536 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-11-07 17:09:55.542 [info] [Model][openRepository] Opened repository: /home/lauri/Desktop/c++/Laksyt
+2024-11-07 17:09:55.543 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-07 17:09:55.554 [info] > git config --get commit.template [5ms]
+2024-11-07 17:09:55.562 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-11-07 17:09:55.572 [info] > git status -z -uall [6ms]
+2024-11-07 17:09:55.572 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-07 17:09:55.587 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-11-07 17:09:55.592 [info] > git config --get commit.template [5ms]
+2024-11-07 17:09:55.593 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-11-07 17:09:55.622 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [25ms]
+2024-11-07 17:09:55.634 [info] > git merge-base refs/heads/main refs/remotes/origin/main [8ms]
+2024-11-07 17:09:55.639 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2024-11-07 17:09:55.640 [info] > git diff --name-status -z --diff-filter=ADMR d961dd7b14d4dc934a204b23c23167c91160e340...refs/remotes/origin/main [2ms]
+2024-11-07 17:09:55.649 [info] > git status -z -uall [5ms]
+2024-11-07 17:09:55.650 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-07 17:09:55.851 [info] > git show --textconv :tehtävä3.cpp [5ms]
+2024-11-07 17:09:55.852 [info] > git ls-files --stage -- /home/lauri/Desktop/c++/Laksyt/tehtävä3.cpp [1ms]
+2024-11-07 17:09:55.857 [info] > git cat-file -s 3100c6f03d7380a7ecb7bf4024f87b16f72050a4 [1ms]
+2024-11-07 17:09:56.061 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-07 17:09:57.075 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-07 17:09:57.075 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-07 17:10:04.246 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-07 17:10:04.246 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-07 17:10:13.214 [info] > git show --textconv :tehtävä3.cpp [5ms]
+2024-11-07 17:10:13.214 [info] > git ls-files --stage -- /home/lauri/Desktop/c++/Laksyt/tehtävä3.cpp [1ms]
+2024-11-07 17:10:13.219 [info] > git cat-file -s 3100c6f03d7380a7ecb7bf4024f87b16f72050a4 [1ms]

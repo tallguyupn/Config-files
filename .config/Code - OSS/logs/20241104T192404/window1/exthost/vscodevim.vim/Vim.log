@@ -1,0 +1,29 @@
+2024-11-04 19:28:18.811 [info] Executing :w
+2024-11-04 19:28:29.902 [info] Executing :w
+2024-11-04 19:28:57.039 [info] Executing :w
+2024-11-04 19:29:01.374 [info] Active editor: output:extension-output-formulahendry.code-runner-%231-Code
+2024-11-04 19:29:10.846 [info] Active editor: file:///home/lauri/Desktop/coding/c%2B%2B/main.cpp
+2024-11-04 19:29:10.871 [info] extension-output-formulahendry.code-runner-#1-Code closed
+2024-11-04 19:29:10.906 [info] Configuration changed
+2024-11-04 19:29:24.670 [info] Active editor: output:extension-output-formulahendry.code-runner-%231-Code
+2024-11-04 19:29:32.246 [info] /home/lauri/Desktop/coding/c++/main.cpp.git closed
+2024-11-04 19:29:41.457 [info] /home/lauri/.config/Code - OSS/User/settings.json closed
+2024-11-04 19:29:41.462 [info] Configuration changed
+2024-11-04 19:29:53.438 [info] /home/lauri/.config/Code - OSS/User/settings.json closed
+2024-11-04 19:29:53.449 [info] Configuration changed
+2024-11-04 19:30:00.424 [info] Active editor: file:///home/lauri/Desktop/coding/c%2B%2B/main.cpp
+2024-11-04 19:30:07.123 [info] extension-output-formulahendry.code-runner-#1-Code closed
+2024-11-04 19:33:21.513 [info] Executing :w
+2024-11-04 19:33:31.036 [info] Executing :w
+2024-11-04 19:34:17.923 [info] Executing :w
+2024-11-04 19:37:09.204 [info] Executing :w
+2024-11-04 19:37:33.844 [info] Executing :w
+2024-11-04 19:37:44.384 [info] Executing :w
+2024-11-04 19:38:08.565 [info] Executing :w
+2024-11-04 19:38:16.043 [info] Executing :w
+2024-11-04 19:39:24.297 [info] Executing :w
+2024-11-04 19:40:18.547 [info] Executing :wq
+2024-11-04 19:40:18.571 [info] /home/lauri/Desktop/coding/c++/main.cpp closed
+2024-11-04 19:40:18.571 [warning] getLineLength() called with out-of-bounds line 50
+2024-11-04 19:40:18.572 [warning] getLineLength() called with out-of-bounds line 50
+2024-11-04 19:40:18.583 [info] /home/lauri/Desktop/coding/c++/main.cpp.git closed

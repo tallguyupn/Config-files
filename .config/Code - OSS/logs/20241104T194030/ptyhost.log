@@ -1,0 +1,7 @@
+2024-11-04 19:40:31.420 [info] Revived process, old id 69a99cbac97317948996a3bcc1b01ac1-2 -> new id 1
+2024-11-04 19:40:31.445 [info] Expanding terminal instance, old id 69a99cbac97317948996a3bcc1b01ac1-1 -> new id undefined
+2024-11-04 19:40:31.446 [info] Expanding terminal instance, old id 69a99cbac97317948996a3bcc1b01ac1-2 -> new id 1
+2024-11-04 19:40:31.446 [warning] Couldn't get layout info, a terminal was probably disconnected Terminal 1 has already been expanded
+2024-11-04 19:40:35.578 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2024-11-04 19:40:35.578 [info] Persistent process reconnection "1"
+2024-11-04 19:40:35.595 [info] Persistent process "1": Replaying 7482 chars and 1 size events

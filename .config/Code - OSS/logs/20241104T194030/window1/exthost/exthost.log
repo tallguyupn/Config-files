@@ -1,0 +1,106 @@
+2024-11-04 19:40:31.558 [info] Extension host with pid 177262 started
+2024-11-04 19:40:31.558 [info] Skipping acquiring lock for /home/lauri/.config/Code - OSS/User/workspaceStorage/69a99cbac97317948996a3bcc1b01ac1.
+2024-11-04 19:40:31.664 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-04 19:40:31.717 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-04 19:40:31.822 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-04 19:40:31.878 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-04 19:40:31.919 [warning] [vscode.git] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'git.openRepositoryInParentFolders', provide the URI of a resource or 'null' for any resource.
+2024-11-04 19:40:31.919 [warning] [vscode.git] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'git.showProgress', provide the URI of a resource or 'null' for any resource.
+2024-11-04 19:40:31.931 [info] Eager extensions activated
+2024-11-04 19:40:31.947 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-04 19:40:31.948 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-04 19:40:31.962 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-11-04 19:40:31.965 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-11-04 19:40:31.975 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-11-04 19:40:31.986 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-11-04 19:40:32.061 [warning] [formulahendry.code-runner] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'code-runner.enableAppInsights', provide the URI of a resource or 'null' for any resource.
+2024-11-04 19:40:32.063 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.displayFormat', provide the URI of a resource or 'null' for any resource.
+2024-11-04 19:40:32.063 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.showDisassembly', provide the URI of a resource or 'null' for any resource.
+2024-11-04 19:40:32.063 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.dereferencePointers', provide the URI of a resource or 'null' for any resource.
+2024-11-04 19:40:32.063 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.suppressMissingSourceFiles', provide the URI of a resource or 'null' for any resource.
+2024-11-04 19:40:32.063 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.evaluationTimeout', provide the URI of a resource or 'null' for any resource.
+2024-11-04 19:40:32.063 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.consoleMode', provide the URI of a resource or 'null' for any resource.
+2024-11-04 19:40:32.063 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.script', provide the URI of a resource or 'null' for any resource.
+2024-11-04 19:40:32.063 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.terminalPromptClear', provide the URI of a resource or 'null' for any resource.
+2024-11-04 19:40:32.063 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.evaluateForHovers', provide the URI of a resource or 'null' for any resource.
+2024-11-04 19:40:32.063 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.commandCompletions', provide the URI of a resource or 'null' for any resource.
+2024-11-04 19:40:32.063 [warning] [vadimcn.vscode-lldb] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for 'lldb.reproducer', provide the URI of a resource or 'null' for any resource.
+2024-11-04 19:40:32.169 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-11-04 19:40:43.927 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-04 19:40:43.933 [error] Canceled: Canceled
+	at new tT (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at mh.O [as value] (/usr/lib/code/extensions/git/dist/main.js:2:961845)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:983333)
+	at /usr/lib/code/extensions/git/dist/main.js:2:989455
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/lib/code/extensions/git/dist/main.js:2:989441)
+	at V1.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:19994)
+	at V1.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at V1.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:964255)
+	at V1.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at ci (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:24:699)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:14992
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:24:1009
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at z_.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:11919)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:15063)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:11611)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-11-04 19:40:43.933 [error] Canceled: Canceled
+	at new tT (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:108738)
+	at py.U (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:113348)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:110842)
+	at Y0.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at set hasGitHubRepositories (/usr/lib/code/extensions/github/dist/extension.js:2:328633)
+	at /usr/lib/code/extensions/github/dist/extension.js:2:329592
+	at mh.value (/usr/lib/code/extensions/git/dist/main.js:2:1073936)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at Object.p [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:983333)
+	at /usr/lib/code/extensions/git/dist/main.js:2:989455
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/lib/code/extensions/git/dist/main.js:2:989441)
+	at V1.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:19994)
+	at V1.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at V1.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:964255)
+	at V1.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at ci (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:24:699)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:14992
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:24:1009
+	at Object.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at z_.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:11919)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:15063)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:11611)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-11-04 19:40:43.934 [info] Extension host with pid 177262 exiting with code 0

@@ -1,0 +1,7 @@
+2024-11-07 16:19:49.562 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-11-07 16:19:49.676 [info] Started local extension host with pid 46629.
+2024-11-07 16:19:50.303 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-11-07 16:19:53.173 [error] Error scanning extensions at /$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1: Unable to resolve nonexistent file '/$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1'
+2024-11-07 16:19:53.206 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-11-07 16:19:55.408 [info] [perf] Render performance baseline is 20ms
+2024-11-07 16:19:59.669 [error] [network] #3: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled

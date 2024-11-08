@@ -1,0 +1,4 @@
+2024-11-07 16:22:12.493 [info] Started local extension host with pid 51795.
+2024-11-07 16:22:12.752 [error] Error scanning extensions at /$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1: Unable to resolve nonexistent file '/$HOME/.vscode-oss/extensions/undefined_publisher.wallbash-0.0.1'
+2024-11-07 16:22:12.772 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-11-07 16:22:15.137 [info] [perf] Render performance baseline is 20ms
