@@ -1,0 +1,119 @@
+2024-11-18 21:03:03.808 [info] Extension host with pid 622543 started
+2024-11-18 21:03:03.808 [info] Skipping acquiring lock for /home/lauri/.config/VSCodium/User/workspaceStorage/6eb1115a68f9708ed7b76972aad6f275.
+2024-11-18 21:03:03.853 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-18 21:03:03.867 [info] ExtensionService#_doActivateExtension cschlosser.doxdocgen, startup: false, activationEvent: 'onLanguage:cpp'
+2024-11-18 21:03:03.891 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onLanguage:cpp', root cause: franneck94.c-cpp-runner
+2024-11-18 21:03:04.089 [info] ExtensionService#_doActivateExtension franneck94.c-cpp-runner, startup: false, activationEvent: 'onLanguage:cpp'
+2024-11-18 21:03:04.131 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-18 21:03:04.133 [info] ExtensionService#_doActivateExtension pixl-garden.BongoCat, startup: true, activationEvent: '*'
+2024-11-18 21:03:04.161 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-18 21:03:04.211 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-18 21:03:04.254 [info] Eager extensions activated
+2024-11-18 21:03:04.266 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-18 21:03:04.268 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-18 21:03:04.280 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-11-18 21:03:04.283 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-11-18 21:03:04.294 [info] ExtensionService#_doActivateExtension franneck94.vscode-c-cpp-config, startup: false, activationEvent: 'onStartupFinished'
+2024-11-18 21:03:04.296 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-11-18 21:03:04.475 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-11-18 21:04:14.584 [info] Extension host terminating: renderer closed the MessagePort
+2024-11-18 21:04:14.593 [error] Canceled: Canceled
+	at new t3 (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:116229)
+	at py._remoteCall (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:122523)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:119282)
+	at J_._doExecuteCommand (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38451)
+	at J_.executeCommand (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37890)
+	at r.registerCommand.description (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37154)
+	at J_._executeContributedCommand (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:39020)
+	at J_._doExecuteCommand (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38023)
+	at J_.executeCommand (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37890)
+	at Object.executeCommand (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:42153)
+	at mh.O [as value] (/usr/share/vscodium/resources/app/extensions/git/dist/main.js:2:961905)
+	at I._deliver (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:922)
+	at I._deliverQueue (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1013)
+	at I.fire (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1349)
+	at Object.p [as dispose] (/usr/share/vscodium/resources/app/extensions/git/dist/main.js:2:983393)
+	at /usr/share/vscodium/resources/app/extensions/git/dist/main.js:2:989515
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/share/vscodium/resources/app/extensions/git/dist/main.js:2:989501)
+	at jv.<anonymous> (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21455)
+	at jv.dispose (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21551)
+	at jv.<anonymous> (/usr/share/vscodium/resources/app/extensions/git/dist/main.js:2:964315)
+	at jv.dispose (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21551)
+	at li (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:699)
+	at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:18392
+	at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1009
+	at Object.dispose (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2296)
+	at VB._deactivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14727)
+	at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12013
+	at Array.map (<anonymous>)
+	at VB._deactivateAll (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12001)
+	at VB.terminate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12354)
+	at bT.terminate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1592)
+	at Ki (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:16260)
+	at MessagePortMain.<anonymous> (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:12716)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-11-18 21:04:14.594 [error] Canceled: Canceled
+	at new t3 (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:116229)
+	at py._remoteCall (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:122523)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:119282)
+	at J_._doExecuteCommand (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38451)
+	at J_.executeCommand (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37890)
+	at r.registerCommand.description (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37154)
+	at J_._executeContributedCommand (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:39020)
+	at J_._doExecuteCommand (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38023)
+	at J_.executeCommand (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37890)
+	at Object.executeCommand (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:42153)
+	at set hasGitHubRepositories (/usr/share/vscodium/resources/app/extensions/github/dist/extension.js:2:328582)
+	at /usr/share/vscodium/resources/app/extensions/github/dist/extension.js:2:329541
+	at mh.value (/usr/share/vscodium/resources/app/extensions/git/dist/main.js:2:1073996)
+	at I._deliver (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:922)
+	at I._deliverQueue (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1013)
+	at I.fire (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1349)
+	at Object.p [as dispose] (/usr/share/vscodium/resources/app/extensions/git/dist/main.js:2:983393)
+	at /usr/share/vscodium/resources/app/extensions/git/dist/main.js:2:989515
+	at Array.forEach (<anonymous>)
+	at b.dispose (/usr/share/vscodium/resources/app/extensions/git/dist/main.js:2:989501)
+	at jv.<anonymous> (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21455)
+	at jv.dispose (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21551)
+	at jv.<anonymous> (/usr/share/vscodium/resources/app/extensions/git/dist/main.js:2:964315)
+	at jv.dispose (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:21551)
+	at li (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:699)
+	at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:18392
+	at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:24:1009
+	at Object.dispose (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:2296)
+	at VB._deactivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14727)
+	at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12013
+	at Array.map (<anonymous>)
+	at VB._deactivateAll (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12001)
+	at VB.terminate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12354)
+	at bT.terminate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1592)
+	at Ki (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:16260)
+	at MessagePortMain.<anonymous> (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:12716)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-11-18 21:04:14.594 [error] Canceled: Canceled
+	at new t3 (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:116229)
+	at py._remoteCall (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:122523)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:119282)
+	at J_._doExecuteCommand (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38451)
+	at J_.executeCommand (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37890)
+	at r.registerCommand.description (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37154)
+	at J_._executeContributedCommand (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:39020)
+	at J_._doExecuteCommand (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:38023)
+	at J_.executeCommand (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:37890)
+	at Object.executeCommand (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:42153)
+	at setContextValue (/home/lauri/.vscode-oss/extensions/franneck94.c-cpp-runner-9.4.7-universal/dist/main.js:5980:28)
+	at Object.deactivate (/home/lauri/.vscode-oss/extensions/franneck94.c-cpp-runner-9.4.7-universal/dist/main.js:3869:39)
+	at VB._deactivate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:14502)
+	at file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12013
+	at Array.map (<anonymous>)
+	at VB._deactivateAll (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12001)
+	at VB.terminate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:12354)
+	at bT.terminate (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:1592)
+	at Ki (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:16260)
+	at MessagePortMain.<anonymous> (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:12716)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2024-11-18 21:04:14.595 [info] Extension host with pid 622543 exiting with code 0

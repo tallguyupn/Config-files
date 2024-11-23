@@ -5,7 +5,8 @@
     "useQuickCss": true,
     "themeLinks": [],
     "enabledThemes": [
-        "theme.theme.css"
+        "theme.theme.css",
+        "piOS.theme.css"
     ],
     "enableReactDevtools": false,
     "frameless": false,
@@ -86,7 +87,7 @@
             "enabled": false
         },
         "BlurNSFW": {
-            "enabled": false
+            "enabled": true
         },
         "CallTimer": {
             "enabled": true,
@@ -213,7 +214,10 @@
             "enableDoubleClickToEdit": true
         },
         "MessageLinkEmbeds": {
-            "enabled": true
+            "enabled": true,
+            "listMode": "blacklist",
+            "idList": "",
+            "automodEmbeds": "never"
         },
         "MessageLogger": {
             "enabled": true,
@@ -305,7 +309,11 @@
         },
         "OpenInApp": {
             "enabled": true,
-            "spotify": true
+            "spotify": true,
+            "steam": true,
+            "epic": true,
+            "tidal": true,
+            "itunes": true
         },
         "PermissionFreeWill": {
             "enabled": false
@@ -433,7 +441,8 @@
         "TypingIndicator": {
             "enabled": true,
             "includeMutedChannels": false,
-            "includeCurrentChannel": true
+            "includeCurrentChannel": true,
+            "indicatorMode": 3
         },
         "TypingTweaks": {
             "enabled": false
@@ -659,6 +668,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1731080669382
+        "settingsSyncVersion": 1732297403519
     }
 }

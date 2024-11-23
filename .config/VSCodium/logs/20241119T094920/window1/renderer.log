@@ -1,0 +1,16 @@
+2024-11-19 09:49:25.105 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-11-19 09:49:25.250 [info] Started local extension host with pid 140626.
+2024-11-19 09:49:25.873 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-11-19 09:49:26.486 [error] TreeError [SettingsTree] Tree element not found: [object Object]: Error: TreeError [SettingsTree] Tree element not found: [object Object]
+    at ucs.getElementLocation (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:416:10495)
+    at ucs.rerender (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:416:8594)
+    at d9e.rerender (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:416:18374)
+    at gb.refreshSingleElement (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:1334:67114)
+    at gb.renderTree (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:1334:66898)
+    at vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:1334:65971
+    at Set.forEach (<anonymous>)
+    at gb.updateElementsByKey (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:1334:65955)
+    at vZ.value (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:1334:43704)
+    at E._deliver (vscode-file://vscode-app/usr/share/vscodium/resources/app/out/vs/workbench/workbench.desktop.main.js:30:923)
+2024-11-19 09:49:27.036 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2024-11-19 09:49:30.504 [info] [perf] Render performance baseline is 18ms

@@ -1,3 +1,7 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+
 # Oh-my-zsh installation path
 ZSH=/usr/share/oh-my-zsh/
 
@@ -9,9 +13,7 @@ plugins=( git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting )
 source $ZSH/oh-my-zsh.sh
 
 
-
-export VIDEO="mpv"
-export IMAGE="eog"
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:/usr/sbin:$PATH
 
 
 # Helpful aliases
@@ -21,11 +23,8 @@ export IMAGE="eog"
 # Always mkdir a path (this doesn't inhibit functionality to make a single dir)
 alias mkdir='mkdir -p'
 
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 # default apps
-export EDITOR="nvim"
-export VISUAL="nvim"
-export TERMINAL="kitty"
-export BROWSER="firefox"
 
 # default folders
 # adds ~/.local/bin and subfolders to $PATH
@@ -204,7 +203,7 @@ or=:\
 *.pdf=:\
 *.nix=:\
 "
-
+export MANPAGER='nvim +Man!'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
@@ -214,3 +213,5 @@ alias start="Hyprland"
 alias off="shutdown now"
 alias update="sudo pacman -Syu && flatpak update"
 btw
+gsettings set org.gnome.desktop.interface cursor-size 24
+hyprctl setcursor 24

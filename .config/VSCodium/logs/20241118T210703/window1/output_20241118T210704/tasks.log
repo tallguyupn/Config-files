@@ -1,0 +1,19 @@
+Error: the task 'C_Cpp_Runner: Build' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,/usr/bin/zsh,-c,g++ -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -g3 -O0 -c /home/lauri/Desktop/c++/Laksyt/tehtävä3.cpp -o ./build/Debug/tehtävä3.o && g++ -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -g3 -O0  -c /home/lauri/Desktop/c++/Laksyt/tehtävä4.cpp -o ./build/Debug/tehtävä4.o && g++ -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -g3 -O0  -c /home/lauri/Desktop/c++/Laksyt/tehtävä5.cpp -o ./build/Debug/tehtävä5.o && g++ -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -g3 -O0  -c /home/lauri/Desktop/c++/Laksyt/tehtävä6.cpp -o ./build/Debug/tehtävä6.o && g++ -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -g3 -O0  -c /home/lauri/Desktop/c++/Laksyt/tehtävä7.cpp -o ./build/Debug/tehtävä7.o && g++ -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -g3 -O0   ./build/Debug/tehtävä3.o ./build/Debug/tehtävä4.o ./build/Debug/tehtävä5.o ./build/Debug/tehtävä6.o ./build/Debug/tehtävä7.o -o ./build/Debug/outDebug,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C_Cpp_Runner: Build"
+}
+Error: the task 'C_Cpp_Runner: Build' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "process",
+    "id": "process,/usr/bin/zsh,-c,g++ -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -g3 -O0 -c /home/lauri/Desktop/c++/Laksyt/tehtävä3.cpp -o ./build/Debug/tehtävä3.o && g++ -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -g3 -O0  -c /home/lauri/Desktop/c++/Laksyt/tehtävä4.cpp -o ./build/Debug/tehtävä4.o && g++ -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -g3 -O0  -c /home/lauri/Desktop/c++/Laksyt/tehtävä5.cpp -o ./build/Debug/tehtävä5.o && g++ -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -g3 -O0  -c /home/lauri/Desktop/c++/Laksyt/tehtävä6.cpp -o ./build/Debug/tehtävä6.o && g++ -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -g3 -O0  -c /home/lauri/Desktop/c++/Laksyt/tehtävä7.cpp -o ./build/Debug/tehtävä7.o && g++ -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -Wcast-align -Wconversion -Wsign-conversion -Wnull-dereference -g3 -O0   ./build/Debug/tehtävä3.o ./build/Debug/tehtävä4.o ./build/Debug/tehtävä5.o ./build/Debug/tehtävä6.o ./build/Debug/tehtävä7.o -o ./build/Debug/outDebug,",
+    "problemMatcher": [
+        "$gcc"
+    ],
+    "label": "C_Cpp_Runner: Build"
+}
+Problem matcher {0} can't be resolved. The matcher will be ignored

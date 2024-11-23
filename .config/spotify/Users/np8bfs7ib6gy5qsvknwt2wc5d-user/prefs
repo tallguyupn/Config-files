@@ -1,8 +1,8 @@
-connect.dial_devices="[{\"address\":\"192.168.101.101\",\"app_state\":\"INSTALLED\",\"created_timestamp\":1728230226,\"device_id\":\"f2e6f0fb-bc09-4e71-a6c5-49883f1ec545\",\"dial_location_url\":\"http://192.168.101.101:1027/\",\"display_name\":\"pirkko\",\"last_seen\":1728231132,\"manufacturer\":\"LG\",\"model_name\":\"75UN71006LC\",\"product_cap\":\"\",\"public_ip\":\"37.136.130.18\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":50,\"mac\":\"e475dc10fff6\",\"port\":9,\"retries\":2400}}]"
-audio.play_bitrate_non_metered_migrated=true
-audio.crossfade_v2=true
 audio.downmixer_v2=true
+audio.crossfade_v2=true
+audio.play_bitrate_non_metered_migrated=true
+connect.dial_devices="[]"
 audio.equalizer_v2=true
-audio.play_bitrate_enumeration=3
 audio.play_bitrate_non_metered_enumeration=3
 audio.crossfade.time_v2=0
+audio.play_bitrate_enumeration=3

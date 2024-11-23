@@ -235,16 +235,14 @@ user_pref("layout.word_select.eat_space_to_next_word", false);
 // visit https://github.com/yokoffing/Betterfox/wiki/Optional-Hardening
 // Enter your personal overrides below this line:
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
-user_pref("svg.context-properties.content.enabled", true); 
-user_pref("layout.css.color-mix.enabled", true);
-user_pref("browser.tabs.delayHidingAudioPlayingIconMS", 0);
-user_pref("layout.css.backdrop-filter.enabled", true);
-user_pref("browser.newtabpage.activity-stream.improvesearch.handoffToAwesomebar", false);
+user_pref("svg.context-properties.content.enabled", true);
+user_pref("browser.tabs.tabMinWidth", 76);
+user_pref("browser.compactmode.show", true);
+user_pref("browser.proton.enabled", false);
+// user_pref("browser.uidensity", 1);
+user_pref("userChrome.toolbarSlider.width", 2);
+user_pref("layout.css.has-selector.enabled", true);
 
-/*To active container tabs without any extension */
-user_pref("privacy.userContext.enabled", true);
-user_pref("privacy.userContext.ui.enabled", true);
-user_pref("privacy.userContext.longPressBehavior", 2);
 /****************************************************************************
  * SECTION: SMOOTHFOX                                                       *
 ****************************************************************************/

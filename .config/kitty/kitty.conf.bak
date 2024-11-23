@@ -1,0 +1,33 @@
+# font_family CaskaydiaCove Nerd Font Mono
+
+cursor_shape underline
+
+cursor #ff4dc5
+
+font_size 11
+
+background_opacity 0.5
+
+foreground #ffc0cb
+
+background #000
+
+background_blur 1
+
+map ctrl+shift+n new_tab
+
+map ctrl+shift+q close_tab
+
+map ctrl+r clear_terminal clear active
+
+shell_integration disabled
+
+confirm_os_window_close 0
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="Terminess Nerd Font"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS

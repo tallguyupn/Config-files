@@ -1,0 +1,1274 @@
+Mono path[0] = '/home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Managed'
+Mono config path = '/home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/MonoBleedingEdge/etc'
+Preloaded 'lib_burst_generated.so'
+Preloaded 'libfmodstudio.so'
+Preloaded 'liblz4.so'
+Preloaded 'libresonanceaudio.so'
+Preloaded 'libsteam_api.so'
+Display 0 'DP-2 24"': 1920x1080 (primary device).
+Display 1 'HDMI-A-1 24"': 1920x1080 (secondary device).
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize engine version: 2020.3.39f1 (fd6670bb8be9)
+Plugins: Couldn't open OculusXRPlugin, error: OculusXRPlugin: cannot open shared object file: No such file or directory
+[Subsystems] Discovering subsystems at path /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/UnitySubsystems
+[Subsystems] No descriptors matched for  examples in UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json.
+[Subsystems] No descriptors matched for  examples in UnitySubsystems/UnityMockHMD/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in UnitySubsystems/UnityMockHMD/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in UnitySubsystems/UnityMockHMD/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in UnitySubsystems/UnityMockHMD/UnitySubsystemsManifest.json.
+[Subsystems] No descriptors matched for  examples in UnitySubsystems/WindowsMRXRSDK/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in UnitySubsystems/WindowsMRXRSDK/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in UnitySubsystems/WindowsMRXRSDK/UnitySubsystemsManifest.json
+[Subsystems] 1 'meshings' descriptors matched in UnitySubsystems/WindowsMRXRSDK/UnitySubsystemsManifest.json
+GfxDevice: creating device client; threaded=1
+Renderer: NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2
+Vendor:   NVIDIA Corporation
+Version:  4.5.0 NVIDIA 565.57.01
+GLES:     0
+ GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragmen
+t_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoki
+ng_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_A
+RB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_t
+ranspose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters 
+GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod G
+L_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_NV_memory_object_sparse GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_blend_equation_advanced
+_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap GL_NV_conservative_raster_pre_snap_triangles GL_NV_conservative_raster_underestimation GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_barycentric GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_shader_passthrough GL_NV_g
+pu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_program_multiview GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_te
+xture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview G
+L_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 95109304
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.052 seconds
+XRGeneral Settings awakening...
+Default vsync count 0
+requesting resize 1920 x 1080
+resizing window to 1920 x 1080
+Desktop is 1920 x 1080 @ 60 Hz
+UnloadTime: 0.576090 ms
+Desktop is 1920 x 1080 @ 60 Hz
+Unloading 5 Unused Serialized files (Serialized files now loaded: 116)
+1.74619 Splash async load completed
+UnloadTime: 1.376742 ms
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+Fallback handler could not load library /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed_Data/Mono/libudev.so
+[S_API] SteamAPI_Init(): Loaded '/home/lauri/.local/share/Steam/linux64/steamclient.so' OK.
+Setting breakpad minidump AppID = 337320
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561198886758296 [API loaded no]
+1.945015 GameManager.Awake start
+Unity Version: 2020.3.39f1
+Game Version: 1.3.4
+GPU Device: NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2
+GPU Device Type: OpenGLCore
+GPU Device Vender: NVIDIA Corporation
+GPU Device Version: OpenGL 4.5.0 NVIDIA 565.57.01
+GPU Memory: 6144
+GPU Shader Level: 50
+
+
+Launch Arguments: /home/lauri/.local/share/Steam/steamapps/common/Paint the Town Red/PaintTheTownRed.x86_64gamemoderun
+Version: 1.3.4
+Revision: Unknown
+CPU: AMD Ryzen 5 5600 6-Core Processor
+CPU Count: 12
+OS: Linux 6.11 Steam Runtime 2 64bit
+System Memory: 15901
+MTRendering: False
+Graphics Tier: Tier3
+Supports 2D Texture Arrays:True
+System Info:
+SystemInfo.processorCount = 12
+System.Environment.ProcessorCount = 12
+SystemInfo.processorFrequency = 3525
+SystemInfo.systemMemorySize = 15901
+SystemInfo.graphicsMemorySize = 6144
+SystemInfo.graphicsShaderLevel = 50
+SystemInfo.supports2DArrayTextures = True
+Save File on Steam Cloud is not a sufficient size: 0 : beneathsavesp1.dat
+ #0 void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)
+ #1 std::vector<std::pair<int, unsigned int>, std::allocator<std::pair<int, unsigned int> > >::operator=(std::vector<std::pair<int, unsigned int>, std::allocator<std::pair<int, unsigned int> > > const&)
+ #2 PlayerMain(int, char**)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4  (Mono JIT Code) SettingsManager:Init ()
+ #5 mono_print_method_from_ip
+ #6 mono_perfcounter_foreach
+ #7 mono_runtime_invoke
+ #8 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #9 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #10 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #11 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #12 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #13 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #14 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #15 std::_Rb_tree<int, std::pair<int const, int>, std::_Select1st<std::pair<int const, int> >, std::less<int>, std::allocator<std::pair<int const, int> > >::_M_erase(std::_Rb_tree_node<std::pair<int const, int> >*)
+ #16 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #17 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #18 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #19 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #20 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #21 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #22 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #23 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #24 PlayerMain(int, char**)
+ #25 __libc_init_first
+ #26 __libc_start_main
+ #27 ???
+
+Save File on Steam Cloud is not a sufficient size: 0 : beneathsavesp2.dat
+ #0 void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)
+ #1 std::vector<std::pair<int, unsigned int>, std::allocator<std::pair<int, unsigned int> > >::operator=(std::vector<std::pair<int, unsigned int>, std::allocator<std::pair<int, unsigned int> > > const&)
+ #2 PlayerMain(int, char**)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4  (Mono JIT Code) SettingsManager:Init ()
+ #5 mono_print_method_from_ip
+ #6 mono_perfcounter_foreach
+ #7 mono_runtime_invoke
+ #8 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #9 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #10 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #11 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #12 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #13 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #14 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #15 std::_Rb_tree<int, std::pair<int const, int>, std::_Select1st<std::pair<int const, int> >, std::less<int>, std::allocator<std::pair<int const, int> > >::_M_erase(std::_Rb_tree_node<std::pair<int const, int> >*)
+ #16 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #17 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #18 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #19 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #20 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #21 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #22 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #23 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #24 PlayerMain(int, char**)
+ #25 __libc_init_first
+ #26 __libc_start_main
+ #27 ???
+
+Save File on Steam Cloud is not a sufficient size: 0 : beneathsavemp0.dat
+ #0 void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)
+ #1 std::vector<std::pair<int, unsigned int>, std::allocator<std::pair<int, unsigned int> > >::operator=(std::vector<std::pair<int, unsigned int>, std::allocator<std::pair<int, unsigned int> > > const&)
+ #2 PlayerMain(int, char**)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4  (Mono JIT Code) SettingsManager:Init ()
+ #5 mono_print_method_from_ip
+ #6 mono_perfcounter_foreach
+ #7 mono_runtime_invoke
+ #8 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #9 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #10 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #11 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #12 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #13 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #14 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #15 std::_Rb_tree<int, std::pair<int const, int>, std::_Select1st<std::pair<int const, int> >, std::less<int>, std::allocator<std::pair<int const, int> > >::_M_erase(std::_Rb_tree_node<std::pair<int const, int> >*)
+ #16 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #17 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #18 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #19 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #20 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #21 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #22 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #23 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #24 PlayerMain(int, char**)
+ #25 __libc_init_first
+ #26 __libc_start_main
+ #27 ???
+
+Save File on Steam Cloud is not a sufficient size: 0 : beneathsavemp1.dat
+ #0 void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)
+ #1 std::vector<std::pair<int, unsigned int>, std::allocator<std::pair<int, unsigned int> > >::operator=(std::vector<std::pair<int, unsigned int>, std::allocator<std::pair<int, unsigned int> > > const&)
+ #2 PlayerMain(int, char**)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4  (Mono JIT Code) SettingsManager:Init ()
+ #5 mono_print_method_from_ip
+ #6 mono_perfcounter_foreach
+ #7 mono_runtime_invoke
+ #8 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #9 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #10 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #11 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #12 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #13 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #14 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #15 std::_Rb_tree<int, std::pair<int const, int>, std::_Select1st<std::pair<int const, int> >, std::less<int>, std::allocator<std::pair<int const, int> > >::_M_erase(std::_Rb_tree_node<std::pair<int const, int> >*)
+ #16 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #17 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #18 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #19 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #20 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #21 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #22 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #23 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #24 PlayerMain(int, char**)
+ #25 __libc_init_first
+ #26 __libc_start_main
+ #27 ???
+
+Save File on Steam Cloud is not a sufficient size: 0 : beneathsavemp2.dat
+ #0 void std::vector<int, std::allocator<int> >::_M_realloc_insert<int const&>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int const&)
+ #1 std::vector<std::pair<int, unsigned int>, std::allocator<std::pair<int, unsigned int> > >::operator=(std::vector<std::pair<int, unsigned int>, std::allocator<std::pair<int, unsigned int> > > const&)
+ #2 PlayerMain(int, char**)
+ #3  (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+ #4  (Mono JIT Code) SettingsManager:Init ()
+ #5 mono_print_method_from_ip
+ #6 mono_perfcounter_foreach
+ #7 mono_runtime_invoke
+ #8 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #9 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #10 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #11 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #12 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #13 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #14 void std::vector<unsigned int, std::allocator<unsigned int> >::_M_assign_aux<__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > > >(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, __gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, std::forward_iterator_tag)
+ #15 std::_Rb_tree<int, std::pair<int const, int>, std::_Select1st<std::pair<int const, int> >, std::less<int>, std::allocator<std::pair<int const, int> > >::_M_erase(std::_Rb_tree_node<std::pair<int const, int> >*)
+ #16 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #17 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #18 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #19 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #20 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #21 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #22 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #23 int* std::_V2::__rotate<int*>(int*, int*, int*, std::random_access_iterator_tag)
+ #24 PlayerMain(int, char**)
+ #25 __libc_init_first
+ #26 __libc_start_main
+ #27 ???
+
+Same save file timestamp for Steam Cloud and local for savedata.dat
+Same save file timestamp for Steam Cloud and local for beneathsavesp0.dat
+Attempting to read Beneath save file: beneathsavesp0.dat
+numShardUpgrades: 3
+No save data found locally or on Steam Cloud for beneathsavesp1.dat
+No save data found locally or on Steam Cloud for beneathsavesp2.dat
+No save data found locally or on Steam Cloud for beneathsavemp0.dat
+No save data found locally or on Steam Cloud for beneathsavemp1.dat
+No save data found locally or on Steam Cloud for beneathsavemp2.dat
+Attempting to load Beneath slot progression1
+numShardUpgrades: 0
+Attempting to load Beneath slot progression2
+numShardUpgrades: 0
+Attempting to load Beneath slot progression3
+numShardUpgrades: 0
+Attempting to load Beneath slot progression4
+numShardUpgrades: 0
+Attempting to load Beneath slot progression5
+numShardUpgrades: 0
+Last Run Version: 1.3.4
+Init Speedrunning DLL
+VOXELEMENT GLOBALS INIT
+VoxelElementMeshCombined.InitGlobals
+
+
+Welcome to the log for Paint the Town Red. Hopefully you're viewing this out of curiousity and not because something went wrong.
+If something did go wrong then please send this log to contact@southeastgames.com along with a description of the problem.
+You can also go to the Steam Community for the game and post about your bug there. http://steamcommunity.com//app/337320/ 
+
+Num threads for SEGThreadManager 10
+2.109437 GameManager.Awake end
+2.111119 SEGSoundManager.Awake start
+5.182959 SEGSoundManager.Awake end
+InitFMOD
+InitFMOD: After Get Bus
+OK : FMOD.ChannelGroup
+InitFMOD: After Get Music Channel Group
+5.211249 Splash scene Awake
+5.212398 GraphicsManager.Awake start
+SetAnimationLOD 1
+5.214847 GraphicsManager.Awake end
+5.215092 EntityManager.Awake start
+5.218357 EntityManager.Awake end
+InputSystem.Awake
+InputSystem.Awake Player1 acquired: Rewired.Player : False
+5.265288 Splash scene Start
+Force Set Localisation Language to: English
+Async system hasn't yet initialised properly
+Attempt InitAddressablesSystem
+Post Attempt InitAddressablesSystem
+[FMOD] Please add an 'FMOD Studio Listener' component to your a camera in the scene for correct 3D positioning of sounds.
+
+Unloading 3325 unused Assets to reduce memory usage. Loaded Objects now: 26320.
+Total: 59.997368 ms (FindLiveObjects: 0.913683 ms CreateObjectMapping: 1.582077 ms MarkObjects: 54.376478 ms  DeleteObjects: 3.124740 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 116)
+AppID: 337320
+SEGSteamUGC.Init
+Player has 31 Workshop item subscriptions
+Valid handle from CreateQueryUGCDetailsRequest. Requested 31 levels
+StatsManager.Init
+Loading Main Music
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 26320.
+Total: 55.155739 ms (FindLiveObjects: 0.763441 ms CreateObjectMapping: 1.255525 ms MarkObjects: 53.112597 ms  DeleteObjects: 0.023664 ms)
+
+Steam System Language: english
+Set Localisation Language to: English
+Unloading 1 Unused Serialized files (Serialized files now loaded: 116)
+Async load completed FinalMenu
+Received stats and achievements from Steam
+ : 5.726727
+Received stats and achievements from Steam
+ : 5.731565
+ReadPublishedLevelData 31 : True : 5.736702
+StoreStats - success
+Async load activating FinalMenu
+UnloadTime: 3.652249 ms
+ResetValuesAfterLevelLoad: FinalMenu
+
+Unloading 243 unused Assets to reduce memory usage. Loaded Objects now: 35437.
+Total: 91.519699 ms (FindLiveObjects: 1.108779 ms CreateObjectMapping: 1.726879 ms MarkObjects: 88.127518 ms  DeleteObjects: 0.555862 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 35437.
+Total: 92.906790 ms (FindLiveObjects: 1.118808 ms CreateObjectMapping: 1.374598 ms MarkObjects: 90.367258 ms  DeleteObjects: 0.045625 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 40838.
+Total: 121.654568 ms (FindLiveObjects: 1.472431 ms CreateObjectMapping: 1.522094 ms MarkObjects: 118.606533 ms  DeleteObjects: 0.052929 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 40837.
+Total: 120.743751 ms (FindLiveObjects: 1.573251 ms CreateObjectMapping: 0.953878 ms MarkObjects: 118.179122 ms  DeleteObjects: 0.036940 ms)
+
+UseMaxFramerate Scroller changed to False
+UseMaxFramerate Scroller changed to True
+SetResolution(1920, 1080, True, -1)
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+SetupNewRun: Resuming saved run
+LoadLevel A
+Unloading 2 Unused Serialized files (Serialized files now loaded: 120)
+
+Unloading 9727 unused Assets to reduce memory usage. Loaded Objects now: 50415.
+Total: 141.212083 ms (FindLiveObjects: 2.142628 ms CreateObjectMapping: 2.651913 ms MarkObjects: 127.069793 ms  DeleteObjects: 9.347298 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 120)
+10320: GameManager ResetValuesDuringLevelUnload
+UnloadTime: 65.883245 ms
+Loading Scene loaded
+LoadLevel A
+
+Unloading 1099 unused Assets to reduce memory usage. Loaded Objects now: 27004.
+Total: 78.386661 ms (FindLiveObjects: 0.949500 ms CreateObjectMapping: 1.419632 ms MarkObjects: 69.181340 ms  DeleteObjects: 6.835808 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 27004.
+Total: 71.935375 ms (FindLiveObjects: 0.978905 ms CreateObjectMapping: 1.220990 ms MarkObjects: 69.711795 ms  DeleteObjects: 0.023234 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 116)
+Async load completed BeneathLevel
+UnloadTime: 0.649518 ms
+ResetValuesAfterLevelLoad: BeneathLevel
+Gif Replay Capture Initialised. Total Memory Usage: 142.38MB
+Set Player BeneathLevel
+Set Player BeneathLevel
+Setting Gender to existing: Male
+Gender: Male
+Level Loaded: BeneathLevel
+XRSettings.enabled is deprecated: Use XRDisplaySubsystem.Start() and XRDisplaySubsystem.Stop().
+Begin Level BeneathLevel
+Level ready to begin
+
+Unloading 1015 unused Assets to reduce memory usage. Loaded Objects now: 38739.
+Total: 129.676531 ms (FindLiveObjects: 1.566197 ms CreateObjectMapping: 1.802199 ms MarkObjects: 125.100170 ms  DeleteObjects: 1.207564 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 116)
+Changed Player Class from Default to Mauler
+UpdateHealthBarSize 1.5, 0, 0, 0
+SetMaterialsToBeneathClass: Male : 2 : Mauler
+Health Upgrade 3, Stamina Upgrade 3, Speed Upgrade 3, Durability Upgrade 3, Ammo Upgrade 3, Damage Upgrade 3
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38782.
+Total: 126.256478 ms (FindLiveObjects: 1.545628 ms CreateObjectMapping: 0.663083 ms MarkObjects: 124.009444 ms  DeleteObjects: 0.037621 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38790.
+Total: 131.323610 ms (FindLiveObjects: 1.528887 ms CreateObjectMapping: 1.882510 ms MarkObjects: 127.868581 ms  DeleteObjects: 0.042660 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38798.
+Total: 127.685909 ms (FindLiveObjects: 1.454868 ms CreateObjectMapping: 1.700640 ms MarkObjects: 124.503110 ms  DeleteObjects: 0.026821 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38806.
+Total: 127.811344 ms (FindLiveObjects: 1.409954 ms CreateObjectMapping: 1.651577 ms MarkObjects: 124.719155 ms  DeleteObjects: 0.030257 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38814.
+Total: 126.999762 ms (FindLiveObjects: 1.371842 ms CreateObjectMapping: 1.702783 ms MarkObjects: 123.894509 ms  DeleteObjects: 0.030216 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38822.
+Total: 127.706166 ms (FindLiveObjects: 1.413741 ms CreateObjectMapping: 1.661465 ms MarkObjects: 124.597036 ms  DeleteObjects: 0.033252 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38830.
+Total: 125.295416 ms (FindLiveObjects: 1.458195 ms CreateObjectMapping: 0.605155 ms MarkObjects: 123.203062 ms  DeleteObjects: 0.028613 ms)
+
+Beneath Level Seed: 1037010535 (MASTER: 1371894414), Area : Level = (2 : 0)
+Has Captive Room: False : True
+(C) Room 0-5 could not find a good position offset from a previous door so we're just gonna shuffle it around until it fits. Attempts: 0
+(C) Room 0-4 could not find a good position offset from a previous door so we're just gonna shuffle it around until it fits. Attempts: 107
+(C) Room 0-3 could not find a good position offset from a previous door so we're just gonna shuffle it around until it fits. Attempts: 79
+(C) Room 0-2 could not find a good position offset from a previous door so we're just gonna shuffle it around until it fits. Attempts: 110
+(A) Room 0-1 has been placed via door (3, (-1.0, 0.0, 0.0)) next to a previous room opposite door ((1.0, 0.0, 0.0)) with the offset: (10.0, 0.0, -50.0). Final Pos: (160.0, 0.0, -280.0)
+(C) Room 0-0 could not find a good position offset from a previous door so we're just gonna shuffle it around until it fits. Attempts: 99
+SCAN: 1.55869
+TILE CUT: 0.025181
+LARGEST AREA SIZE: 6209
+UpdateHealthBarSize 1.5, 6, 3, 0
+UpdateHealthBarSize 1.5, 6, 3, 1
+Saving file /home/lauri/.config/unity3d/South East Games/Paint The Town Red/SaveData/beneathsavesp0.dat
+Spawning Gremlin in room 1
+SetNumEnemies: 120, Num Wave Enemies: 0
+11129 Combat Started
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Player picked up health
+Kinematic body only supports Speculative Continuous collision detection
+Player picked up speed boost
+Player picked up health boost
+UpdateHealthBarSize 1.5, 7, 3, 1
+Player picked up health boost
+UpdateHealthBarSize 1.5, 8, 3, 1
+LevelWon
+Load next Beneath level -1 : 2 : 0 : 0 : -1
+LoadLevel A
+Unloading 2 Unused Serialized files (Serialized files now loaded: 118)
+
+Unloading 8661 unused Assets to reduce memory usage. Loaded Objects now: 140456.
+Total: 261.324920 ms (FindLiveObjects: 6.116139 ms CreateObjectMapping: 3.958192 ms MarkObjects: 245.408103 ms  DeleteObjects: 5.841995 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 118)
+49096: GameManager ResetValuesDuringLevelUnload
+Dynamic Cache was at 21.11962MB for BeneathLevel
+UnloadTime: 310.918138 ms
+Loading Scene loaded
+LoadLevel A
+
+Unloading 14242 unused Assets to reduce memory usage. Loaded Objects now: 27037.
+Total: 107.964877 ms (FindLiveObjects: 1.302953 ms CreateObjectMapping: 2.347272 ms MarkObjects: 89.935568 ms  DeleteObjects: 14.378663 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 27045.
+Total: 91.908929 ms (FindLiveObjects: 1.193177 ms CreateObjectMapping: 1.517165 ms MarkObjects: 89.172507 ms  DeleteObjects: 0.025548 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 116)
+Async load completed BeneathLevel
+UnloadTime: 0.415940 ms
+ResetValuesAfterLevelLoad: BeneathLevel
+Gif Replay Capture Initialised. Total Memory Usage: 142.38MB
+Set Player BeneathLevel
+Set Player BeneathLevel
+Setting Gender to existing: Male
+Gender: Male
+Level Loaded: BeneathLevel
+XRSettings.enabled is deprecated: Use XRDisplaySubsystem.Start() and XRDisplaySubsystem.Stop().
+Begin Level BeneathLevel
+Level ready to begin
+
+Unloading 1015 unused Assets to reduce memory usage. Loaded Objects now: 38745.
+Total: 144.205436 ms (FindLiveObjects: 2.183344 ms CreateObjectMapping: 0.894097 ms MarkObjects: 139.962139 ms  DeleteObjects: 1.165455 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 116)
+Changed Player Class from Default to Mauler
+UpdateHealthBarSize 1.5, 0, 0, 0
+SetMaterialsToBeneathClass: Male : 2 : Mauler
+Health Upgrade 3, Stamina Upgrade 3, Speed Upgrade 3, Durability Upgrade 3, Ammo Upgrade 3, Damage Upgrade 3
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38788.
+Total: 151.560108 ms (FindLiveObjects: 1.770820 ms CreateObjectMapping: 0.762780 ms MarkObjects: 148.993785 ms  DeleteObjects: 0.032220 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38796.
+Total: 145.679610 ms (FindLiveObjects: 1.404023 ms CreateObjectMapping: 1.601112 ms MarkObjects: 142.642205 ms  DeleteObjects: 0.031779 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38804.
+Total: 148.165753 ms (FindLiveObjects: 2.406493 ms CreateObjectMapping: 1.716930 ms MarkObjects: 144.009539 ms  DeleteObjects: 0.032351 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38812.
+Total: 145.473394 ms (FindLiveObjects: 1.989751 ms CreateObjectMapping: 1.627302 ms MarkObjects: 141.825884 ms  DeleteObjects: 0.029986 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38820.
+Total: 147.725197 ms (FindLiveObjects: 1.461591 ms CreateObjectMapping: 1.723321 ms MarkObjects: 144.507312 ms  DeleteObjects: 0.032501 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38828.
+Total: 144.778581 ms (FindLiveObjects: 1.437025 ms CreateObjectMapping: 1.733040 ms MarkObjects: 141.569423 ms  DeleteObjects: 0.038562 ms)
+
+Beneath Level Seed: 547375456 (MASTER: 1371894414), Area : Level = (2 : 1)
+Has Captive Room: False : True
+(C) Room 0-6 could not find a good position offset from a previous door so we're just gonna shuffle it around until it fits. Attempts: 0
+(A) Room 0-5 has been placed via door (2, (1.0, 0.0, 0.0)) next to a previous room opposite door ((-1.0, 0.0, 0.0)) with the offset: (-25.0, 0.0, 50.0). Final Pos: (-155.0, 0.0, 40.0)
+(A) Room 0-4 has been placed via door (2, (0.0, 0.0, -1.0)) next to a previous room opposite door ((0.0, 0.0, 1.0)) with the offset: (-75.0, 0.0, 20.0). Final Pos: (-205.0, 0.0, 200.0)
+(C) Room 0-3 could not find a good position offset from a previous door so we're just gonna shuffle it around until it fits. Attempts: 91
+(A) Room 0-2 has been placed via door (2, (0.0, 0.0, -1.0)) next to a previous room opposite door ((0.0, 0.0, 1.0)) with the offset: (50.0, 0.0, 20.0). Final Pos: (-100.0, 0.0, 410.0)
+(A) Room 0-1 has been placed via door (0, (0.0, 0.0, -1.0)) next to a previous room opposite door ((0.0, 0.0, 1.0)) with the offset: (-50.0, 0.0, 20.0). Final Pos: (-165.0, 0.0, 510.0)
+(C) Room 0-0 could not find a good position offset from a previous door so we're just gonna shuffle it around until it fits. Attempts: 69
+SCAN: 1.862631
+TILE CUT: 0.002832
+LARGEST AREA SIZE: 7098
+UpdateHealthBarSize 1.5, 8, 3, 0
+UpdateHealthBarSize 1.5, 8, 3, 1
+Saving file /home/lauri/.config/unity3d/South East Games/Paint The Town Red/SaveData/beneathsavesp0.dat
+Spawning Gremlin in room 1
+SetNumEnemies: 125, Num Wave Enemies: 0
+49863 Combat Started
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Look rotation viewing vector is zero
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Player picked up health boost
+UpdateHealthBarSize 1.5, 9, 3, 1
+Player picked up speed boost
+Player picked up speed boost
+Player picked up health
+Health Upgrade 3, Stamina Upgrade 3, Speed Upgrade 3, Durability Upgrade 3, Ammo Upgrade 3, Damage Upgrade 3
+Health Upgrade 3, Stamina Upgrade 3, Speed Upgrade 3, Durability Upgrade 3, Ammo Upgrade 3, Damage Upgrade 3
+Saving file /home/lauri/.config/unity3d/South East Games/Paint The Town Red/SaveData/beneathsavesp0.dat
+LevelWon
+Load next Beneath level -1 : 2 : 1 : 0 : -1
+LoadLevel A
+Unloading 2 Unused Serialized files (Serialized files now loaded: 118)
+
+Unloading 8096 unused Assets to reduce memory usage. Loaded Objects now: 147552.
+Total: 284.976703 ms (FindLiveObjects: 6.898527 ms CreateObjectMapping: 4.343314 ms MarkObjects: 267.989298 ms  DeleteObjects: 5.744963 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 118)
+105942: GameManager ResetValuesDuringLevelUnload
+Dynamic Cache was at 20.89495MB for BeneathLevel
+UnloadTime: 302.314545 ms
+Loading Scene loaded
+LoadLevel A
+
+Unloading 13873 unused Assets to reduce memory usage. Loaded Objects now: 27043.
+Total: 114.331506 ms (FindLiveObjects: 1.321869 ms CreateObjectMapping: 2.208922 ms MarkObjects: 95.852875 ms  DeleteObjects: 14.947490 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 27051.
+Total: 97.973972 ms (FindLiveObjects: 0.968416 ms CreateObjectMapping: 1.408932 ms MarkObjects: 95.573992 ms  DeleteObjects: 0.022241 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 116)
+Async load completed BeneathLevel
+UnloadTime: 0.399840 ms
+ResetValuesAfterLevelLoad: BeneathLevel
+Gif Replay Capture Initialised. Total Memory Usage: 142.38MB
+Set Player BeneathLevel
+Set Player BeneathLevel
+Setting Gender to existing: Male
+Gender: Male
+Level Loaded: BeneathLevel
+XRSettings.enabled is deprecated: Use XRDisplaySubsystem.Start() and XRDisplaySubsystem.Stop().
+Begin Level BeneathLevel
+Level ready to begin
+
+Unloading 1015 unused Assets to reduce memory usage. Loaded Objects now: 38751.
+Total: 156.891335 ms (FindLiveObjects: 2.369554 ms CreateObjectMapping: 1.544606 ms MarkObjects: 151.794738 ms  DeleteObjects: 1.182037 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 116)
+Changed Player Class from Default to Mauler
+UpdateHealthBarSize 1.5, 0, 0, 0
+SetMaterialsToBeneathClass: Male : 2 : Mauler
+Health Upgrade 3, Stamina Upgrade 3, Speed Upgrade 3, Durability Upgrade 3, Ammo Upgrade 3, Damage Upgrade 3
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38794.
+Total: 151.890828 ms (FindLiveObjects: 1.523327 ms CreateObjectMapping: 0.543629 ms MarkObjects: 149.792093 ms  DeleteObjects: 0.031359 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38802.
+Total: 152.731565 ms (FindLiveObjects: 1.392792 ms CreateObjectMapping: 1.658240 ms MarkObjects: 149.644586 ms  DeleteObjects: 0.035497 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38810.
+Total: 154.046740 ms (FindLiveObjects: 1.630938 ms CreateObjectMapping: 1.731417 ms MarkObjects: 150.656824 ms  DeleteObjects: 0.027151 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38818.
+Total: 153.838450 ms (FindLiveObjects: 1.514981 ms CreateObjectMapping: 1.614197 ms MarkObjects: 150.667914 ms  DeleteObjects: 0.040667 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38826.
+Total: 152.503056 ms (FindLiveObjects: 1.446773 ms CreateObjectMapping: 1.661565 ms MarkObjects: 149.361556 ms  DeleteObjects: 0.032641 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38834.
+Total: 150.917623 ms (FindLiveObjects: 1.567179 ms CreateObjectMapping: 1.701391 ms MarkObjects: 147.618206 ms  DeleteObjects: 0.030427 ms)
+
+Beneath Level Seed: 416859386 (MASTER: 1371894414), Area : Level = (2 : 2)
+Has Captive Room: False : True
+(C) Room 0-9 could not find a good position offset from a previous door so we're just gonna shuffle it around until it fits. Attempts: 0
+(A) Room 0-8 has been placed via door (0, (0.0, 0.0, 1.0)) next to a previous room opposite door ((0.0, 0.0, -1.0)) with the offset: (-50.0, 0.0, -20.0). Final Pos: (-55.0, 0.0, -100.0)
+(C) Room 0-7 could not find a good position offset from a previous door so we're just gonna shuffle it around until it fits. Attempts: 101
+(C) Room 0-6 could not find a good position offset from a previous door so we're just gonna shuffle it around until it fits. Attempts: 62
+(C) Room 0-5 could not find a good position offset from a previous door so we're just gonna shuffle it around until it fits. Attempts: 94
+(C) Room 0-4 could not find a good position offset from a previous door so we're just gonna shuffle it around until it fits. Attempts: 113
+(A) Room 0-3 has been placed via door (1, (1.0, 0.0, 0.0)) next to a previous room opposite door ((-1.0, 0.0, 0.0)) with the offset: (-10.0, 0.0, 50.0). Final Pos: (-405.0, 0.0, 65.0)
+(A) Room 0-2 has been placed via door (0, (1.0, 0.0, 0.0)) next to a previous room opposite door ((-1.0, 0.0, 0.0)) with the offset: (-15.0, 0.0, 50.0). Final Pos: (-480.0, 0.0, 85.0)
+(A) Room 0-1 has been placed via door (2, (1.0, 0.0, 0.0)) next to a previous room opposite door ((-1.0, 0.0, 0.0)) with the offset: (-25.0, 0.0, 75.0). Final Pos: (-610.0, 0.0, 190.0)
+(C) Room 0-0 could not find a good position offset from a previous door so we're just gonna shuffle it around until it fits. Attempts: 107
+SCAN: 2.80993
+TILE CUT: 0.002139
+LARGEST AREA SIZE: 9225
+UpdateHealthBarSize 1.5, 9, 3, 0
+UpdateHealthBarSize 1.5, 9, 3, 1
+Saving file /home/lauri/.config/unity3d/South East Games/Paint The Town Red/SaveData/beneathsavesp0.dat
+Spawning Gremlin in room 4
+SetNumEnemies: 194, Num Wave Enemies: 0
+106855 Combat Started
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+********* Enemy found outside challenge room. Teleporting into room ********
+********* Enemy found outside challenge room. Teleporting into room ********
+CHALLENGE COMPLETE
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Look rotation viewing vector is zero
+Look rotation viewing vector is zero
+AllPlayersInEntrance
+OpenMainGate
+StartFight
+AllPlayersThroughEntrance
+CLOSE MAIN GATE
+OpenMainGateAfterRoutine
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+Kinematic body only supports Speculative Continuous collision detection
+LevelWon
+Load next Beneath level -1 : 2 : 2 : 0 : -1
+LoadLevel A
+Unloading 2 Unused Serialized files (Serialized files now loaded: 119)
+
+Unloading 8887 unused Assets to reduce memory usage. Loaded Objects now: 129779.
+Total: 320.670026 ms (FindLiveObjects: 5.796841 ms CreateObjectMapping: 4.643297 ms MarkObjects: 304.191394 ms  DeleteObjects: 6.037872 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 119)
+169011: GameManager ResetValuesDuringLevelUnload
+Dynamic Cache was at 21.83056MB for BeneathLevel
+UnloadTime: 368.826559 ms
+Loading Scene loaded
+LoadLevel A
+
+Unloading 18861 unused Assets to reduce memory usage. Loaded Objects now: 27174.
+Total: 136.745287 ms (FindLiveObjects: 1.788333 ms CreateObjectMapping: 1.541571 ms MarkObjects: 111.453269 ms  DeleteObjects: 21.961592 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 27182.
+Total: 111.014927 ms (FindLiveObjects: 1.059046 ms CreateObjectMapping: 0.541606 ms MarkObjects: 109.389950 ms  DeleteObjects: 0.023875 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 116)
+Async load completed BeneathLevel
+UnloadTime: 0.417012 ms
+ResetValuesAfterLevelLoad: BeneathLevel
+Gif Replay Capture Initialised. Total Memory Usage: 142.38MB
+Set Player BeneathLevel
+Set Player BeneathLevel
+Setting Gender to existing: Male
+Gender: Male
+Level Loaded: BeneathLevel
+XRSettings.enabled is deprecated: Use XRDisplaySubsystem.Start() and XRDisplaySubsystem.Stop().
+Begin Level BeneathLevel
+Level ready to begin
+
+Unloading 1015 unused Assets to reduce memory usage. Loaded Objects now: 38758.
+Total: 172.445122 ms (FindLiveObjects: 2.499427 ms CreateObjectMapping: 2.333817 ms MarkObjects: 166.401398 ms  DeleteObjects: 1.210049 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 116)
+Changed Player Class from Default to Mauler
+UpdateHealthBarSize 1.5, 0, 0, 0
+SetMaterialsToBeneathClass: Male : 2 : Mauler
+Health Upgrade 3, Stamina Upgrade 3, Speed Upgrade 3, Durability Upgrade 3, Ammo Upgrade 3, Damage Upgrade 3
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38801.
+Total: 166.947121 ms (FindLiveObjects: 1.535098 ms CreateObjectMapping: 0.541496 ms MarkObjects: 164.841774 ms  DeleteObjects: 0.028263 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38809.
+Total: 165.157746 ms (FindLiveObjects: 1.600561 ms CreateObjectMapping: 1.706901 ms MarkObjects: 161.817473 ms  DeleteObjects: 0.032311 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38817.
+Total: 165.751630 ms (FindLiveObjects: 1.457903 ms CreateObjectMapping: 1.738771 ms MarkObjects: 162.522425 ms  DeleteObjects: 0.032140 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38825.
+Total: 166.700379 ms (FindLiveObjects: 1.525080 ms CreateObjectMapping: 1.609168 ms MarkObjects: 163.532769 ms  DeleteObjects: 0.032841 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38833.
+Total: 166.935901 ms (FindLiveObjects: 1.537212 ms CreateObjectMapping: 1.615540 ms MarkObjects: 163.751148 ms  DeleteObjects: 0.031539 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 38841.
+Total: 166.303174 ms (FindLiveObjects: 1.507717 ms CreateObjectMapping: 1.897488 ms MarkObjects: 162.867051 ms  DeleteObjects: 0.030528 ms)
+
+Beneath Level Seed: 175332521 (MASTER: 1371894414), Area : Level = (5 : 0)
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelGen/Module_Transition_Portal_to_Boss(Clone)/FallPreventCollision/Cube (1)"
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelGen/Module_Transition_Portal_to_Boss(Clone)/FallPreventCollision/Cube (2)"
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelGen/Module_Transition_Portal_to_Boss(Clone)/FallPreventCollision/Cube (3)"
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelGen/Module_Transition_Portal_to_Boss(Clone)/FallPreventCollision/Cube (4)"
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelGen/Module_Transition_Portal_to_Boss(Clone)/FallPreventCollision/Cube (5)"
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelGen/Module_Transition_Portal_to_Boss(Clone)/FallPreventCollision/Cube (6)"
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelGen/Module_Transition_Portal_to_Boss(Clone)/FallPreventCollision/Cube (7)"
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelGen/Module_Transition_Portal_to_Boss(Clone)/FallPreventCollision/Cube (8)"
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelGen/Module_Transition_Portal_to_Boss(Clone)/FallPreventCollision/Cube (9)"
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "LevelGen/Module_Transition_Portal_to_Boss(Clone)/FallPreventCollision/Cube (10)"
+Path to Exit failed.
+UpdateHealthBarSize 1.5, 9, 3, 0
+UpdateHealthBarSize 1.5, 9, 3, 1
+Saving file /home/lauri/.config/unity3d/South East Games/Paint The Town Red/SaveData/beneathsavesp0.dat
+169070 Combat Started
+Player picked up health
+Player picked up power
+Health Upgrade 3, Stamina Upgrade 3, Speed Upgrade 3, Durability Upgrade 3, Ammo Upgrade 3, Damage Upgrade 3
+Health Upgrade 3, Stamina Upgrade 3, Speed Upgrade 3, Durability Upgrade 3, Ammo Upgrade 3, Damage Upgrade 3
+Health Upgrade 3, Stamina Upgrade 3, Speed Upgrade 3, Durability Upgrade 3, Ammo Upgrade 3, Damage Upgrade 3
+Health Upgrade 3, Stamina Upgrade 3, Speed Upgrade 3, Durability Upgrade 3, Ammo Upgrade 3, Damage Upgrade 3
+Saving file /home/lauri/.config/unity3d/South East Games/Paint The Town Red/SaveData/beneathsavesp0.dat
+Player died. Level: BeneathLevel. Kills 0%
+PLAYER DIED
+PLAYER DIED B
+Displaying death routine
+Saving file /home/lauri/.config/unity3d/South East Games/Paint The Town Red/SaveData/beneathsavesp0.dat
+Saving file /home/lauri/.config/unity3d/South East Games/Paint The Town Red/SaveData/beneathsavesp0.dat
+LoadLevel A
+Unloading 2 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 911 unused Assets to reduce memory usage. Loaded Objects now: 43629.
+Total: 208.032716 ms (FindLiveObjects: 1.583980 ms CreateObjectMapping: 1.586385 ms MarkObjects: 201.214010 ms  DeleteObjects: 3.647801 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 116)
+177621: GameManager ResetValuesDuringLevelUnload
+Dynamic Cache was at 0MB for BeneathLevel
+UnloadTime: 154.466949 ms
+Loading Scene loaded
+LoadLevel A
+
+Unloading 5135 unused Assets to reduce memory usage. Loaded Objects now: 27064.
+Total: 123.629021 ms (FindLiveObjects: 1.149005 ms CreateObjectMapping: 1.728652 ms MarkObjects: 112.961166 ms  DeleteObjects: 7.789667 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 27072.
+Total: 115.777297 ms (FindLiveObjects: 0.984496 ms CreateObjectMapping: 1.485987 ms MarkObjects: 113.280756 ms  DeleteObjects: 0.025598 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 27106.
+Total: 115.171993 ms (FindLiveObjects: 1.016176 ms CreateObjectMapping: 1.467913 ms MarkObjects: 112.663298 ms  DeleteObjects: 0.024146 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 27114.
+Total: 114.859557 ms (FindLiveObjects: 0.990767 ms CreateObjectMapping: 1.312401 ms MarkObjects: 112.530699 ms  DeleteObjects: 0.025238 ms)
+
+Async load completed BeneathHub
+Unloading 1 Unused Serialized files (Serialized files now loaded: 116)
+UnloadTime: 0.739917 ms
+ResetValuesAfterLevelLoad: BeneathHub
+Gif Replay Capture Initialised. Total Memory Usage: 142.38MB
+Set Player BeneathHub
+Set Player BeneathHub
+Setting Gender to new: Male
+Gender: Male
+Level Loaded: BeneathHub
+XRSettings.enabled is deprecated: Use XRDisplaySubsystem.Start() and XRDisplaySubsystem.Stop().
+Begin Level BeneathHub
+
+Unloading 18365 unused Assets to reduce memory usage. Loaded Objects now: 81095.
+Total: 184.353602 ms (FindLiveObjects: 3.426355 ms CreateObjectMapping: 3.472632 ms MarkObjects: 162.690520 ms  DeleteObjects: 14.763585 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 116)
+Changed Player Class from Default to Mauler
+UpdateHealthBarSize 1.5, 0, 0, 0
+SetMaterialsToBeneathClass: Male : White : Mauler
+Health Upgrade 3, Stamina Upgrade 3, Speed Upgrade 3, Durability Upgrade 3, Ammo Upgrade 3, Damage Upgrade 3
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 81137.
+Total: 172.859128 ms (FindLiveObjects: 3.692354 ms CreateObjectMapping: 2.399620 ms MarkObjects: 166.684039 ms  DeleteObjects: 0.082224 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 81145.
+Total: 175.876186 ms (FindLiveObjects: 3.037997 ms CreateObjectMapping: 2.350448 ms MarkObjects: 170.432046 ms  DeleteObjects: 0.055184 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 81153.
+Total: 169.996490 ms (FindLiveObjects: 2.993914 ms CreateObjectMapping: 2.231705 ms MarkObjects: 164.724604 ms  DeleteObjects: 0.045785 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 81161.
+Total: 174.648163 ms (FindLiveObjects: 4.558608 ms CreateObjectMapping: 2.149401 ms MarkObjects: 167.888196 ms  DeleteObjects: 0.051476 ms)
+
+Level ready to begin
+Health Upgrade 3, Stamina Upgrade 3, Speed Upgrade 3, Durability Upgrade 3, Ammo Upgrade 3, Damage Upgrade 3
+Health Upgrade 3, Stamina Upgrade 3, Speed Upgrade 3, Durability Upgrade 3, Ammo Upgrade 3, Damage Upgrade 3
+Saving file /home/lauri/.config/unity3d/South East Games/Paint The Town Red/SaveData/beneathsavesp0.dat
+Saving file /home/lauri/.config/unity3d/South East Games/Paint The Town Red/SaveData/beneathsavesp0.dat
+LoadMenu
+Unloading 1 Unused Serialized files (Serialized files now loaded: 117)
+182514: GameManager ResetValuesDuringLevelUnload
+Dynamic Cache was at 0.009738922MB for BeneathHub
+UnloadTime: 209.583575 ms
+ResetValuesAfterLevelLoad: FinalMenu
+Begin Level FinalMenu
+Level ready to begin
+
+Unloading 5577 unused Assets to reduce memory usage. Loaded Objects now: 35551.
+Total: 163.788578 ms (FindLiveObjects: 1.299927 ms CreateObjectMapping: 1.596574 ms MarkObjects: 148.073891 ms  DeleteObjects: 12.817816 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 35549.
+Total: 153.481652 ms (FindLiveObjects: 1.425713 ms CreateObjectMapping: 1.637721 ms MarkObjects: 150.244301 ms  DeleteObjects: 0.173376 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 40894.
+Total: 181.977217 ms (FindLiveObjects: 1.573862 ms CreateObjectMapping: 1.518948 ms MarkObjects: 178.561401 ms  DeleteObjects: 0.322595 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 40893.
+Total: 180.817933 ms (FindLiveObjects: 1.660002 ms CreateObjectMapping: 1.520331 ms MarkObjects: 177.601311 ms  DeleteObjects: 0.035867 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 116)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 40893.
+Total: 183.577317 ms (FindLiveObjects: 1.669761 ms CreateObjectMapping: 1.428809 ms MarkObjects: 180.442999 ms  DeleteObjects: 0.035146 ms)
+
+Starting Quitting
+Starting CleanUp
+GameManager CleanUp start
+Cleanup SettingsManager
+Cleanup VoxelElement.CleanupUnmanagedBuffers
+CleanupUnmanagedBuffers
+VoxelElementMeshCombined.CleanupGlobals
+Cleanup PTTRDecalSystem.CleanupGlobals
+Cleanup SEG.LevelGenPathfinder.ClearGlobals
+Cleanup SEG.SoundOcclusionPathfinder.ClearGlobals
+Cleanup SEGThreadManager.End
+GameManager CleanUp complete
+StoreStats - success
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 7defbf47e6c0 -> priority: 1 
+  Thread -> id: 7def7ffff6c0 -> priority: 1 
+  Thread -> id: 7def7effe6c0 -> priority: 1 
+  Thread -> id: 7def7dffd6c0 -> priority: 1 
+  Thread -> id: 7def7cffc6c0 -> priority: 1 
+  Thread -> id: 7def7bffb6c0 -> priority: 1 
+SEGSoundManager CleanUp start
+Destroying PTTRMusicManager
+SEGSoundManager CleanUp complete
+SteamNetworkManager.CleanUp Start
+SteamNetworkManager.CleanUp End
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material.GetFloatImpl(UnityEngine.Material,int)
+  at UnityEngine.Material.GetFloat (System.String name) [0x00008] in <72604e67ac3e451ba22b9b9e8fa9aaea>:0 
+  at TMPro.TMP_SubMeshUI.UpdateMaterial () [0x0002c] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at TMPro.TMP_SubMeshUI.SetMaterialDirty () [0x00007] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at UnityEngine.UI.MaskableGraphic.OnDisable () [0x0000d] in <98efb65cb2c3491092554f93bb783eb5>:0 
+  at TMPro.TMP_SubMeshUI.OnDisable () [0x00000] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material.GetFloatImpl(UnityEngine.Material,int)
+  at UnityEngine.Material.GetFloat (System.String name) [0x00008] in <72604e67ac3e451ba22b9b9e8fa9aaea>:0 
+  at TMPro.TMP_SubMeshUI.UpdateMaterial () [0x0002c] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at TMPro.TMP_SubMeshUI.SetMaterialDirty () [0x00007] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at UnityEngine.UI.MaskableGraphic.OnDisable () [0x0000d] in <98efb65cb2c3491092554f93bb783eb5>:0 
+  at TMPro.TMP_SubMeshUI.OnDisable () [0x00000] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material.GetFloatImpl(UnityEngine.Material,int)
+  at UnityEngine.Material.GetFloat (System.String name) [0x00008] in <72604e67ac3e451ba22b9b9e8fa9aaea>:0 
+  at TMPro.TMP_SubMeshUI.UpdateMaterial () [0x0002c] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at TMPro.TMP_SubMeshUI.SetMaterialDirty () [0x00007] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at UnityEngine.UI.MaskableGraphic.OnDisable () [0x0000d] in <98efb65cb2c3491092554f93bb783eb5>:0 
+  at TMPro.TMP_SubMeshUI.OnDisable () [0x00000] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material.GetFloatImpl(UnityEngine.Material,int)
+  at UnityEngine.Material.GetFloat (System.String name) [0x00008] in <72604e67ac3e451ba22b9b9e8fa9aaea>:0 
+  at TMPro.TMP_SubMeshUI.UpdateMaterial () [0x0002c] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at TMPro.TMP_SubMeshUI.SetMaterialDirty () [0x00007] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at UnityEngine.UI.MaskableGraphic.OnDisable () [0x0000d] in <98efb65cb2c3491092554f93bb783eb5>:0 
+  at TMPro.TMP_SubMeshUI.OnDisable () [0x00000] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material.GetFloatImpl(UnityEngine.Material,int)
+  at UnityEngine.Material.GetFloat (System.String name) [0x00008] in <72604e67ac3e451ba22b9b9e8fa9aaea>:0 
+  at TMPro.TMP_SubMeshUI.UpdateMaterial () [0x0002c] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at TMPro.TMP_SubMeshUI.SetMaterialDirty () [0x00007] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at UnityEngine.UI.MaskableGraphic.OnDisable () [0x0000d] in <98efb65cb2c3491092554f93bb783eb5>:0 
+  at TMPro.TMP_SubMeshUI.OnDisable () [0x00000] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material.GetFloatImpl(UnityEngine.Material,int)
+  at UnityEngine.Material.GetFloat (System.String name) [0x00008] in <72604e67ac3e451ba22b9b9e8fa9aaea>:0 
+  at TMPro.TMP_SubMeshUI.UpdateMaterial () [0x0002c] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at TMPro.TMP_SubMeshUI.SetMaterialDirty () [0x00007] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at UnityEngine.UI.MaskableGraphic.OnDisable () [0x0000d] in <98efb65cb2c3491092554f93bb783eb5>:0 
+  at TMPro.TMP_SubMeshUI.OnDisable () [0x00000] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material.GetFloatImpl(UnityEngine.Material,int)
+  at UnityEngine.Material.GetFloat (System.String name) [0x00008] in <72604e67ac3e451ba22b9b9e8fa9aaea>:0 
+  at TMPro.TMP_SubMeshUI.UpdateMaterial () [0x0002c] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at TMPro.TMP_SubMeshUI.SetMaterialDirty () [0x00007] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at UnityEngine.UI.MaskableGraphic.RecalculateMasking () [0x00019] in <98efb65cb2c3491092554f93bb783eb5>:0 
+  at UnityEngine.UI.MaskUtilities.NotifyStencilStateChanged (UnityEngine.Component mask) [0x00049] in <98efb65cb2c3491092554f93bb783eb5>:0 
+  at UnityEngine.UI.Mask.OnDisable () [0x00083] in <98efb65cb2c3491092554f93bb783eb5>:0 
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material.GetFloatImpl(UnityEngine.Material,int)
+  at UnityEngine.Material.GetFloat (System.String name) [0x00008] in <72604e67ac3e451ba22b9b9e8fa9aaea>:0 
+  at TMPro.TMP_SubMeshUI.UpdateMaterial () [0x0002c] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at TMPro.TMP_SubMeshUI.SetMaterialDirty () [0x00007] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at UnityEngine.UI.MaskableGraphic.OnDisable () [0x0000d] in <98efb65cb2c3491092554f93bb783eb5>:0 
+  at TMPro.TMP_SubMeshUI.OnDisable () [0x00000] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material.GetFloatImpl(UnityEngine.Material,int)
+  at UnityEngine.Material.GetFloat (System.String name) [0x00008] in <72604e67ac3e451ba22b9b9e8fa9aaea>:0 
+  at TMPro.TMP_SubMeshUI.UpdateMaterial () [0x0002c] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at TMPro.TMP_SubMeshUI.SetMaterialDirty () [0x00007] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at UnityEngine.UI.MaskableGraphic.RecalculateMasking () [0x00019] in <98efb65cb2c3491092554f93bb783eb5>:0 
+  at UnityEngine.UI.MaskUtilities.NotifyStencilStateChanged (UnityEngine.Component mask) [0x00049] in <98efb65cb2c3491092554f93bb783eb5>:0 
+  at UnityEngine.UI.Mask.OnDisable () [0x00083] in <98efb65cb2c3491092554f93bb783eb5>:0 
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material.GetFloatImpl(UnityEngine.Material,int)
+  at UnityEngine.Material.GetFloat (System.String name) [0x00008] in <72604e67ac3e451ba22b9b9e8fa9aaea>:0 
+  at TMPro.TMP_SubMeshUI.UpdateMaterial () [0x0002c] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at TMPro.TMP_SubMeshUI.SetMaterialDirty () [0x00007] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at UnityEngine.UI.MaskableGraphic.OnDisable () [0x0000d] in <98efb65cb2c3491092554f93bb783eb5>:0 
+  at TMPro.TMP_SubMeshUI.OnDisable () [0x00000] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Material.GetFloatImpl(UnityEngine.Material,int)
+  at UnityEngine.Material.GetFloat (System.String name) [0x00008] in <72604e67ac3e451ba22b9b9e8fa9aaea>:0 
+  at TMPro.TMP_SubMeshUI.UpdateMaterial () [0x0002c] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at TMPro.TMP_SubMeshUI.SetMaterialDirty () [0x00007] in <cf3aec2885f84b6f907ee40515d4112e>:0 
+  at UnityEngine.UI.MaskableGraphic.RecalculateMasking () [0x00019] in <98efb65cb2c3491092554f93bb783eb5>:0 
+  at UnityEngine.UI.MaskUtilities.NotifyStencilStateChanged (UnityEngine.Component mask) [0x00049] in <98efb65cb2c3491092554f93bb783eb5>:0 
+  at UnityEngine.UI.Mask.OnDisable () [0x00083] in <98efb65cb2c3491092554f93bb783eb5>:0 
+
+SteamManager CleanUp start
+IPC function call IClientRemoteStorage::FileWrite took too long: 93 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 63 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 115 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 51 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 55 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 45 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 74 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 58 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 103 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 61 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 53 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 72 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 108 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 48 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 58 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 53 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 83 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 48 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 91 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 47 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 75 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 58 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 84 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 83 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 44 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 60 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 91 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 50 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 91 msec
+IPC function call IClientRemoteStorage::FileWrite took too long: 145 msec
+SteamManager CleanUp complete

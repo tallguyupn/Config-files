@@ -26,7 +26,7 @@ esac
 }}
 
 cmd mpv ${{
-  mpv "$f"
+  mpv "$f" 
 }}
 cmd office ${{
   libreoffice "$f"
@@ -148,10 +148,6 @@ map C clear
 
 # Movement
 map gc cd ~/.config
-map gD cd ~/documents
-map gd cd ~/downloads
-map gp cd ~/pictures
-map gr cd ~/repos
-map gv cd ~/videos
-map gs cd ~/.local/bin
-map gt cd ~/.local/share/Trash/files
+map gd cd ~/Downloads
+map TF cd ~/.local/share/Steam/steamapps/common/Team\ Fortress\ 2/tf 
+map gD cd ~/Desktop

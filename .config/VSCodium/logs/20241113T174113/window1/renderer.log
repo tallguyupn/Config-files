@@ -1,0 +1,23 @@
+2024-11-13 17:41:23.046 [info] Started local extension host with pid 148596.
+2024-11-13 17:41:28.179 [info] [perf] Render performance baseline is 19ms
+2024-11-13 17:42:17.294 [error] [ExtensionListenerError] Extension 'cschlosser.doxdocgen' FAILED to handle event: Error: Illegal value for `line`: Error: [ExtensionListenerError] Extension 'cschlosser.doxdocgen' FAILED to handle event: Error: Illegal value for `line`
+	at mh.value (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:156:40286)
+	at I._deliver (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:922)
+	at I._deliverQueue (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1013)
+	at I.fire (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1349)
+	at uU.$acceptModelChanged (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:137:115995)
+	at py._doInvokeHandler (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:122466)
+	at py._invokeHandler (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:122210)
+	at py._receiveRequest (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:120976)
+	at py._receiveOneMessage (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:119802)
+	at mh.value (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:117901)
+	at I._deliver (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:922)
+	at I.fire (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1242)
+	at jn.fire (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:10940)
+	at mh.value (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:14465)
+	at I._deliver (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:922)
+	at I.fire (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:1242)
+	at jn.fire (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:31:10940)
+	at MessagePortMain.<anonymous> (file:///usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:174:12676)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
