@@ -1,7 +1,0 @@
-{
-    "workbench.colorTheme": "Catppuccin Mocha",
-    "files.autoSave": "afterDelay",
-    "workbench.productIconTheme": "bongocat",
-    "code-runner.runInTerminal": true,
-    "workbench.startupEditor": "none"
-}

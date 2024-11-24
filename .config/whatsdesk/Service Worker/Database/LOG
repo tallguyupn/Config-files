@@ -1,5 +1,0 @@
-2024/11/23-13:03:59.147 868 Reusing MANIFEST /home/lauri/.config/whatsdesk/Service Worker/Database/MANIFEST-000001
-2024/11/23-13:03:59.147 868 Recovering log #3
-2024/11/23-13:03:59.276 868 (ignoring error) /home/lauri/.config/whatsdesk/Service Worker/Database/000003.log: dropping 19571 bytes; Corruption: checksum mismatch
-2024/11/23-13:03:59.276 868 (ignoring error) /home/lauri/.config/whatsdesk/Service Worker/Database/000003.log: dropping 84 bytes; Corruption: missing start of fragmented record(2)
-2024/11/23-13:03:59.276 868 Reusing old log /home/lauri/.config/whatsdesk/Service Worker/Database/000003.log 

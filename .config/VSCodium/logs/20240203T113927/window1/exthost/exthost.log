@@ -1,8 +1,0 @@
-2024-02-03 11:39:32.665 [info] Extension host with pid 4305 started
-2024-02-03 11:39:32.665 [info] Skipping acquiring lock for /home/lauri/.config/VSCodium/User/workspaceStorage/39eef92bff9e8b5a9521a4b24af47165.
-2024-02-03 11:39:32.671 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
-2024-02-03 11:39:32.742 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
-2024-02-03 11:39:32.836 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
-2024-02-03 11:39:35.633 [info] Extension host terminating: renderer closed the MessagePort
-2024-02-03 11:39:35.636 [info] Extension host with pid 4305 exiting with code 0
-2024-02-03 11:39:35.636 [info] Eager extensions activated

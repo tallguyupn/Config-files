@@ -1,416 +1,414 @@
-/* @import "css/reddit.css"; */
-/* @import "css/discordCatppuccin.css"; */
+@import "./styles/_variables.css";
+@import "./styles/_home.css";
 
-:root {
-  --dark-color1: #11131c;
-  --dark-color2: #1d202f;
-  --dark-color3: #1f2334;
-  --dark-color4: #272c41;
-
-  --dark-color5: #24222D;
-  --dark-color6: #33313c;
-  --dark-color7: #42404b;
-
-  --light-color1: #f0f0f0;
-  --light-color2: #c7c7c7;
-  --light-color3: #9d9d9d;
-  --light-color4: #8c8c8c;
-
-  --light-color5: #e4e4e4;
-  --light-color6: #cacaca;
-  --light-color7: #c2c2c2;
-
-  --blue-color: #0078d7;
-
-  --gtk-color: #d700d2;
-
-}
-
-/* Default theme set to Dark theme */
-
-/*================ DARK THEME ================*/
-
-:root,
-:root[style*="--lwt-accent-color: rgb(28, 27, 34)"],
-:root[style*="--lwt-accent-color: rgb(12, 12, 13)"],
-:root[style*="--newtab-background-color: rgba(43, 42, 51, 1)"],
-:root[style*="--newtab-background-color: rgb(43, 42, 51)"],
-:root[style*="--in-content-box-background: rgb(35, 34, 43)"],
-:root[class*="theme-dark"],
-:root[privatebrowsingmode=temporary] {
-  --back-color1: var(--dark-color1);
-  --back-color2: var(--dark-color2);
-  --back-color3: var(--dark-color3);
-  --back-color4: var(--dark-color4);
-
-  --text-color1: var(--light-color5);
-  --text-color2: var(--light-color6);
-  --text-color3: var(--light-color7);
-}
-
-/* Theme for browser webpages */
-@media (-moz-toolbar-prefers-color-scheme: dark), (prefers-color-scheme: dark) {
   :root {
-    --back-color1: var(--dark-color1);
-    --back-color2: var(--dark-color2);
-    --back-color3: var(--dark-color3);
-    --back-color4: var(--dark-color4);
+    --firefoxcss-main-bg-color: hsl(220, 2%, 13%);
+    --firefoxcss-item-bg-color: hsl(220, 2%, 20%);
+    --firefoxcss-item-hover-bg-color: hsl(240, 2%, 25%);
+    --firefoxcss-text-color: hsl(0, 0%, 100%);
+    --firefoxcss-other-color: hsl(290, 21%, 20%);
 
-    --text-color1: var(--light-color5);
-    --text-color2: var(--light-color6);
-    --text-color3: var(--light-color7);
+    /* ----- Private Page Colors ----- */
+    --firefoxcss-private-search-bg-color: hsla(275, 13%, 33%, 0.3);
+    --firefoxcss-private-search-top-border: hsla(275, 13%, 40%, 0.3);
+    --firefoxcss-private-search-fill: hsl(275, 13%, 53%);
+
+    --firefoxcss-private-search-hover: hsla(275, 13%, 43%, 0.3);
+    --firefoxcss-private-search-border-hover: hsla(275, 13%, 50%, 0.3);
+    --firefoxcss-private-search-hover-fill: hsl(275, 13%, 63%);
+
+    --firefoxcss-private-search-text: var(--firefoxcss-private-search-fill);
+    --firefoxcss-private-search-text-hover: var(--firefoxcss-private-search-hover-fill);
+    --firefoxcss-private-search-caret: hsl(290, 21%, 80%);
+
+    --firefoxcss-private-search-box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 6px 6px hsl(0deg 0% 0% / 0.075), 0 12px 12px hsl(0deg 0% 0% / 0.095);
+
+    /* ----- Normal Page Colors ----- */
+    --firefoxcss-search-box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.095);
+
+    --firefoxcss-search-color: rgb(251, 251, 254, 1);
+    --firefoxcss-search-border-top-color: #ffffff26;
+    --firefoxcss-search-text-fill: #ffffff5e;
+    --firefoxcss-search-bar-text-color: rgba(251, 251, 254, 1);
+    --firefoxcss-search-bar-fill-icon-hover: rgba(251, 251, 254, 0.8);
+
+    --firefoxcss-shortcut-item-box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+    --firefoxcss-shortcut-item-top-border: #ffffff26;
+    --firefoxcss-shortcut-item-top-border-hover: #97979791;
+
+    --firefoxcss-customize-menu: hsla(210, 10%, 20%, 0.3);
+    --firefoxcss-customize-menu-bg-image: url("ASSETS/other/noise-512x512.png");
+    --firefoxcss-customize-menu-dropdown: #1e1e1e80;
+    --firefoxcss-customize-menu-border: 1px solid rgba(255, 255, 255, 0.1);
+    --newtab-background-color-secondary: var(--firefoxcss-customize-menu) !important;
+     --firefoxcss-customize-menu-secondary-popup:hsla(210, 10%, 10%, 0.6);
+    --firefoxcss-input-focus: white;
+    /*  no changes */
+    --firefoxcss-shortcut-item-active: hsla(0, 0%, 10%, 0.7);
+    --firefoxcss-shortcut-item-context-menu: #13131380;
+    --firefoxcss-shortcut-item-context-menu-border: hsla(0, 0%, 70%, 0.145);
+    --firefoxcss-shortcut-item-context-menu-separator: #ffffff29;
+    --firefoxcss-extra-search-bar-when-scroll: #1e1e1e8c;
+    --firefoxcss-context-menu-three-dots: hsla(240, 2%, 60%, 0.6);
+    --firefoxcss-settings-wheel-color: hsla(240, 20%, 90%, 0.6);
+    --firefoxcss-settings-wheel-color-hover: hsla(240, 20%, 90%, 0.9);
+    --firefoxcss-settings-wheel-bg-color-hover: rgba(255, 255, 255, 0.2);
+    --firefoxcss-shortcut-search-icon-color: #7ae3f463;
+    
+    /* ----- Firefox View color changes ----- */
+    --fxview-background-color: var(--firefoxcss-main-bg-color) !important;
+    --fxview-background-color-secondary: var(--firefoxcss-item-bg-color) !important;
+    --firefoxcss-firefoxview-sticky-color: hsla(240, 2%, 13%, 0.75) !important;
+    --firefoxcss-firefoxview-search-color: hsla(240, 2%, 35%, 0.5) !important;
   }
+
+@-moz-document url(about:preferences) {
+
+/* Settings page background */
+*.main-content {
+    background: var(--moonlight-gray-1) !important;
+}
+*.navigation {
+    background: var(--moonlight-gray-1) !important;
+}
+*.sticky-container {
+    background: var(--moonlight-gray-1) !important;
 }
 
-/*================ LIGHT THEME ================*/
-
-:root[style*="--lwt-accent-color: rgb(227, 228, 230)"],
-:root[style*="--lwt-accent-color: rgb(240, 240, 244)"],
-:root[style*="--newtab-background-color: rgba(249, 249, 251, 1)"],
-:root[style*="--newtab-background-color: rgb(249, 249, 251)"],
-:root[style*="--in-content-box-background: #fff"] {
-  --back-color1: var(--light-color1);
-  --back-color2: var(--light-color2);
-  --back-color3: var(--light-color3);
-  --back-color4: var(--light-color4);
-
-  --text-color1: var(--dark-color5);
-  --text-color2: var(--dark-color6);
-  --text-color3: var(--dark-color7);
 }
 
-/* Theme for browser webpages */
-@media (-moz-toolbar-prefers-color-scheme: light), (prefers-color-scheme: light) {
-  :root {
-    --back-color1: var(--light-color1);
-    --back-color2: var(--light-color2);
-    --back-color3: var(--light-color3);
-    --back-color4: var(--light-color4);
+@-moz-document url(about:addons) {
+    #full {
+        background: var(--moonlight-gray-1) !important;
+    }
 
-    --text-color1: var(--dark-color5);
-    --text-color2: var(--dark-color6);
-    --text-color3: var(--dark-color7);
-  }
+    *.main-heading {
+        background: var(--moonlight-gray-1) !important;
+    }
+    .main-search {
+        background: var(--moonlight-gray-1) !important;
+    }
+    .sticky-container{
+        background: var(--moonlight-gray-1) !important;
+    }
 }
+@-moz-document url(about:blank), url(about:newtab), url(about:home) {
+   
 
+    .search-wrapper input {
+        background-color: var(--moonlight-gray-3) !important;
+        color: var(--moonlight-gray-7) !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
 
+    .search-wrapper input:focus {
+        color: var(--moonlight-gray-9) !important;
+    }
 
+    .search-wrapper .search-button {
+        fill: var(--moonlight-gray-7) !important;
+    }
 
-
-
-
-@-moz-document url-prefix(chrome://),
-url(https://www.mozilla.org/credits/),
-url-prefix(https://raw.githubusercontent.com),
-url-prefix(https://www.keybr.com),
-url-prefix(view-source:) {
-  :root {
-    --in-content-page-background: var(--back-color1) !important;
-    --in-content-page-color: var(--text-color1) !important;
-    --button-hover-color: var(--back-color1) !important;
-  }
-
-  html, body {
-    background-color: var(--in-content-page-background) !important;
-    color: var(--in-content-page-color) !important;
-  }
-}
-
-@-moz-document url-prefix(about:) {
-  :root {
-    --in-content-page-background: var(--back-color1) !important;
-    --in-content-page-color: var(--text-color1) !important;
-    --button-hover-color: var(--back-color1) !important;
-  }
-}
-
-@-moz-document url-prefix("about:blank") {
-  body {
-    background-color: var(--back-color1) !important;
-  }
-}
-
-
-/* ============= ADDON PAGE ============= */
-
-@-moz-document url-prefix("about:addons") {
-  #header-inner {
-    margin: 2px 0px -40px 4px !important;
-  }
-
-  #heading {
-    margin: 1px 0px 1px -4px !important;
-  }
-
-  #main {
-    margin-top: 5px;
-  }
-
-  .addon-name {
-    font-weight: 400 !important;
-  }
-
-  .addon.card {
-    margin-bottom: 5px !important;
-    /* min-width: 1000px !important;*/
-  }
-
-  addon-card:not([expanded]) > .addon.card:hover {
-    box-shadow: var(--back-color3) !important;
-  }
-
-  .card {
-    background: var(--back-color2) !important;
-    display: block !important;
-  }
-
-  .card-contents {
-    flex-direction: row !important;
-    display: block !important;
-  }
-
-  .list-section-heading {
-    margin-bottom: 9px !important;
-  }
-
-  .more-options-button {
-    top: 8px;
-  }
-
-  .prefs-button, .addon-description, .addon-badge, .help-button, #search-label, #category-discover, #heading-name, .list-section-heading, .recommended-extensions-section {
-    display:none;
-  }
-
-  .sidebar-footer-button {
-    margin-bottom: 36px;
-  }
+    .search-wrapper .search-button:focus,
+    .search-wrapper .search-button:hover {
+        background-color: transparent !important;
+        fill: var(--moonlight-gray-9) !important;
+    }
 }
 
 
 
+/* Scrollbar */
 
-
-/* ============= Error Pages ============= */
-@-moz-document url-prefix("about:neterror") {
-  #errorPageContainer {
-    background: url("./icons/sonic.gif") no-repeat left center !important;
-    background-size: 38% !important;
-    display: flex !important;
-    flex-direction: column !important;
-    max-width: calc(100vw / 2) !important;
-    max-height: calc(100vh / 2) !important;
-  }
-
-  #text-container {
-    padding-inline-start: 38% !important;
-  }
+*:not(select) {
+    scrollbar-color: var(--moonlight-gray-5) var(--moonlight-gray-2) !important;
+    scrollbar-width: thin !important;
 }
-
-@-moz-document url-prefix("about:restartrequired") {
-  #errorPageContainer {
-    background: url("./icons/fox-transparent.gif") no-repeat left center !important;
-    background-size: 38% !important;
-    display: flex !important;
-    flex-direction: column !important;
-    max-width: calc(100vw / 2) !important;
-    max-height: calc(100vh / 2) !important;
-  }
-
-  #text-container {
-    padding-inline-start: 38% !important;
-  }
+::-webkit-scrollbar,
+.integrations-select-repos::-webkit-scrollbar {
+    max-height: var(--scrollbar-chrome-size) !important;
+    max-width: var(--scrollbar-chrome-size) !important;
 }
-
-
-
-
-
-
-/*================== READER VIEW ==================*/
-
-@-moz-document url-prefix("about:reader") {
-  html {
-    background: var(--back-color1);
-  }
-
-  toolbar > reader-toolbar {
-    border-radius: 3px !important;
-  }
-
-  /*Dark*/
-  body.loaded.dark {
-    --toolbar-bgcolor: var(--back-color2) !important;
-    --toolbar-border: var(--back-color1) !important;
-    --toolbar-hover: var(--back-color3) !important;
-    --popup-bgcolor: var(--back-color2) !important;
-    --popup-border: var(--back-color3) !important;
-    --font-color: var(--text-color3) !important;
-    --icon-fill: var(--text-color3) !important;
-    background: var(--back-color1) !important;
-    --blue-40:var(--text-color1) !important;
-    --blue-40-a30:rgba(144, 89, 255, 0.3) !important;
-    --active-color:var(--text-color1) !important;
-  }
-
-  /*Light*/
-  body.loaded.light {
-    --toolbar-bgcolor: var(--light-color2) !important;
-    --toolbar-border: var(--light-color1) !important;
-    --toolbar-hover: var(--light-color3) !important;
-    --popup-bgcolor: var(--light-color2) !important;
-    --popup-border: var(--light-color3) !important;
-    --font-color: var(--dark-color7) !important;
-    --icon-fill: var(--dark-color7) !important;
-    background: var(--light-color1) !important;
-    --blue-40:var(--dark-color5) !important;
-    --blue-40-a30:rgba(51, 46, 86, 0.3) !important;
-    --active-color:var(--dark-color5) !important;
-  }
-
+::-webkit-scrollbar,
+.integrations-select-repos::-webkit-scrollbar,
+::-webkit-scrollbar-corner,
+.integrations-select-repos::-webkit-scrollbar-corner,
+::-webkit-scrollbar-track,
+.integrations-select-repos::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece,
+.integrations-select-repos::-webkit-scrollbar-track-piece {
+    background: var(--moonlight-gray-2) !important;
+}
+::-webkit-scrollbar:hover,
+.integrations-select-repos::-webkit-scrollbar:hover,
+::-webkit-scrollbar-corner:hover,
+.integrations-select-repos::-webkit-scrollbar-corner:hover,
+::-webkit-scrollbar-track:hover,
+.integrations-select-repos::-webkit-scrollbar-track:hover,
+::-webkit-scrollbar-track-piece:hover,
+.integrations-select-repos::-webkit-scrollbar-track-piece:hover {
+    background: var(--moonlight-gray-4) !important;
+}
+::-webkit-scrollbar-thumb,
+.integrations-select-repos::-webkit-scrollbar-thumb {
+    background: var(--moonlight-gray-5) !important;
+    border-radius: var(--scrollbar-chrome-radius) !important;
+}
+::-webkit-scrollbar-thumb:hover,
+.integrations-select-repos::-webkit-scrollbar-thumb:hover {
+    background: var(--moonlight-blue) !important;
 }
 
 
+@-moz-document url("about:home"),
+  url("about:newtab") {
+  
+/*     #root .outer-wrapper .top-sites-list .top-site-outer {
+        padding: 20px 20px 4px !important;
+    } */
+  
+    #root .top-site-outer .tile .icon-wrapper,
+    #root .outer-wrapper .top-site-outer .top-site-inner,
+    #root .outer-wrapper .top-site-outer .top-site-inner .tile {
+        background-color: transparent !important;
+        border-radius: 15px !important;
+        margin: 5px;
+    }
 
-
-
-
-/* =============== Scrollbar =============== */
-
-:root {
-  --addon-icon-size: 26px !important; --card-padding: 14px !important;
-  scrollbar-color: rgb(29, 33, 38) rgba(0, 0, 0, 0);
-  scrollbar-width: thin;
+    .outer-wrapper .body-wrapper .top-site-outer .top-site-inner .tile {
+        border-bottom: 1px solid #ffffff05 !important;
+    }
+    #root .outer-wrapper .top-site-outer .default-icon {
+        background-size: 48px !important;
+        height: 60px !important;
+        width: 60px !important;
+    }
+    #root .top-site-outer .tile .icon-wrapper {
+        width: 60px !important;
+        height: 60px !important;
+    }
+  
 }
 
+/*  Remove text from homepage/newtab website shortcuts. */
+/*  Check if pinned by using context menu.              */
+@-moz-document url("about:home"),
+url("about:newtab") {
+    .outer-wrapper .top-site-outer {
+        vertical-align: middle !important;
+      }
+    .outer-wrapper  .top-site-inner .title{
+        display: none !important;
+    }
 
-
-
-
-
-/* =============== Customize Developer Tools =============== */
-
-@-moz-document url("chrome://devtools/content/styleeditor/index.xhtml") {
-  .splitview-nav .unsaved {
-    background: linear-gradient(to right, #f0a 4px, #f0a4 4px, transparent) !important;
-  }
-
-  .splitview-nav .unsaved.splitview-active {
-    background: linear-gradient(to right, #f0a 4px, #f0a4 4px) !important;
-  }
-
-  /* Auto-Highlight common user style filenames */
-  .splitview-nav label[value="userChrome.css"],
-  .splitview-nav label[value="userContent.css"],
-  .splitview-nav label[value$=".uc.css"] {
-    color: #f0a !important;
-  }
+    .outer-wrapper .top-site-outer .top-site-inner .tile{
+        border-bottom-left-radius: 10px !important;
+        border-bottom-right-radius: 10px !important;
+        border-radius: 10px !important;
+        border-bottom: 0 !important;
+    }
+     #root .outer-wrapper .top-sites-list .top-site-outer {
+        padding: 8px 0 16px 0 !important;
+    }
 }
 
-
-
-
-
-
-/* =============== Hide text in built-in print screen =============== */
-@-moz-document url-prefix("moz-extension://08b76965-6643-443a-9219-b05054b0b4c7/blank.html") {
-  .preview-instructions, .face-container, .cancel-shot {
+ 
+  .activity-stream.darkWallpaper {
+     @media (prefers-color-scheme: dark) {
+      --firefoxcss-item-bg-color: hsla(0, 0%, 12%, 0.6) !important;
+      --firefoxcss-item-hover-bg-color: hsla(0, 0%, 15%, 0.5) !important;
+    }
+    
+    @media (prefers-color-scheme: light) {
+      --firefoxcss-item-bg-color: hsla(200, 10%, 98%, 0.25) !important;
+      --firefoxcss-item-hover-bg-color: hsla(200, 10%, 98%, 0.28) !important;
+      --firefoxcss-search-border-top-color: hsla(0, 0%, 100%, 0.1) !important;
+      --firefoxcss-search-text-fill: rgba(255, 255, 255, 0.6) !important;
+      --firefoxcss-search-bar-text-color: rgba(255, 255, 255, 0.9) !important;
+      --firefoxcss-search-bar-fill-icon-hover: rgba(255, 255, 255, 0.8) !important;
+      --firefoxcss-shortcut-item-top-border-hover: hsla(0, 0%, 100%, 0.15) !important;
+      --firefoxcss-settings-wheel-color: hsla(200, 20%, 90%, 0.6) !important;
+      --firefoxcss-settings-wheel-color-hover: hsla(200, 20%, 90%, 0.9) !important;
+      --firefoxcss-shortcut-item-active: hsla(200, 20%, 90%, 0.8) !important;
+      
+      
+      .top-site-outer:hover:not(.active) .title,
+       .top-site-outer:hover:not(.active) .title .icon.icon-pin-small{
+        color: #fbfbfe !important;
+       }
+      
+       .top-site-outer .context-menu,
+      .card-outer .context-menu {
+        --firefoxcss-shortcut-item-context-menu: hsla(0, 0%, 95%, 0.8) !important;
+        --firefoxcss-shortcut-item-context-menu-border: hsla(0, 0%, 100%, 0.1) !important;
+        --firefoxcss-shortcut-item-context-menu-separator: hsla(0, 0%, 0%, 0.1) !important;
+      }
+    }
+    
+    & .collapsible-section .card-outer {
+      backdrop-filter: blur(20px) !important;
+    }
+    
+    & .body-wrapper .tile {
+      backdrop-filter: blur(20px) !important;
+      border-top: 1px solid hsla(0, 0%, 100%, 0.145) !important;
+    }
+    
+    & .body-wrapper .top-site-button:hover .tile {
+       filter: brightness(115%);
+       border-top: 1px solid hsla(0, 0%, 58%, 0.3) !important;
+    } 
+    
+    /*  Pocket cards background blur - new tab */
+    & .ds-card-grid .ds-card:not(.placeholder) {
+       backdrop-filter: blur(20px); 
+    }
+    
+  }
+  
+  .activity-stream.lightWallpaper {
+    @media (prefers-color-scheme: dark) {
+       --firefoxcss-item-bg-color: hsla(0, 0%, 12%, 0.8) !important;
+       --firefoxcss-item-hover-bg-color: hsla(0, 0%, 15%, 0.7) !important;
+       --firefoxcss-settings-wheel-color: hsla(0, 0%, 12%, 0.75) !important;
+       --firefoxcss-settings-wheel-color-hover:  hsla(0, 0%, 12%, 0.55) !important; 
+      
+       .top-site-outer:hover:not(.active) .title,
+       .top-site-outer:hover:not(.active) .title .icon.icon-pin-small{
+        color: hsl(250, 13%, 9%) !important;
+       }
+  
+    }
+    
+     @media (prefers-color-scheme: light) {
+      --firefoxcss-item-bg-color: hsla(200, 10%, 98%, 0.75) !important;
+      --firefoxcss-item-hover-bg-color: hsla(200, 10%, 98%, 0.85) !important;
+    }
+    
+    & .collapsible-section .card-outer {
+      backdrop-filter: blur(22px) !important;
+    }
+    
+    & .body-wrapper .tile {
+      backdrop-filter: blur(22px) !important;
+    }
+    
+    & .body-wrapper .top-site-button:hover .tile {
+       filter: brightness(115%);
+       border-top: 1px solid hsla(0, 0%, 58%, 0.1) !important;
+    } 
+    
+    /*  Pocket cards background blur - new tab */
+    & .ds-card-grid .ds-card:not(.placeholder) {
+       backdrop-filter: blur(20px); 
+    }
+    
+  }
+  
+  /* Pocket extra modification by request */
+@media (-moz-bool-pref: "firefoxcss.pocket.oneline.enable") {
+  /* Pocket new tab - Learn More text disable  */
+  .collapsible-section .section-title-container .learn-more-link-wrapper {
     display: none !important;
   }
-}
 
-
-
-
-
-
-/* =============== Login page changes =============== */
-@-moz-document url-prefix("about:logins") {
-  .login-list-item {
-    background-color: var(--back-color1) !important;
-  }
-}
-
-
-
-
-
-
-
-
-@-moz-document regexp(".*\\.(p|P)(d|D)(f|F).*") {
-  :root {
-    --toolbar-bg-color: var(--back-color1) !important;
-    --body-bg-color: var(--back-color1) !important;
-    --sidebar-bg-color: var(--back-color1) !important;
-    --button-hover-color: var(--back-color1) !important;
-    --field-bg-color: var(--back-color1) !important;
-  }
-
-  @media (-moz-toolbar-prefers-color-scheme: dark), (prefers-color-scheme: dark) {
-    #viewer {
-      filter: invert(0);
+  @media (-moz-bool-pref: "firefoxcss.pocket.hide.populartopics.links") {
+    /* Pocket new tab - Popular Topics bottom links text disable  */
+    .discovery-stream.ds-layout .ds-navigation.ds-navigation-left-align {
+      display: none !important;
     }
   }
 
-  .dropdownToolbarButton > select {
-    background-color: var(--back-color2) !important;
-  }
-
-  .dropdownToolbarButton > select:hover {
-    background-color: var(--back-color1) !important;
-  }
-}
-
-
-
-
-
-
-/* =============== Site Specific Customisations =============== */
-
-@-moz-document url("https://www.qwiklabs.com/public_profiles/8ce32532-ca12-4a89-aed0-99c9316cae73") {
-  .container img {
-    height: 180px !important;
-    width: 180px !important;
-  }
-
-  .container .title {
-    width: 250px;
-    text-align: center;
-  }
-}
-
-@-moz-document url-prefix("https://www.cloudskillsboost.google") {
-  :root {
-    --base-surface-color: #11131C !important;
-    --base-text-on-surface-color: #d3cfc9 !important;
-  }
-}
-
-@-moz-document url-prefix("https://jsfiddle.net/") {
-  #sidebar {
-    width: 125px;
-  }
-
-  #content {
-    margin-left: -84px !important;
-  }
-
-  #sidebar * {
-    overflow: hidden;
-  }
-
-  #s-bottom {
+  /* Pocket new tab - Privacy Notice text disable  */
+  .ds-navigation .ds-navigation-privacy {
     display: none !important;
   }
+
+  /* pocket new tab context menu  */
+  .context-menu {
+    background-image: var(--firefoxcss-customize-menu-bg-image) !important;
+    background-color: var(--firefoxcss-shortcut-item-context-menu) !important;
+    backdrop-filter: blur(32px) !important;
+    border: 1px solid var(--firefoxcss-shortcut-item-context-menu-border);
+    border-radius: 8px !important;
+  }
+
+  .discovery-stream.ds-layout .ds-card-grid {
+    grid-template-rows: 1fr !important;
+    grid-auto-rows: 0 !important;
+    padding-bottom: 0 !important;
+    row-gap: 0 !important;
+    overflow: hidden !important;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)) !important;
+	@media (-moz-bool-pref: "firefoxcss.pocket.4.cards.enable") {
+           	grid-template-columns: repeat(auto-fill,minmax(200px,1fr)) !important;
+           	column-gap: 16px !important;
+      	}
+	@media  (-moz-bool-pref: "firefoxcss.pocket.5.cards.enable") {
+        	grid-template-columns: repeat(auto-fill,minmax(150px,1fr)) !important;
+        	column-gap: 12px !important;
+      	}
+  }
+}
 }
 
-@-moz-document url-prefix("https://www.notion.so") {
-  .notion-selectable.notion-text-block {
-    margin-top: 0px !important;
-    margin-bottom: 0px !important;
+@-moz-document url-prefix(about:firefoxview) {
+
+  .search-container {
+    border: none !important;
   }
-  .notion-selectable.notion-text-block .notranslate {
-    padding: 0px 2px !important;
+  
+  .search-container input {
+    background-color: var(--firefoxcss-firefoxview-search-color) !important;
   }
+  
+  div.sticky-container.bottom-fade {
+    background: none !important;
+    background-color: var(--firefoxcss-firefoxview-sticky-color) !important;
+    backdrop-filter: blur(7px) !important;
+    flex-direction: row !important;
+    padding-block: 30px 20px !important;
+  }
+ 
+  @media (max-width: 52rem) {
+  div.sticky-container.bottom-fade {
+    flex-direction: column !important;
+    }
+  }
+}
+
+@-moz-document url-prefix("about:") {
+  :root {
+     --in-content-box-background: var(--firefoxcss-item-bg-color) !important;
+     --in-content-table-background: var(--firefoxcss-item-bg-color) !important; 
+     --in-content-page-background: var(--firefoxcss-main-bg-color) !important; 
+  }
+}
+
+@-moz-document url("about:blank") {
+
+/*   html:not(#ublock0-epicker),
+  html:not(#ublock0-epicker) body, */
+  #newtab-customize-overlay {
+    background-color: var(--firefoxcss-main-bg-color) !important;
+  }
+}
+
+.fbar,
+.ym1pid{
+  border: none !important;
+}
+
+
+#MathJax_Message {
+  background-color: red !important;
+  border-color: red !important;
+  color: rgb(253, 251, 247) !important;
 }
