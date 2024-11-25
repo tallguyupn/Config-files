@@ -16,9 +16,11 @@
 // positions generated based on config.ctl //
 
 	"modules-left": 
-  ["custom/padd",
+  [ "custom/l_end",
+    "group/group-power",
+    "custom/r_end",
+    "custom/image",
     "custom/l_end",
-    "idle_inhibitor",
     "clock",
     "custom/gpuinfo#nvidia",
         "custom/cpuinfo",
@@ -162,7 +164,7 @@
         }
     },
     "clock": {
-        "format": "{:%I:%M %p}",
+        "format": " {:%I:%M %p}",
         "format-alt": "{:%R 󰃭 %d·%m·%y}",
         "tooltip-format": "<tt>{calendar}</tt>",
         "calendar": {
@@ -296,7 +298,6 @@
         "on-click": "keybinds_hint.sh"
     },
 
-
 // modules for padding //
 
     "custom/l_end": {
@@ -339,6 +340,45 @@
         "format": "  ",
         "interval" : "once",
         "tooltip": false
+    },
+ "group/group-power": {
+    "orientation": "inherit",
+    "drawer": {
+        "transition-duration": 500,
+        "children-class": "not-power",
+        "transition-left-to-right": true
+    },
+    "modules": [
+        "custom/start",
+        "custom/power", // First element is the "group leader" and won't ever be hidden
+        "custom/quit",
+        "custom/lock",
+        "custom/reboot"
+    ]
+},
+"custom/quit": {
+    "format": "󰗼",
+    "tooltip": false,
+    "on-click": "hyprctl dispatch exit"
+},
+"custom/lock": {
+    "format": "󰍁",
+    "tooltip": false,
+    "on-click": "swaylock"
+},
+"custom/reboot": {
+    "format": "󰜉",
+    "tooltip": false,
+    "on-click": "reboot"
+},
+"custom/power": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "shutdown now"
+},
+    "custom/start": {
+      "format": "󰣇" ,
+      "on-click": "rofi -show drun",
+      "tooltip": "false"
     }
-
 }

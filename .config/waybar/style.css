@@ -7,10 +7,10 @@
     min-height: 10px;
 }
 
-@import "theme.css";
 
 window#waybar {
-    background:#000;
+    background: transparent;
+    color: @main-fg;
 }
 
 tooltip {
@@ -82,7 +82,7 @@ tooltip {
 #taskbar button:hover {
     background: #f6bcd4;
     color: #FF99FF;
-    opacity: 1;
+    opacity: 0;
     animation: tb_hover 20s ease-in-out 1;
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
@@ -107,6 +107,10 @@ tooltip {
 #language,
 #memory,
 #mpris,
+#custom-power,
+#custom-reboot,
+#custom-lock,
+#custom-quit,
 #network,
 #custom-notifications,
 #custom-power,
@@ -125,6 +129,7 @@ tooltip {
 #custom-sl_end,
 #custom-sr_end,
 #custom-rl_end,
+#custom-start,
 #custom-rr_end {
     color: #101;
     background:#f6bcd4;
@@ -174,7 +179,6 @@ tooltip {
     margin-left: 9px;
     padding-left: 3px;
 }
-
 #clock {
  color: #101;
     background: #f6bcd4;
