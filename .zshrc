@@ -2,11 +2,11 @@
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 
-# Oh-my-zsh installation path
-ZSH=/usr/share/oh-my-zsh/
-
 # Powerlevel10k theme path
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+
+# Oh-my-zsh installation path
+ZSH=/usr/share/oh-my-zsh/
 
 # List of plugins used
 plugins=( git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting )
@@ -37,7 +37,6 @@ export _ZL_DATA="$XDG_CACHE_HOME/zsh/.zlua"
 
 # colors!
 export BAT_THEME="Catppuccin-mocha"
-export MANPAGER="nvim +Man!"
 
 # set the localization
 export LC_ALL=en_US.UTF-8
@@ -207,11 +206,11 @@ export MANPAGER='nvim +Man!'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+gsettings set org.gnome.desktop.interface cursor-size 24
+hyprctl setcursor 24
 alias vim="nvim"
 alias btw="fastfetch"
 alias start="Hyprland"
 alias off="shutdown now"
 alias update="sudo pacman -Syu && flatpak update"
 btw
-gsettings set org.gnome.desktop.interface cursor-size 24
-hyprctl setcursor 24
