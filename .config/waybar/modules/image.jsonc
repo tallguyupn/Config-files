@@ -1,0 +1,4 @@
+"custom/start": {
+  "format": {󰣇},
+  "exec": "$SrcPath/rofilauncher.sh d"
+}
